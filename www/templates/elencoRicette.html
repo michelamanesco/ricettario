@@ -1,0 +1,35 @@
+
+<ion-view view-title="Ricette"  id="elencoRicette">
+  <ion-content>
+
+    <div class="row responsive-sm">
+      <ion-list>
+
+        <ion-item class="item ricetta" ng-repeat="good in list" style="background-image:url('{{good.img}}');">
+          <div class="goodName">{{good.name}}<br></div>
+
+          <span class="goodAllergeni button button-icon icon ion-android-hand"  ng-show="good.allergeni>=1" style="background-color: rgba(0,0,0,.3)"></span><!--<span ng-repeat="allergeno in good.allergeni">{{allergeno.nome}},</span>-->
+
+          <div>
+            <span class="goodTempo button button-light icon ion-clock" ng-show="good.tempo>=1"> {{good.tempo}}"</span>
+            <span class="goodDifficolta button">
+              <span class="icon ion-star" ng-show="good.difficolta>=1"></span>
+              <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=1"></span>
+              <span class="icon ion-star" ng-show="good.difficolta>=2"></span>
+              <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=2"></span>
+              <span class="icon ion-star" ng-show="good.difficolta>=3"></span>
+              <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=3"></span>
+              <span class="icon ion-star" ng-show="good.difficolta>=4"></span>
+              <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=4"></span>
+              <span class="icon ion-star" ng-show="good.difficolta>=5"></span>
+              <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=5"></span>
+            </span>
+            <span class="goodKcal button button-assertive icon ion-flame" ng-show="good.kcal>=1"> {{good.kcal}}</span>
+          </div>
+
+        </ion-item>
+
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

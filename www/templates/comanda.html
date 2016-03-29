@@ -1,0 +1,54 @@
+<ion-view view-title="Comanda" id="comanda">
+  <ion-content>
+
+
+        <p style="color: gray;background-color: lightgray;text-align: center; margin: 0px;">
+          {{company.name}}<br>
+          Via {{company.via}} {{company.numero}} - {{company.zip}} {{company.country}}<br>
+          p.iva {{company.piva}}
+        </p>
+
+        <p style="text-align: right"> {{dataOra|date:"dd/MM/yyyy 'ore' HH:mm"}}</p>
+        <p style="text-align: left">Comande: <b>{{user.name}}</b> n. ordine: <b>45</b></p>
+
+
+
+        <div class="list">
+
+          <label class="item item-input item-select">
+            <div class="input-label">
+              N.Tavolo
+            </div>
+            <select>
+
+              <option>1</option>
+              <option>2</option>
+              <option>3</option><option>4</option><option>5</option>
+              <option>6</option><option>7</option><option>8</option>
+              <option>9</option><option selected>10</option>
+            </select>
+          </label>
+
+          <label class="item item-input item-select">
+            <div class="input-label">
+              N.Coperti
+            </div>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option><option>4</option><option>5</option>
+              <option selected>6</option><option>7</option><option>8</option>
+              <option>9</option><option>10</option>
+            </select>
+          </label>
+
+          <button class="button button-block button-positive" ui-sref="app.catalogo">
+            salva
+          </button>
+
+        </div>
+
+      </div>
+
+  </ion-content>
+</ion-view>

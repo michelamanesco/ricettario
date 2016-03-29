@@ -1,0 +1,26 @@
+<ion-view view-title="catalogo"  id="catalogo">
+  <ion-content>
+
+    <div class="row responsive-sm">
+      <ion-list class="col-50">
+
+        <ion-item class="item item-thumbnail-left" href="#prodottoSingolo.html" ng-repeat="good in list">
+          <img ng-src="{{good.img}}">
+          <b>{{good.name}}</b><br>
+          <span class="icon-left ion-android-hand"></span>Allergeni: <span ng-repeat="allergeno in good.allergeni">{{allergeno.nome}} <IMG ng-show="allergeno.img" ng-src="{{allergeno.img}}" style="width:20px">,</span><br>
+          <span class="icon-left ion-ios-nutrition"></span>Ingredienti: <span ng-repeat="ingrediente in good.ingredienti">{{ingrediente.nome}},</span><br>
+          <span class="icon-left ion-wineglass"></span> Abbinamenti: <span ng-repeat="abbinamento in good.abbinamenti">{{abbinamento.nome}},</span><br>
+          <ion-option-button class="button-positive ion-plus-circled"></ion-option-button>
+          <ion-option-button class="button-assertive icon ion-trash-a"></ion-option-button>
+        </ion-item>
+
+      </ion-list>
+    </div>
+
+
+    <button class="button button-calm" ui-sref="app.carrello">
+      Carrello
+    </button>
+
+  </ion-content>
+</ion-view>

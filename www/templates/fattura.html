@@ -1,0 +1,41 @@
+<ion-view view-title="Fattura" id="fattura">
+  <ion-content>
+
+
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="Nome" ng-model="fattura.nome">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Cognome" ng-model="fattura.cognome">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Azienda" ng-model="fattura.azienda">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="P.iva/cod.fisc">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Via/Corso">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Cap">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Citta">
+      </label>
+
+      <label class="item item-input">
+        <textarea placeholder="Note"></textarea>
+      </label>
+    </div>
+
+    <button class="button button-block button-positive" ui-sref="app.ftemessa" ng-click="aggiungiFattura()">
+      <i></i>Stampa
+    </button>
+
+
+  </ion-content>
+</ion-view>
+
+

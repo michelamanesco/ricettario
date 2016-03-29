@@ -1,0 +1,44 @@
+<ion-view view-title="Personale" id="configWaiters">
+  <ion-content>
+
+    <div>
+      <p style="color: gray;background-color: lightgray;text-align: center; margin: 0px;">
+        {{company.name}}<br>
+        Via {{company.via}} {{company.numero}} - {{company.zip}} {{company.country}}<br>
+        p.iva {{company.piva}}
+      </p>
+
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Search">
+        </label>
+      </div>
+
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="text" placeholder="cod. name">
+        </label>
+        <button class="button button-small">
+          salva
+        </button>
+      </div>
+
+
+      <ion-list can-swipe="true">
+        <ion-item class="item-avatar" ui-sref="app.waiter">
+          <img src="img/avatar.png">
+          <h2>Luigi</h2>
+          <ion-option-button class="button-positive icon ion-trash-a"></ion-option-button>
+        </ion-item>
+
+        <ion-item class="item-avatar" ui-sref="app.waiter">
+          <img src="img/avatar.png">
+          <h2>Luigi</h2>
+          <ion-option-button class="button-positive icon ion-trash-a"></ion-option-button>
+        </ion-item>
+      </ion-list>
+
+    </div>
+  </ion-content>
+</ion-view>

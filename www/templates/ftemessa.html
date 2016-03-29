@@ -1,0 +1,40 @@
+<ion-view view-title="conferma" id="ftemessa">
+  <ion-content>
+    <ion-list>
+      <ion-item style="color:gray;background-color: lightgray;text-align: center;margin:0px;">
+          {{fattura.nome}} - {{fattura.cognome}}<br>
+          <b>{{fattura.azienda}} - p.iva {{fattura.piva}}</b><br>
+          Via {{fattura.via}} {{fattura.numero}} - {{fattura.cap}} {{fattura.citta}}<br>
+          Note: {{fattura.note}}
+      </ion-item>
+
+      <h3 style="text-align: center; color: gray;">Ordine</h3>
+
+      <ion-item>
+        <b>{{good.name}}</b>
+        <div class="qntPriceCarrello">
+          {{good.quantita}} x {{good.prezzo|currency}}
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <i class="icon-left ion-calculator"></i><b> Totale</b>
+        <div class="qntTotCarrello">
+          {{good.quantita}} x {{good.prezzo}}
+        </div>
+      </ion-item>
+
+
+    </ion-list>
+
+
+
+
+
+   <h3 style="text-align: center; color: gray;border:solid #000000 1px; margin: 20px;margin-top:50px;padding: 20px;">
+     La fattura è stata stampata.
+   </h3>
+
+  </ion-content>
+</ion-view>
+

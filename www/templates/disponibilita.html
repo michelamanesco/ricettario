@@ -1,0 +1,62 @@
+<ion-view view-title="Disponibilita" id="disponibilita">
+  <ion-content>
+
+    <div>
+      <p style="color: gray;background-color: lightgray;text-align: center; margin: 0px;">
+        {{company.name}}<br>
+        Via {{company.via}} {{company.numero}} - {{company.zip}} {{company.country}}<br>
+        p.iva {{company.piva}}
+      </p>
+      <p style="text-align: right"> {{dataOra|date:"dd/MM/yyyy 'ore' HH:mm"}}</p>
+
+
+
+
+      <div class="list" style="text-align: center;">
+        <div class="row item">
+          <div class="col col-25">sala</div>
+          <div class="col col-25">tavolo</div>
+          <div class="col col-25">coperti</div>
+          <div class="col col-25">disponib</div>
+        </div>
+        <div class="row item" style="font-weight: bold">
+          <div class="col col-25">1</div>
+          <div class="col col-25">5</div>
+          <div class="col col-25">12</div>
+          <div class="col col-25" style="background-color: #00b608;"></div>
+        </div>
+        <div class="row item" style="color: darkgray">
+          <div class="col col-25">1</div>
+          <div class="col col-25">4</div>
+          <div class="col col-25">6</div>
+          <div class="col col-25" style="background-color: #d72c1a;"></div>
+        </div>
+        <div class="row item">
+          <div class="col col-25">2</div>
+          <div class="col col-25">12</div>
+          <div class="col col-25">6</div>
+          <div class="col col-25" style="background-color: #d7cc1e;"></div>
+        </div>
+        <div class="row item" style="color: darkgray">
+          <div class="col col-25">1</div>
+          <div class="col col-25">4</div>
+          <div class="col col-25">6</div>
+          <div class="col col-25" style="background-color: #d72c1a;"></div>
+        </div>
+        <div class="row item" style="color: darkgray">
+          <div class="col col-25">1</div>
+          <div class="col col-25">4</div>
+          <div class="col col-25">6</div>
+          <div class="col col-25" style="background-color: #d72c1a;"></div>
+        </div>
+        <div class="row item">
+          <div class="col col-25">2</div>
+          <div class="col col-25">12</div>
+          <div class="col col-25">6</div>
+          <div class="col col-25" style="background-color: #d7cc1e;"></div>
+        </div>
+
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

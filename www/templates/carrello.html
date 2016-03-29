@@ -1,0 +1,42 @@
+<ion-view view-title="Carrello" id="carrello">
+  <ion-content>
+
+    <!--
+    <p style="color: gray;background-color: lightgray;text-align: center; margin: 0px;">
+      {{company.name}}<br>
+      Via {{company.via}} {{company.numero}} - {{company.zip}} {{company.country}}<br>
+      p.iva {{company.piva}}
+    </p>
+    -->
+
+    <p style="text-align: right"> {{dataOra|date:"dd/MM/yyyy 'ore' HH:mm"}}</p>
+    <p style="text-align: left">Comande: <b>{{user.name}}</b> n. ordine: <b>45</b></p>
+
+
+    <ion-list>
+
+      <ion-item class="item-thumbnail-left">
+        <img src="../img/catalogo/primi/carbonara.jpg">
+        <b>{{good.name}}</b>
+        <div class="qntPriceCarrello">
+          {{good.quantita}} x {{good.prezzo|currency}}
+        </div>
+        <ion-option-button class="button-positive ion-plus-circled"></ion-option-button>
+        <ion-option-button class="button-assertive icon ion-trash-a"></ion-option-button>
+      </ion-item>
+
+      <ion-item class="item-thumbnail-left">
+        <i class="icon-left ion-calculator"></i><b> Totale</b>
+        <div class="qntTotCarrello">
+          {{good.quantita}} x {{good.prezzo}}
+        </div>
+      </ion-item>
+
+    </ion-list>
+
+    <button class="button button-block button-calm" ui-sref="app.fattura">
+      <i class="ion-card" style="text-align: left">Conferma</i>
+    </button>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,75 @@
+<ion-view view-title="Tavoli" id="configTables">
+  <ion-content>
+
+    <div>
+      <p style="color: gray;background-color: lightgray;text-align: center; margin: 0px;">
+        {{company.name}}<br>
+        Via {{company.via}} {{company.numero}} - {{company.zip}} {{company.country}}<br>
+        p.iva {{company.piva}}
+      </p>
+
+      <div class="list">
+
+        <label class="item item-input item-select">
+          <div class="input-label">
+            N.Sala
+          </div>
+
+          <select ng-model="sala">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </label>
+
+        <label class="item item-input item-select">
+          <div class="input-label">
+            N.Tavolo
+          </div>
+          <select ng-model="numero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </label>
+
+        <label class="item item-input item-select">
+          <div class="input-label">
+            N.Coperti
+          </div>
+          <select ng-model="coperto">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </label>
+
+        <button class="button button-block button-positive" ng-click="aggiungiTavolo()">
+          Aggiungi
+        </button>
+      </div>
+    </div>
+
+    <div ng-show="tavoli.length==0">
+      Non hai nessun tavolo configurato
+    </div>
+    <ion-list style="text-align: center;background-color:lightgray" ng-show="tavoli.length>0">
+      <div class="row item" style="color: gray">
+        <div class="col col-33">sala</div>
+        <div class="col col-33">tavolo</div>
+        <div class="col col-33">coperti</div>
+      </div>
+      <ion-item ng-repeat="tavolo in tavoli">
+        <div class="row">
+          <div class="col col-33">{{tavolo.sala}}</div>
+          <div class="col col-33">{{tavolo.numero}}</div>
+          <div class="col col-33">{{tavolo.coperti}}</div>
+        </div>
+        <ion-option-button class="button-positive icon ion-trash-a"></ion-option-button>
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-view>
