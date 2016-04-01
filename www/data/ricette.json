@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "name":"Spaghetti carbonara",
     "img":"/img/catalogo/primi/cannelloni.jpg",
     "allergeni":[
@@ -38,6 +39,7 @@
     "difficolta":3
   },
   {
+    "id":2,
     "name":"Spaghetti carbonara",
     "img":"/img/catalogo/primi/funghi.jpg",
     "allergeni":"glutine, uova, latte",

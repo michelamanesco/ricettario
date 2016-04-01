@@ -95,13 +95,31 @@ oggetti:
         $scope.list=list.data;
       });
   })
-  .controller('ricettarioController',function($scope,$http){
+  .controller('ricettaController',function($scope,$http){
 
     $http.get("http://localhost:8100/data/ricette.json").then(function(item) {
       $scope.good=item.data[0];
     });
 
   })
+
+  .controller('viniController',function($scope,$http)
+  {
+    $http.get("http://localhost:8100/data/vini.json").then(function(wines)
+    {
+      $scope.vini=wines.data;
+    })
+  })
+  .controller('vinoController',function($scope,$http){
+
+    $http.get("http://localhost:8100/data/vini.json").then(function(item) {
+      $scope.vino=item.data[0];
+    });
+
+  })
+
+
+
 
   .controller('fatturaController',function($scope){
 

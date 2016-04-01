@@ -140,12 +140,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.ricettario', {
-    url: '/ricettario',
+  .state('app.ricetta', {
+    url: '/ricetta/:id',
     views: {
       'menuContent': {
-        templateUrl: 'templates/ricettario.html',
-        controller:'ricettarioController'
+        templateUrl: 'templates/ricetta.html',
+        controller:'ricettaController'
       }
     }
   })
@@ -180,10 +180,22 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     views: {
       'menuContent': {
         templateUrl: 'templates/vini.html',
-        controller:'goodController'
+        controller:'viniController'
       }
     }
   })
+  .state('app.vino', {
+    url: '/vino',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/vino.html',
+        controller:'vinoController'
+      }
+    }
+  })
+
+
+
 
 
 

@@ -1,0 +1,31 @@
+
+<ion-view view-title="Vini"  id="vini">
+  <ion-content>
+
+    <div class="row responsive-sm">
+      <ion-list>
+
+        <ion-item class="item vino" ng-repeat="wine in vini" style="background-image:url('{{wine.img}}');">
+          <div class="goodName">{{wine.name}}<br></div>
+
+            <span class="winesDashboard button button-light">
+                <span ng-show="wine.year">y {{wine.year}}</span>
+              - <span ng-show="wine.gradation"><i class="icon ion-wineglass"></i> {{wine.gradation}}%</span>
+              - <span ng-show="wine.temperatura"><i class="icon ion-thermometer"></i> {{wine.temperatura}}°C</span>
+              - <span ng-show="wine.origin[0].contry"><i class="ion-ios-location"></i> {{wine.origin[0].contry}}</span>
+            </span>
+
+          <!--
+           <div>
+            <span class="buttonSx button button-light" ng-show="wine.year!=null">y {{wine.year}}</span>
+            <span class="buttonDx button button-light icon ion-thermometer" ng-show="wine.gradation!=null"> {{wine.gradation}}%</span>
+            <span class="buttonCenter button button-light icon ion-ios-snowy" ng-show="wine.temperatura!=null"> {{wine.temperatura}}°</span>
+          </div>
+          -->
+
+        </ion-item>
+
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

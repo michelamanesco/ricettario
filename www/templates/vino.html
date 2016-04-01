@@ -1,0 +1,40 @@
+<ion-view view-title="{{vini.name}}" id="vino">
+    <ion-content>
+
+        <ion-list>
+            <ion-item class="item-image">
+                <img ng-src="{{vini.img}}">
+            </ion-item>
+
+            <ion-item>
+                <div ng-show="vini.description"></div>
+            </ion-item>
+
+            <h3>Scheda organolettica</h3>
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-ios-eye"></i>  Esame visivo:
+            </div>
+                <div class="item item-icon-left">
+                    <span ng-show="esameVisivo[0].limpidezza">{{esameVisivo[0].limpidezza}}</span>
+                </div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-ios-wineglass"></i>  Esame Olfattivo:
+            </div>
+                <div class="item item-icon-left">
+                </div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-ios-wineglass"></i>  Esame Gusto-Olfattivo:
+            </div>
+                <div class="item item-icon-left">
+                </div>
+
+
+
+
+        </ion-list>
+
+
+    </ion-content>
+</ion-view>

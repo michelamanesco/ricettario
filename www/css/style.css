@@ -67,6 +67,10 @@
    CSS elenco Ricette
 ==========================
 */
+#elencoRicette .item-complex .item-content {
+  padding: initial;
+  position: initial;
+}
 
 #elencoRicette .ricetta
   {
@@ -125,6 +129,67 @@
   height: 65px;
   }
 .dashboard > .goodDifficolta
-{
+  {
   background-color: transparent;
-}
+  }
+/*
+==========================
+   CSS elenco VINI
+==========================
+*/
+
+#vini .vino
+  {
+  background-image:url('{{good.img}}');
+  background-repeat: no-repeat;
+  height: 200px;
+  margin: 5px;
+  border: solid 1px #000000;
+  border-radius: 4px;
+  background-size: cover;
+  }
+
+#vini .buttonSx
+  {
+  position: absolute;
+  top:10px;
+  left: 10px;
+  background-color: rgba(255,255,255,.6);
+  }
+#vini .buttonDx
+  {
+  position: absolute;
+  top:10px;
+  right: 10px;
+  background-color: rgba(255,255,255,.6);
+  }
+#vini .buttonCenter
+  {
+  position: absolute;
+  top: 10px;
+  left:50%;
+  /*
+  width:50px;
+  margin-left:-25px;
+  */
+  text-align:center;
+  background-color: rgba(255,255,255,.6);
+  }
+#vini .winesDashboard
+  {
+  position: absolute;
+  background-color: rgba(255,255,255,.6);
+  text-align:right;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+  }
+#vini .item
+  {
+  padding: 0px;
+  }
+#vini .goodName
+  {
+  padding: 16px;
+  }

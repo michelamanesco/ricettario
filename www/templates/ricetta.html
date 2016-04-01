@@ -1,30 +1,6 @@
-<!--
-{
-good:
-  {
-  name:
-  img:
-  difficolta:
-  allergeni:
-    [
-      {nome:,img:},
-      {nome:,img:}
-    ],
-  ingredienti:
-    [
-      {dose:,um:,nome:},
-      {dose:,um:,nome:}
-    ]
-  }
-}
--->
-<ion-view view-title="ricettario"  id="ricettario">
+<ion-view title="{{good.name}}"  id="ricetta">
   <ion-content>
       <ion-list>
-
-        <ion-item>
-            <h2><b>{{good.name}}</b></h2>
-        </ion-item>
 
         <ion-item class="item-image">
             <img ng-src="{{good.img}}">
@@ -82,22 +58,3 @@ good:
 
   </ion-content>
 </ion-view>
-
-
-  <!-- vecchia struttura a elenco -->
-
-  <!--
-  <ion-item class="item item-thumbnail-left" href="#prodottoSingolo.html" ng-repeat="good in list">
-          <img ng-src="{{good.img}}">
-          <b>{{good.name}}</b><br>
-
-          <span class="icon-left ion-android-hand"></span>  Allergeni: <span ng-repeat="allergeno in good.allergeni">{{allergeno.nome}} <IMG ng-show="allergeno.img" ng-src="{{allergeno.img}}" style="width:20px">,</span><br>
-          <span class="icon-left ion-ios-nutrition"></span>  Ingredienti: <span ng-repeat="ingrediente in good.ingredienti">{{ingrediente.nome}},</span><br>
-          <hr>
-          Ricetta: <br><span  class="icon-left ion-checkmark" style="text-align: justify" ng-repeat="ricetta in good.method"><IMG ng-show="ricetta.img" ng-src="{{ricetta.img}}" style="width:100%"><br>  {{ricetta.step}}<br></span><br>
-          <span class="icon-left ion-wineglass"></span>  Abbinamenti: <span ng-repeat="abbinamento in good.abbinamenti">{{abbinamento.nome}},</span><br>
-          <ion-option-button class="button-positive ion-plus-circled"></ion-option-button>
-          <ion-option-button class="button-assertive icon ion-trash-a"></ion-option-button>
-        </ion-item>
-
-    -->

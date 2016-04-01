@@ -5,7 +5,7 @@
     <div class="row responsive-sm">
       <ion-list>
 
-        <ion-item class="item ricetta" ng-repeat="good in list" style="background-image:url('{{good.img}}');">
+        <ion-item class="item ricetta" ng-repeat="good in list" ui-sref="app.ricetta({id:good.id})" style="background-image:url('{{good.img}}');">
           <div class="goodName">{{good.name}}<br></div>
 
           <span class="goodAllergeni button button-icon icon ion-android-hand"  ng-show="good.allergeni>=1" style="background-color: rgba(0,0,0,.3)"></span><!--<span ng-repeat="allergeno in good.allergeni">{{allergeno.nome}},</span>-->
