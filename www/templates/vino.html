@@ -1,34 +1,61 @@
-<ion-view view-title="{{vini.name}}" id="vino">
+<ion-view view-title="{{vino.name}}" id="vino">
     <ion-content>
 
         <ion-list>
             <ion-item class="item-image">
-                <img ng-src="{{vini.img}}">
+                <img ng-src="{{vino.img}}">
+                  <span class="winesDashboard button button-light">
+                        <span ng-show="vino.year">y {{vino.year}}</span>
+                      - <span ng-show="vino.gradation"><i class="icon ion-wineglass"></i> {{vino.gradation}}%</span>
+                      - <span ng-show="vino.temperatura"><i class="icon ion-thermometer"></i> {{vino.temperatura}}°C</span>
+                      - <span ng-show="vino.origin.country"><i class="ion-ios-location"></i> {{vino.origin.country}}</span>
+                  </span>
             </ion-item>
 
-            <ion-item>
-                <div ng-show="vini.description"></div>
-            </ion-item>
-
-            <h3>Scheda organolettica</h3>
-            <div class="item item-icon-left item-divider">
-                <i class="icon ion-ios-eye"></i>  Esame visivo:
+            <div class="item item-icon-left item-divider" ng-hide="vino.abbinamenti[0]==null">
+                <i class="icon ion-android-restaurant"></i> Abbinamenti:
             </div>
-                <div class="item item-icon-left">
-                    <span ng-show="esameVisivo[0].limpidezza">{{esameVisivo[0].limpidezza}}</span>
-                </div>
+            <div class="item item-icon-left" ng-hide="vino.abbinamenti[0]==null" ng-show="vino.abbinamenti">{{vino.abbinamenti}}</div>
 
-            <div class="item item-icon-left item-divider">
-                <i class="icon ion-ios-wineglass"></i>  Esame Olfattivo:
+
+            <a class="item item-icon-right item-icon-left item-divider" ui-sref="app.schedaOragnolettica" ng-hide="vino.schedaOrganolettica[0]==null">
+                <i class="icon ion-ios-pie-outline"></i>  Scheda Organolettica:
+                <i class="icon ion-chevron-right"></i>
+            </a>
+
+            <div class="item item-icon-left item-divider" ng-hide="vino.description==null">
+                <i class="icon ion-clipboard"></i>  Descrizione:
             </div>
-                <div class="item item-icon-left">
-                </div>
+                <div ng-show="vino.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{vino.description}}</div>
 
             <div class="item item-icon-left item-divider">
-                <i class="icon ion-ios-wineglass"></i>  Esame Gusto-Olfattivo:
+                <i class="icon ion-map"></i>  Origine:
             </div>
-                <div class="item item-icon-left">
-                </div>
+            <div class="item item-icon-left" ng-show="vino.origin.country">Stato:   {{vino.origin.country}} </div>
+            <div class="item item-icon-left" ng-show="vino.origin.territory">Regione:   {{vino.origin.territory}} </div>
+            <div class="item item-icon-left" ng-show="vino.origin.altimetria">Altimetria:   {{vino.origin.altimetria}} mt sopra il livello del mare</div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-android-expand"></i>  Terreno:
+            </div>
+            <div class="item item-icon-left item-text-wrap" ng-show="vino.origin.terreno">{{vino.origin.terreno}}</div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-leaf"></i>  Vitigni:
+            </div>
+            <div class="item item-icon-left item-text-wrap" ng-show="vino.origin.vitigni">{{vino.origin.vitigni}}</div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-grid"></i> Densità Impianto:
+            </div>
+            <div class="item item-icon-left item-text-wrap" ng-show="vino.origin.densitaImpianto">{{vino.origin.densitaImpianto}}</div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-calendar"></i> Anno Impianto:
+            </div>
+            <div class="item item-icon-left" ng-show="vino.origin.annoImpianto">{{vino.origin.annoImpianto}}</div>
+
+
 
 
 

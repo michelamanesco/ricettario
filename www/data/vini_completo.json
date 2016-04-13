@@ -1,0 +1,118 @@
+[
+
+  {
+    "id":1,
+    "name":"Bramaterra",
+    "img":"http://www.altissimoceto.it/Image/GuidaVini/Piemonte/Braida/aisuma06.jpg",
+    "year":"2015",
+    "gradation":17,
+    "temperatura":10,
+    "origin":
+    {
+      "altimetria":400,
+      "terreno":"",
+      "vitigni":"",
+      "densitaImpianto":"",
+      "annoImpianto":"",
+      "territory":"Piemonte",
+      "country":"Italy"
+    },
+    "description":"",
+    "schedaOrganolettica":
+    {
+      "esameVisivo":
+      {
+        "limpidezza":"",
+        "colore":"",
+        "consistenza":"",
+        "effervescenza":""
+      },
+      "esameOlfattivo":
+      {
+        "intensita":"",
+        "complessita":"",
+        "qualita":"",
+        "descrizione":""
+      },
+      "esameGustoOlfattivo":
+      {
+        "morbidezza":
+        {
+          "zuccheri":"",
+          "alcoli":"",
+          "polialcoli":""
+        },
+        "durezza":
+        {
+          "acidi":"",
+          "tannini":"",
+          "sostanze_minerali":""
+        },
+        "strutturaCorpo":"",
+        "equilibrio":"",
+        "intensita":"",
+        "persistenza":"",
+        "qualita":""
+      }
+    },
+    "abbinamenti":""
+  },
+  {
+    "id":2,
+    "name":"Barbera",
+    "img":"http://www.altissimoceto.it/Image/GuidaVini/Piemonte/Braida/aisuma06.jpg",
+    "year":"2015",
+    "gradation":17,
+    "temperatura":10,
+    "origin":
+        {
+        "altimetria":400,
+        "terreno":"terreno di medio impasto caratterizzato da strato di roccia sottostante e pietre calcaree",
+        "vitigni":"Nerello mascalese 50%, Nerello cappuccino 25%, Nero d'avola 25%",
+        "densitaImpianto":"6000 piante x ha",
+        "annoImpianto":"2008",
+        "territory":"Piemonte",
+        "country":"Italy"
+        },
+    "description":"Un vino che negli ultimi anni si è sempre distinto in maniera caratteriale, arrivando ad essere perfino, in degustazione comparativa, il “miglior” vino di Casa Braida. Una formula, quella della vendemmia tardiva, che aiutava a portare maggiore complessità, ad un frutto che si mostrava, sì, con  grande incisività, spessore ed apiezza, ma abbastanza statico. Fino a quando si è trovato a “gareggiare” con quel prodigio della natura, chiamato Bricco dell’Uccellone 2006. In questa versione ha dovuto confrontarsi, portando in dote tutta la sua classe e complessità e che ci ha fatto asserire “Ai Suma!” (Ci siamo…) ma che non poteva niente contro la profondità e la sensualità del Bricco. Anche allo sviluppo al palato, ci si contendeva sui binari dell’avvolgenza (maggiore nell’Ai Suma) e della lunghezza. Per contro il tannino, tenendo conto che stiamo parlando di uva barbera, dell’Ai Suma risulta essere minuto e di grande classe, ma con uno spessore meno incisivo e deciso del Bricco.",
+    "schedaOrganolettica":
+        {
+          "esameVisivo":
+              {
+              "limpidezza":"velato",
+              "colore":"rosso rubino",
+              "consistenza":"viscoso",
+              "effervescenza":""
+              },
+          "esameOlfattivo":
+              {
+              "intensita":"intenso",
+              "complessita":"ampio",
+              "qualita":"comune",
+              "descrizione":"aromatico"
+              },
+          "esameGustoOlfattivo":
+              {
+              "morbidezza":
+                        {
+                        "zuccheri":"secco",
+                        "alcoli":"caldo",
+                        "polialcoli":"morbido"
+                        },
+              "durezza":
+                        {
+                        "acidi":"piatto",
+                        "tannini":"abbastanza tannico",
+                        "sostanze_minerali":"salato"
+                        },
+              "strutturaCorpo":"pesante",
+              "equilibrio":"abbastanza equilibrato",
+              "intensita":"intenso",
+              "persistenza":"molto persistente",
+              "qualita":"comune"
+              }
+        },
+    "abbinamenti":"carni rosse, primi piatti, paste ripiene"
+  }
+
+]

@@ -69,8 +69,14 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
-.controller('configTableController',function($scope){
 
+
+  /*
+   oggetti:
+   $scope  contesto dei dati su vista (html)
+   $http   oggetto per caricare dati (spesso json) da internet
+   */
+.controller('configTableController',function($scope){
   $scope.aggiungiTavolo=function()  {
     this.tavoli.push(
       {
@@ -79,45 +85,38 @@ angular.module('starter.controllers', [])
         coperti:this.coperto
       });
   };
-
   $scope.tavoli=[];
   })
-
-
-
-/*
-oggetti:
- $scope  contesto dei dati su vista (html)
- $http   oggetto per caricare dati (spesso json) da internet
-  */
   .controller('goodController',function($scope,$http){
     $http.get("data/ricette.json").then(function(list) {
         $scope.list=list.data;
       });
   })
   .controller('ricettaController',function($scope,$http){
-
     $http.get("http://localhost:8100/data/ricette.json").then(function(item) {
       $scope.good=item.data[0];
     });
-
   })
-
-  .controller('viniController',function($scope,$http)
-  {
-    $http.get("http://localhost:8100/data/vini.json").then(function(wines)
-    {
+  .controller('viniController',function($scope,$http) {
+    $http.get("http://localhost:8100/data/vini.json").then(function(wines) {
       $scope.vini=wines.data;
     })
   })
   .controller('vinoController',function($scope,$http){
-
-    $http.get("http://localhost:8100/data/vini.json").then(function(item) {
-      $scope.vino=item.data[0];
+    $http.get("http://localhost:8100/data/vini.json").then(function(wines) {
+      $scope.vino=wines.data[0];
     });
-
   })
-
+  .controller('ingredientiController',function($scope,$http){
+    $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingredienti) {
+      $scope.ingrediente=ingredienti.data[0];
+    });
+  })
+  .controller('ingredienteController',function($scope,$http){
+      $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingrediente) {
+      $scope.ingrediente=ingrediente.data[0];
+    });
+  })
 
 
 

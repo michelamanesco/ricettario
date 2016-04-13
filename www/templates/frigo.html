@@ -1,0 +1,34 @@
+<ion-view view-title="frigo" id="frigo">
+    <ion-content>
+        <h5 style="text-align: center;
+        ">Cosa c'è nel tuo frigorifero?</h5>
+
+        <!--<div class="item item-image">
+            <img src="img/frigo.jpg">
+        </div>--->
+
+        <ion-list>
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-ios-nutrition"></i>  Ortaggi:
+            </div>
+
+            <ion-checkbox ng-model="filter.blue"><img class="item item-avatar" src="carota.jpg">Carota</ion-checkbox>
+
+
+            <a class="item item-icon-left item-icon-right" href="#">
+                <img src="carota.jpg">
+                carota
+                <ion-checkbox ng-model="filter.blue"></ion-checkbox>
+            </a>
+
+            <ion-checkbox ng-model="filter.yellow">Cipolla</ion-checkbox>
+            <ion-checkbox ng-model="filter">Cavolo</ion-checkbox>
+
+        </ion-list>
+
+        <button class="button button-block button-positive" style="position:absolute;margin-bottom:10px;z-index: 3000;" ui-sref="" ng-click="">
+            <i class="icon ion-android-restaurant" ></i>Cerca ricette
+        </button>
+
+    </ion-content>
+</ion-view>

@@ -193,6 +193,34 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.schedaOrganolettica', {
+    url: '/schedaOrganolettica',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/schedaOrganolettica.html',
+        controller:'vinoController'
+      }
+    }
+  })
+  .state('app.ingredienti', {
+    url: '/ingredienti',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/frigo.html',
+        controller:'ingredientiController'
+      }
+    }
+  })
+  .state('app.ingrediente', {
+    url: '/ingrediente',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/ingrediente.html',
+        controller:'ingredienteController'
+      }
+    }
+  })
+
 
 
 
@@ -232,24 +260,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 
-
-// PROVA MIKI  //
-
-//angular.module('mainModuleName', ['ionic', 'ionic-ratings']){
-  //
-//}
-//
-
-
-
-
-
-
-
-
-
-
-
+// prova Miki//
 angular.module('mySuperApp', ['ionic'])
   .controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
 

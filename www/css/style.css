@@ -1,4 +1,9 @@
-/* Empty. Add your own CSS if you like */
+
+/*
+====================================================
+          CSS   home MyCASh
+====================================================
+*/
 
 #home p, #codStore p, #myStore p
   {
@@ -6,8 +11,7 @@
   padding-left: 10%;
   padding-right: 10%;
   text-align: justify;
-}
-
+  }
 #home
   {
   background-image: url("../img/bk2.jpg");
@@ -23,18 +27,23 @@
   {
   color: #ffffff;
   }
-
 #codStore ion-content
   {
   padding:10%;
   }
-
-/*#catalogo
+/*
+#catalogo
   {
   background-image: url("../img/catalogo.jpg");
   background-size:contain;
   background-repeat: no-repeat;
-  }*/
+  }
+  */
+/*
+==========================
+     CSS   CARRELLO
+==========================
+*/
 #carrello
   {
   /*background-image: url("../img/carrello.jpg");*/
@@ -42,7 +51,6 @@
   background-size:contain;
   background-repeat: no-repeat;
   }
-
 #carrello .qntPriceCarrello
   {
   text-align:right;
@@ -62,19 +70,23 @@
   }
 
 
+
 /*
+====================================================
+       CSS APP RICETTARIO
+====================================================
+
 ==========================
    CSS elenco Ricette
 ==========================
 */
-#elencoRicette .item-complex .item-content {
+#elencoRicette .item-complex .item-content, #ingrediente .item-complex .item-content
+  {
   padding: initial;
   position: initial;
-}
-
-#elencoRicette .ricetta
+  }
+#elencoRicette .ricetta, #ingrediente .ricetta
   {
-  background-image:url('{{good.img}}');
   background-repeat: no-repeat;
   height: 200px;
   margin: 5px;
@@ -91,6 +103,7 @@
   font-size: 1.5em;
   /*background-color: rgba(0,0,0,.6);*/
   text-shadow: 2px 2px #404040;
+  padding-left: 20px;
   }
 .goodAllergeni
   {
@@ -134,13 +147,32 @@
   }
 /*
 ==========================
-   CSS elenco VINI
+   CSS PREFERITI
 ==========================
 */
 
+#ricetta .favorite, #frigo .favorite, #ingrediente .favorite
+  {
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2000;
+  font-size: 40px;
+  }
+
+/*
+==========================
+   CSS elenco VINI.html
+==========================
+*/
+#vini .item-complex .item-content
+  {
+  padding: initial;
+  position: initial;
+  }
 #vini .vino
   {
-  background-image:url('{{good.img}}');
   background-repeat: no-repeat;
   height: 200px;
   margin: 5px;
@@ -148,7 +180,6 @@
   border-radius: 4px;
   background-size: cover;
   }
-
 #vini .buttonSx
   {
   position: absolute;
@@ -168,10 +199,6 @@
   position: absolute;
   top: 10px;
   left:50%;
-  /*
-  width:50px;
-  margin-left:-25px;
-  */
   text-align:center;
   background-color: rgba(255,255,255,.6);
   }
@@ -183,7 +210,6 @@
   width: 100%;
   padding: 0px;
   margin: 0px;
-
   }
 #vini .item
   {
@@ -193,3 +219,18 @@
   {
   padding: 16px;
   }
+/*
+==========================
+   CSS   VINO.html
+==========================
+*/
+#vino .winesDashboard
+  {
+  position: absolute;
+  background-color: rgba(255,255,255,.6);
+  text-align:right;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  }
+

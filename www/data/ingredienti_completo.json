@@ -1,0 +1,104 @@
+[
+  {
+    "id":"1",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/6/62/Tuscankale.jpg",
+    "name": "cavolo nero",
+    "name_scientific":"Brassica oleracea L. var. acephala sabellica",
+    "famiglia": "Cruciferae – Brassicaceae",
+    "description":"Il cavolo nero (Brassica oleracea L. varietà palmifolia) è una varietà di cavoli. Questo cavolo è privo della gemma centrale, ed è caratterizzato da foglie di colore verde scuro lanceolate e divise, dalla superficie bollosa. In cucina si usano le foglie private dello stelo per fare il minestrone, particolarmente gustose e croccanti se sono state colpite da una gelata durante l'inverno. Viene usato soprattutto nella cucina toscana.",
+    "group":"ortaggi",
+    "allergeni":"",
+    "season": "inverno",
+    "period":"dicembre - febbraio",
+    "origin":"La varietà Nero Lancinato di Toscana comprende delle selezioni precoci e normali/tardive.",
+    "storage":"",
+    "composizione":
+    {
+      "vitamine":
+      {
+        "A":100,
+        "B6":0,
+        "C":67,
+        "K":100
+      },
+      "minerali":
+      {
+        "ferro":1.00,
+        "calcio":150.00,
+        "sodio":38.00,
+        "magnesio":47.00,
+        "potassio":491.00,
+        "fosforo":491.00
+      },
+      "valori_nutrizionali":
+      {
+        "proteine":4,
+        "carboidrati":8,
+        "grassi":0,
+        "fibre":3,
+        "acqua":84,
+        "zuccheri":2
+      }
+    },
+    "proprieta":"Antinfiammatorie: il cavolo è un antiinfiammatorio naturale e quindi è utile per combattere artrite e patologie cardiache. Super nutriente: i vegani assumono cavolo al posto della carne perché ha molto ferro, in percentuali decisamente superiori anche al manzo. Inoltre contiene anche moltissimo calcio, in quantità superiori che nel latte. Aiuta il sistema immunitario: le proprietà benefiche del cavolo aiutano il sistema immunitario a combattere malattie e attacchi di germi e batteri. Amico dell’intestino: il cavolo è ricco di fibre elementi indispensabili per una corretta funzionamento di cuore e intestino. Per essere più precisi: una porzione di cavolo fornisce al nostro organismo oltre il 5% del fabbisogno giornaliero di fibre. Antiossidante: grazie alla presenza massiccia di flavonoidi il cavolo contribuisce a prevenire l’invecchiamento precoce. Disintossicante: alcuni componenti del cavolo regolano l’eliminazione delle tossine e aiutano il fegato a depurarsi. Inoltre è dimostrato che il cavolo sia benefico nei confronti di alcuni tipi di cancro in particolare al seno, al colon e alla vescica. Un aiuto contro l’ipertensione: assumere regolarmente cavolo aiuta ad abbassare la pressione grazie alla presenza di amminoacidi. Inoltre il cavolo è ricco di acidi grassi, in percentuali pari a quelle dei semi di lino."
+    "ricette":"zuppa di cavolo e fagioli, zuppa bietole,"
+  },
+  {
+    "id":"2",
+    "img":"http://www.viversano.net/wp-content/uploads/2014/10/cavolo-640x390.jpg",
+    "name": "cavolo",
+    "name_scientific":"Brassica oleracea L. var. acephala sabellica",
+    "famiglia": "Cruciferae – Brassicaceae",
+    "description":"Il cavolo nero (Brassica oleracea L. varietà palmifolia) è una varietà di cavoli. Questo cavolo è privo della gemma centrale, ed è caratterizzato da foglie di colore verde scuro lanceolate e divise, dalla superficie bollosa. In cucina si usano le foglie private dello stelo per fare il minestrone, particolarmente gustose e croccanti se sono state colpite da una gelata durante l'inverno. Viene usato soprattutto nella cucina toscana.",
+    "group":"ortaggi",
+
+    "season": "inverno",
+    "period":"dicembre - febbraio",
+    "origin":"La varietà Nero Lancinato di Toscana comprende delle selezioni precoci e normali/tardive.",
+    "storage":"",
+
+    "composizione":
+    {
+      "vitamine":
+      {
+        "A":100,
+        "B6":0,
+        "C":67,
+        "K":100
+      },
+      "minerali":
+      {
+        "ferro":1.00,
+        "calcio":150.00,
+        "sodio":38.00,
+        "magnesio":47.00,
+        "potassio":491.00,
+        "fosforo":491.00
+      },
+      "valori_nutrizionali":
+      {
+        "proteine":4,
+        "carboidrati":8,
+        "grassi":0,
+        "fibre":3,
+        "acqua":84,
+        "zuccheri":2
+      }
+    },
+    "proprieta":"",
+    "ricette":
+    [
+      {
+        "id":"5",
+        "name":"zuppa di cavolo e fagioli",
+        "img":"http://www.piciecastagne.it/wp-content/gallery/verdure-zuppe-e-insalate/zuppa-di-cannellini-e-cavolo-nero2.jpg"
+      },
+      {
+        "id":"6",
+        "name":"zuppa bietole",
+        "img":"http://www.lacucinadellapallina.it/wp-content/uploads/2015/03/zuppa-patate-e-bietole_4.jpg"
+      }
+    ]
+  }
+
+]

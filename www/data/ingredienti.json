@@ -1,0 +1,96 @@
+[
+  {
+    "id":"1",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/6/62/Tuscankale.jpg",
+    "name": "cavolo nero",
+    "description":"Il cavolo nero (Brassica oleracea L. varietà palmifolia) è una varietà di cavoli. Questo cavolo è privo della gemma centrale, ed è caratterizzato da foglie di colore verde scuro lanceolate e divise, dalla superficie bollosa. In cucina si usano le foglie private dello stelo per fare il minestrone, particolarmente gustose e croccanti se sono state colpite da una gelata durante l'inverno. Viene usato soprattutto nella cucina toscana.",
+    "kcal":"30",
+    "group":"ortaggi",
+    "allergeni":
+      [
+        {"nome":"cavolo"}
+      ],
+    "period":"dicembre - febbraio",
+    "origin":"La varietà Nero Lancinato di Toscana comprende delle selezioni precoci e normali/tardive.",
+    "abbinamenti":
+      [
+        {"nota":"Prova"},
+        {"nome":"Canavese Rosso"},
+        {"nome":"Lessona Doc"}
+      ],
+    "ricette":
+    [
+      {
+        "id":"5",
+        "name":"zuppa di cavolo e fagioli",
+        "img":"http://www.piciecastagne.it/wp-content/gallery/verdure-zuppe-e-insalate/zuppa-di-cannellini-e-cavolo-nero2.jpg"
+      },
+      {
+        "id":"6",
+        "name":"zuppa bietole",
+        "img":"http://www.lacucinadellapallina.it/wp-content/uploads/2015/03/zuppa-patate-e-bietole_4.jpg"
+      }
+    ]
+  },
+  {
+    "id":"2",
+    "img":"http://www.viversano.net/wp-content/uploads/2014/10/cavolo-640x390.jpg",
+    "name": "cavolo",
+    "description":"Il cavolo nero (Brassica oleracea L. varietà palmifolia) è una varietà di cavoli. Questo cavolo è privo della gemma centrale, ed è caratterizzato da foglie di colore verde scuro lanceolate e divise, dalla superficie bollosa. In cucina si usano le foglie private dello stelo per fare il minestrone, particolarmente gustose e croccanti se sono state colpite da una gelata durante l'inverno. Viene usato soprattutto nella cucina toscana.",
+    "group":"ortaggi",
+    "allergeni":
+    [
+      {"nome":"cavolo"}
+    ],
+    "period":"dicembre - febbraio",
+    "origin":"La varietà Nero Lancinato di Toscana comprende delle selezioni precoci e normali/tardive.",
+    "abbinamenti":
+    [
+      {"nota":"Prova "},
+      {"nome":"Lessona Doc"}
+    ],
+    "ricette":
+      [
+        {
+        "id":"5",
+        "name":"zuppa di cavolo e fagioli",
+        "img":"http://www.piciecastagne.it/wp-content/gallery/verdure-zuppe-e-insalate/zuppa-di-cannellini-e-cavolo-nero2.jpg"
+        },
+        {
+        "id":"6",
+        "name":"zuppa bietole",
+        "img":"http://www.lacucinadellapallina.it/wp-content/uploads/2015/03/zuppa-patate-e-bietole_4.jpg"
+        }
+      ]
+    },
+    {
+      "id":"3",
+      "img":"http://www.gustissimo.it/articoli/ingredienti/cereali-farinacei/farina-di-frumento.jpg",
+      "name": "farina grano duro tipo 00",
+      "description":"La farina è il prodotto ricavato dalla macinazione di cereali o di altri prodotti.Nell'uso comune, il termine farina serve ad indicare in genere quella di grano e in particolar modo quella di grano tenero, mentre si usa la parola semola per la farina di grano duro. Per il loro ruolo nella fabbricazione di pane e di pasta, queste sono infatti le più diffuse nel mondo, tutelate dalle leggi dei diversi paesi. La legge italiana ne stabilisce chiaramente caratteristiche ed eventuali denominazioni con il Decreto del Presidente della Repubblica n.187 del 9 febbraio 2001.",
+      "group":"cereali, derivati e tuberi",
+      "allergeni":"glutine",
+      "period":"",
+      "origin":"",
+      "abbinamenti":
+      [
+        {"nota":"Prova "},
+        {"nome":"Canavese Rosso"},
+        {"nome":"Lessona Doc"}
+      ],
+      "ricette":
+      [
+        {
+          "id":"5",
+          "name":"zuppa di cavolo e fagioli",
+          "img":"http://www.piciecastagne.it/wp-content/gallery/verdure-zuppe-e-insalate/zuppa-di-cannellini-e-cavolo-nero2.jpg"
+        },
+        {
+          "id":"6",
+          "name":"zuppa bietole",
+          "img":"http://www.lacucinadellapallina.it/wp-content/uploads/2015/03/zuppa-patate-e-bietole_4.jpg"
+        }
+      ]
+    }
+
+]

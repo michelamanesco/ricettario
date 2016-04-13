@@ -5,7 +5,7 @@
         <ion-item class="item-image">
             <img ng-src="{{good.img}}">
         </ion-item>
-
+            <i class="favorite icon ion-ios-heart"></i>
         <ion-item class="dashboard">
           <span class="goodTempo button button-outline button-dark icon ion-clock" ng-show="good.tempo>=1"> {{good.tempo}}"</span>
             <span class="goodDifficolta button">
@@ -42,7 +42,9 @@
           <i class="icon ion-wineglass"></i>  Abbinamenti:
         </div>
             <div class="item item-icon-left  item-icon-right" ui-sref="app.vini">
-                <span ng-repeat="abbinamento in good.abbinamenti">{{abbinamento.nome}},  </span>
+                <span class="item-text-wrap" ng-repeat="abbinamento in good.abbinamenti">{{abbinamento.nota}}</span>
+                <hr>
+                <span ng-repeat="abbinamento in good.abbinamenti">{{abbinamento.nome}} - </span>
                 <i class="icon ion-chevron-right"  ui-sref="#app/vini"></i>
             </div>
 

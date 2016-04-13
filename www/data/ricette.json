@@ -9,6 +9,9 @@
       {"nome":"latte"}
     ],
     "persone":4,
+    "tempo":40,
+    "kcal":300,
+    "difficolta":3,
     "ingredienti": [
       {"nome":"pasta all'uovo","dose":"400","um":"gr"},
       {"nome":"pancetta","dose":"200","um":"gr"},
@@ -18,6 +21,7 @@
       {"nome":"pepe","dose":"","um":"qb"}
     ],
     "abbinamenti":[
+      {"nota":"Panissa: questa pietanza si abbina con Vino Rosso Fermo, di medio corpo, anche Novello in particolare con vini prodotti in Piemonte."},
       {"nome":"vino rosso"},
       {"nome":"Chianti"},
       {"nome":"Barbera"},
@@ -31,41 +35,123 @@
       {"step":"buttare la pasta in acqua salata e bollire 4 min", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_4-6.jpg"},
       {"step":"scolare e unire la pasta all'uovo sbattuto e la pancetta", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_ok_strip_10-12.jpg"}
     ],
+    "origin":
+      {
+      "territory":"Lazio",
+      "country":"Italy"
+      },
+    "prezzo":20,
+    "quantita":2
+
+  },
+  {
+    "id":2,
+    "name":"Panissa Piemontese",
+    "img":"http://www.riseriarecarlo.it/wp-content/uploads/2015/11/Ricetta_Panissa.jpg",
+    "allergeni":[
+      {"nome":"lattosio"}
+    ],
+    "persone":4,
+    "tempo":40,
+    "kcal":400,
+    "difficolta":3,
+    "ingredienti": [
+      {"nome":"lardo","dose":"50","um":"gr"},
+      {"nome":"riso","dose":"300","um":"gr"},
+      {"nome":"fagioli forlotti","dose":"200","um":"gr"},
+      {"nome":"burro","dose":"50","um":"gr"},
+      {"nome":"mortadella di fegato","dose":"100","um":"gr"},
+      {"nome":"cotenna di maiale","dose":"50","um":"gr"},
+      {"nome":"sedano a coste - gambo","dose":"1","um":"n."},
+      {"nome":"carota","dose":"1","um":"n."},
+      {"nome":"fagioli forlotti","dose":"200","um":"gr"},
+      {"nome":"pomodori","dose":"3","um":"n."},
+      {"nome":"cipolla","dose":"1","um":"n"},
+      {"nome":"verza","dose":"1","um":"pezzo"},
+      {"nome":"vino rosso","dose":"","um":"qb"},
+      {"nome":"sale","dose":"","um":"qb"},
+      {"nome":"pepe","dose":"","um":"qb"}
+    ],
+    "abbinamenti":
+    [
+      {"nota":"Panissa: questa pietanza si abbina con Vino Rosso Fermo, di medio corpo, anche Novello in particolare con vini prodotti in Piemonte. "},
+      {"nome":"Barbera del Monferrato Doc"},
+      {"nome":"Boca Doc"},
+      {"nome":"Bramaterra Doc"},
+      {"nome":"Canavese Rosso"},
+      {"nome":"Lessona Doc"}
+    ],
+    "method": [
+      {"step":"Trita le verdure, sbollenta le cotenne e tagliale a listarelle. Sfoglia la verza e riducila a filetti; raschia la carota ed elimina i filamenti al sedano. Spella i pomodori. Trita grossolanamente tutte le verdure (esclusa la cipolla) con la mezzaluna.","img":""},
+      {"step":"Cuoci il brodo e raccogli il trito di verdure in una capiente casseruola, aggiungi le cotenne e i fagioli, copri con due litri circa di acqua e sala poco (regolerai il sale a fine cottura). Porta a ebollizione e cuoci per circa un'ora e mezzo."},
+      {"step":"Prepara il soffritto e trita insieme, preferibilmente con un pesante coltello, lardo, salame (o mortadella di fegato) e cipolla; raccogli il trito nella casseruola per risotti, aggiungi il burro e fai soffriggere fino a quando la cipolla sarà appassita.", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_1-3.jpg"},
+      {"step":"Tosta il riso, aggiungi il riso al soffritto e mescola con un cucchiaio di legno fino a quando avrà ben assorbitoil condimento e sarà traslucido e leggermente tostato; quindi bagnalo con un bicchiere di vino rosso, alza la fiamma e lascialo evaporare quasi completamente. ", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_4-6.jpg"},
+      {"step":"Cuoci riso e verdure. Se hai preparato il brodo in anticipo rimettilo sul fuoco e fai riprendere l'ebollizione.Versa sul riso un mestolo di brodo (verdure comprese), mescola e lascialo assorbire. Continua la cottura unendo, a mano a mano che si asciuga, altro brodo con le verdure e mescolando. ", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_ok_strip_10-12.jpg"},
+      {"step":"Manteca e servi. Dopo circa 15 minuti controlla il gusto (se necessario sala) e la cottura: alla fine la panisciadeve risultare piuttosto morbida. Toglii dal fuoco, lascia riposare per 3-4 minuti, poi pepa abbondantemente e servi.Di solito non è previsto il formaggio grattugiato."}
+    ],
+    "curiosità":"La paniscia è un tipo dirisotto diffuso in Lombardia e Piemonte con alcune varianti regionali. È diffuso soprattutto nel vercellese con il nome di panissa e nel novarese dove è invece un piatto conosciuto come paniscia.","img":"https://upload.wikimedia.org/wikipedia/commons/0/01/Panissa_Vercellese_con_riso_Maratelli.jpg",
+    "origin":
+       {
+      "territory":"Piemonte",
+      "country":"Italy"
+      },
+    "prezzo":20,
+    "quantita":2
+  },
+  {
+    "id":3,
+    "name":"Bagna Cauda",
+    "img":"http://atnews.it/images/repertorio/EVENTI_E_MANIFESTAZIONI/bagna-caoda.jpg",
+    "allergeni":[
+      {"nome":"lattosio"}
+    ],
+    "persone":4,
+
+    "ingredienti": [
+      {"nome":"acciughe rosse di Spagna","dose":"12","um":"n."},
+      {"nome":"spicchi d'aglio","dose":"12","um":"n."},
+      {"nome":"olio extravergine d’oliva","dose":"1/2","um":"lt"},
+      {"nome":"burro","dose":"200","um":"gr"},
+      {"nome":"sedano","dose":"","um":"qb"},
+      {"nome":"finocchio","dose":"","um":"qb"},
+      {"nome":"rapanelli","dose":"","um":"qb"},
+      {"nome":"carota","dose":"","um":"qb"},
+      {"nome":"topinambour","dose":"","um":"qb"},
+      {"nome":"cavolo","dose":"3","um":"qb"},
+      {"nome":"cipolla","dose":"1","um":"qb"},
+      {"nome":"polenta","dose":"1","um":"qb"},
+      {"nome":"uova","dose":"","um":"qb"},
+      {"nome":"sale","dose":"","um":"qb"},
+      {"nome":"pepe","dose":"","um":"qb"}
+    ],
+    "abbinamenti":
+    [
+      {"nota":"Il piatto va accompagnato con del vino rosso “robusto”, meglio il Barbera “nuovo”."},
+      {"nome":"Barbera del Monferrato Doc"},
+      {"nome":"Boca Doc"},
+      {"nome":"Bramaterra Doc"},
+      {"nome":"Canavese Rosso"},
+      {"nome":"Lessona Doc"}
+    ],
+    "method": [
+      {"step":"La preparazione di questo intingolo a base di aglio, olio e acciughe ha regole precise, per non travisare la ricetta degli antichi vignaioli. Innanzitutto le acciughe devono essere “rosse di Spagna”, stagionate almeno un anno, appena tolte dalla salatura, pulite, lavate in acqua e vino, ben asciugate e diliscate (almeno 2 o 3 acciughe a testa). ","img":""},
+      {"step":"L'aglio – vera “anima” del piatto – deve essere presente in misura di 2-3 spicchi a persona, non bolliti né nell'acqua né nel latte, soltanto liberati dal germoglio, tagliati a fettine sottili, lasciati qualche ora in una zuppiera di acqua fredda. L'olio deve essere extravergine di oliva e ne occorre non meno di mezzo bicchiere per persona."},
+      {"step":"Le verdure da intingere nella salsa devono essere tutte quelle dell'habitat degli orti piemontesi, con l'esclusione di alcune inadatte perché troppo aromatiche (ad esempio il sedano, il finocchio, i rapanelli); tra queste cardi gobbi di Nizza o cardi spadoni di Chieri, peperoni crudi, peperoni arrostiti e spellati, peperoni conservati sotto aceto e raspe, topinambour, cavoli verdi, bianchi e rossi, cuori bianchi di scarola e di indivia, porri freschi, cipollotti lunghi, rape bianche, barbabietole rosse al forno, cavolfiori lessi, cuori di cavoli lessi, cipolle al forno,  piatti di patate bianche bollite nella loro buccia, mele, fette di zucca arrostite o fritte, fette di Piemonte fabbrica di futuro future factory fabrique de futur Zukunftsfabrik fàbrica de futuro polenta calda, arrostita o fritta, cestini di uova fresche da strapazzare nell'ultimo cucchiaio di bagna caòda che rimane nel tegamino di coccio.", "img":""},
+      {"step":" La cottura – e questo è il punto decisivo per una bagna caòda buona, sana e digeribile – deve essere breve e tenuta sempre a calore basso: in un tegame grande di terraglia bisogna mettere tutto l’aglio affettato e asciugato, con un mestolino soltanto di olio e un bel pezzo di burro. Bisogna cuocerlo a fuoco lento per almeno mezz'ora, sempre rimescolando l'aglio con un cucchiaio di legno, badando bene che non scurisca; le fettine d'aglio devono ammorbidirsi e sciogliersi formando una crema omogenea bianca e soffice. A questo punto bisogna aggiungere tutto l'olio e le acciughe, e far cuocere l'intingolo a basso calore solo quel tanto che basta a far liquefare le acciughe, per creare con l’aglio un’odorosa crema marrone chiaro. La bagna caòda è pronta e deve essere tassativamente consumata molto calda, appena preparata.", "img":""},
+      {"step":"Si può portare in tavola la pirofila di cottura con sotto l’apposito fornello a spirito, oppure – preferibilmente – usare le “sciunfiette” (ciotole di terracotta) singole con un cero acceso sotto, per ogni commensale. Si prendonodirettamente in mano le verdure e si intingono, cercando di raccogliere la bagna caòda a mo’ di cucchiaio. ", "img":""}
+    ],
+    "curiosità":"Molte località piemontesi si contendono la paternità di questo emblema della gastronomiaregionale, ma in realtà nasce nella notte dei tempi sulle coste della Provenza, con il nome diAnchoiade. Furono senza dubbio i mercanti astigiani medievali, durante le loro spedizioni per rifornirsi di sale e acciughe, a conoscerla e a introdurne l'uso in patria, diffondendolo poi in tutta la vasta area dei loro commerci (tutto il Piemonte meridionale e nord-occidentale). L'antica ricetta provenzale, fatta propria dai contadini astigiani, fu poi adattata agli usi ed alle risorse del territorio, in particolare con l'impiego degli ortaggi che erano alla base dell'alimentazione povera.Cibo rurale e popolare, a lungo aborrito dalle classi superiori per l'invadente presenzadell'aglio, ha lasciato pochissime tracce di sé nei testi gastronomici piemontesi, e solo nel 1875 il romanziere Roberto Sacchetti descrive a Montechiaro d'Asti la “Bagna Caòda” come la conosciamo ancora oggi.Nel mondo contadino questo non è considerato un piatto povero della quotidianità: è quellodella fraternità e dell'allegria, preparato per celebrare momenti di vita collettiva gioiosi, comead esempio il termine della vendemmia.",
+    "origin":
+      {
+      "territory":"Piemonte",
+      "country":"Italy"
+      },
     "prezzo":20,
     "quantita":2,
     "tempo":40,
     "kcal":300,
     "persone":4,
     "difficolta":3
-  },
-  {
-    "id":2,
-    "name":"Spaghetti carbonara",
-    "img":"/img/catalogo/primi/funghi.jpg",
-    "allergeni":"glutine, uova, latte",
-    "ingredienti":"pasta all'uovo,pancetta",
-    "abbinamenti":"vino rosso",
-    "prezzo":20,
-    "quantita":2,
-    "difficolta":5
-  },
-  {
-    "name":"Spaghetti carbonara",
-    "img":"/img/catalogo/primi/matriciana.jpg",
-    "allergeni":"glutine, uova, latte",
-    "ingredienti":"pasta all'uovo,pancetta",
-    "abbinamenti":"vino rosso",
-    "prezzo":20,
-    "quantita":2,
-    "difficolta":4
-  },
-  {
-    "name":"Gnocchi",
-    "img":"/img/catalogo/primi/gnocchi.jpeg",
-    "allergeni":"glutine, uova, latte",
-    "ingredienti":"pasta all'uovo,pancetta",
-    "abbinamenti":"vino rosso",
-    "prezzo":20,
-    "quantita":2
   }
+
 ]

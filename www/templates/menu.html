@@ -18,26 +18,60 @@
     </ion-header-bar>
     <ion-content>
       <ion-list>
+
         <ion-item menu-close href="#/app/home">Home</ion-item>
         <ion-item menu-close ng-click="login()">
           Login
         </ion-item>
-        <ion-item menu-close href="#/app/comanda">
-          Registratore di Cassa
-        </ion-item>
-        <ion-item menu-close href="#/app/configCash">
-          Impostazioni Cassa
-        </ion-item>
-        <ion-item menu-close href="#/app/catalogo">
-          MySTORE
-        </ion-item>
-        <ion-item menu-close href="#/app/comanda">
-          Comanda
-        </ion-item>
+        <div class="item item-icon-left item-divider">
+          <i class="icon ion-ios-calculator-outline"></i>  Registratore di cassa:
+        </div>
+                  <ion-item menu-close href="#/app/catalogo">
+                    MySTORE
+                  </ion-item>
+                  <ion-item menu-close href="#/app/comanda">
+                    Registratore di Cassa
+                  </ion-item>
+                  <ion-item menu-close href="#/app/configCash">
+                    Impostazioni Cassa
+                  </ion-item>
+                  <ion-item menu-close href="#/app/fattura">
+                    Fattura
+                  </ion-item>
+        <div class="item item-icon-left item-divider">
+          <i class="icon ion-android-restaurant"></i>  Ristorazione:
+        </div>
+                  <ion-item menu-close href="#/app/comanda">
+                    Comanda
+                  </ion-item>
+                  <ion-item menu-close href="#/app/disponibilita">
+                    Disponibilità tavoli
+                  </ion-item>
+        <div class="item item-icon-left item-divider">
+          <i class="icon ion-clipboard"></i>  Ricettario:
+        </div>
+                  <ion-item menu-close href="#/app/elencoRicette">
+                    Ricette
+                  </ion-item>
+                  <ion-item menu-close href="#/app/vini">
+                    Vini
+                  </ion-item>
+                  <ion-item menu-close href="#/app/ingredienti">
+                    Ingredienti
+                  </ion-item>
+                  <ion-item menu-close href="#/app/ingrediente">
+                    Prodotto
+                  </ion-item>
+        <div class="item item-icon-left item-divider">
+          <i class="icon ion-map"></i>  Percorsi del gusto:
+        </div>
 
-        <ion-item menu-close href="#/app/disponibilità">
-          Disponibilità tavoli
-        </ion-item>
+
+        <div class="item item-icon-left item-divider">
+            <i class="icon ion-leaf"></i>  Il tuo orto:
+        </div>
+
+
       </ion-list>
     </ion-content>
   </ion-side-menu>

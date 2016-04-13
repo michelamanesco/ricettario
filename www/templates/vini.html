@@ -5,14 +5,14 @@
     <div class="row responsive-sm">
       <ion-list>
 
-        <ion-item class="item vino" ng-repeat="wine in vini" style="background-image:url('{{wine.img}}');">
+        <ion-item class="item vino" ng-repeat="wine in vini" ui-sref="app.vino({id:wine.id})" style="background-image:url('{{wine.img}}');">
           <div class="goodName">{{wine.name}}<br></div>
 
             <span class="winesDashboard button button-light">
                 <span ng-show="wine.year">y {{wine.year}}</span>
               - <span ng-show="wine.gradation"><i class="icon ion-wineglass"></i> {{wine.gradation}}%</span>
               - <span ng-show="wine.temperatura"><i class="icon ion-thermometer"></i> {{wine.temperatura}}°C</span>
-              - <span ng-show="wine.origin[0].contry"><i class="ion-ios-location"></i> {{wine.origin[0].contry}}</span>
+              - <span ng-show="wine.origin.country"><i class="ion-ios-location"></i> {{wine.origin.country}}</span>
             </span>
 
           <!--
