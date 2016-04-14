@@ -89,14 +89,34 @@ angular.module('starter.controllers', [])
   })
   .controller('ingredientiController',function($scope,$http){
     $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingredienti) {
-      $scope.ingrediente=ingredienti.data[0];
+      $scope.list=ingredienti.data;
     });
   })
   .controller('ingredienteController',function($scope,$http){
-      $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingrediente) {
+    $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingrediente) {
       $scope.ingrediente=ingrediente.data[0];
     });
   })
+
+
+.controller('listaSpesaController',function($scope){
+   $scope.aggiungiSpesa=function()  {
+     this.ingrediente.push(
+         {
+           name:this.name,
+           img:this.img
+          });
+   };
+    $scope.ingrediente=[];
+   })
+
+//.controller('goodController',function($scope,$http){
+//   $http.get("data/ricette.json").then(function(list) {
+//     $scope.list=list.data;
+//    });
+//  })
+    //
+
 
 
 

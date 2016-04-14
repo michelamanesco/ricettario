@@ -91,6 +91,27 @@
           "img":"http://www.lacucinadellapallina.it/wp-content/uploads/2015/03/zuppa-patate-e-bietole_4.jpg"
         }
       ]
+    },
+    {
+      "id":"5",
+      "img":"img/ingredienti/carota.jpg",
+      "name": "carota",
+      "description":"E' una pianta erbacea dal fusto di colore verde appartenente alla famiglia delle Apiaceae; è anche uno dei più comuni ortaggi; il suo nome deriva dal greco Karotón. La carota spontanea è diffusa in Europa, in Asia e nel Nord Africa. Ne esistono molte e diverse cultivar che sono coltivate in tutte le aree temperate del globo.Allo stato spontaneo è considerata pianta infestante e si trova facilmente in posti assolati ed in zone aride e sassose ma anche in tutti gli ambienti rurali e perfino alle periferie cittadine.",
+      "group":"ortaggi",
+      "allergeni":"carota",
+      "period":"",
+      "origin":"",
+      "abbinamenti":
+      [
+      ],
+      "ricette":
+      [
+        {
+          "id":"8",
+          "name":"zuppa carote",
+          "img":""
+        }
+      ]
     }
 
 ]

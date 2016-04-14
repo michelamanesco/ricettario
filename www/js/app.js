@@ -31,15 +31,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     templateUrl: 'templates/menu.html',
     controller: 'AppCtrl'
   })
-
-  .state('app.search', {
-    url: '/search',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/search.html'
-      }
-    }
-  })
   .state('app.home', {
     url: '/home',
     views: {
@@ -48,9 +39,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
-
-
   .state('app.codStore', {
     url: '/codStore',
     views: {
@@ -59,7 +47,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
   .state('app.myStore', {
     url: '/myStore',
     views: {
@@ -68,7 +55,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
   .state('app.configCash', {
     url: '/configCash',
     views: {
@@ -77,7 +63,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
   .state('app.configTables', {
     url: '/configTables',
     views: {
@@ -87,7 +72,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
   .state('app.configWaiters', {
     url: '/configWaiters',
     views: {
@@ -96,7 +80,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
   .state('app.waiter', {
     url: '/waiter',
     views: {
@@ -206,7 +189,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/ingredienti',
     views: {
       'menuContent': {
-        templateUrl: 'templates/frigo.html',
+        templateUrl: 'templates/ingredienti.html',
         controller:'ingredientiController'
       }
     }
@@ -220,21 +203,22 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
-
-
-
-
-
-
-  .state('app.browse', {
-      url: '/browse',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/browse.html'
-        }
+  .state('app.slide', {
+    url: '/slide',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/slide.html'
       }
-    })
+    }
+  })
+  .state('app.frigo', {
+    url: '/frigo',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/frigo.html'
+      }
+    }
+  })
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/elencoRicette');
