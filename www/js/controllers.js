@@ -97,6 +97,14 @@ angular.module('starter.controllers', [])
       $scope.ingrediente=ingrediente.data[0];
     });
   })
+  .controller('groupsController',function($scope,$http){
+    $http.get("http://localhost:8100/data/groups.json").then(function(groups) {
+      $scope.list=groups.data;
+    });
+  })
+
+
+
 
 
 .controller('listaSpesaController',function($scope){

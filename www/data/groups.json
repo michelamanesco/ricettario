@@ -1,0 +1,46 @@
+[
+  {
+    "id":1,
+    "group":"CARNE, PESCI E UOVA",
+    "img":"img/groups/carne.jpg",
+    "description":"Cibi proteici di origine animale. Include carni fresche (cunicole, aviarie, bovine, equine, suine, ovine, selvaggina ecc.) frattaglie, pesci di acqua dolce e salata, altri prodotti della pesca e tutte le uova. Apportano proteine ad alto valore biologico, ferro biodisponibile, vitamine del gruppo B (tiamina, riboflavina, niacina e cobalamina). Apportano anche notevoli quantità di colesterolo e grassi saturi che NON sono nutrienti salutari se introdotti in eccesso, soprattutto in presenza di patologie metaboliche."
+  },
+  {
+    "id":2,
+    "group":"LATTE E DERIVATI",
+    "img":"img/groups/formaggio.jpg",
+    "description":"Include tutti i tipi di latte, anche quello condensato e in polvere, e tutti i derivati di lavorazione. Anch'essi forniscono proteine ad alto valore biologico, ma a differenza del gruppo I contengono poco ferro e tanto calcio e fosforo.Apportano anche notevoli quantità di colesterolo e grassi saturi che NON sono nutrienti salutari se introdotti in eccesso o in presenza di patologie metaboliche."
+  },
+  {
+    "id":3,
+    "group":"CEREALI E DERIVATI, TUBERI",
+    "img":"img/groups/cereali.jpg",
+    "description":"Include il pane, i prodotti da forno, i biscotti, la pasta alimentare, le farine, i fiocchi per la prima colazione e le patate (compresa quella americana). Apportano elevate quantità di amido, le proteine sono di medio valore biologico ma possono essere compensate da quelle dei legumi. Sono da prediligere i cereali integrali per il maggior contenuto di fibra alimentare, di magnesio e di niacina. Alcuni cereali contengono glutine, un peptide che può determinare ipersensibilità da intolleranza alimentare (anche immuno-mediata!) sulla base di predisposizioni patologiche."
+  },
+  {
+    "id":4,
+    "group":"LEGUMI",
+    "img":"img/groups/legumi.jpg",
+    "description":"Sono legumi i fagioli, le lenticchie, le fave, i piselli, i ceci, la soia, i lupini, le cicerchie ecc. Forniscono proteine di medio valore biologico, amido (meno dei cereali), vitamine del gruppo B, molti sali minerali (tra i quali anche ferro poco biodisponibile) e fibra alimentare.Anche le arachidi sono legumi ma il relativo contenuto nutrizionale non è sovrapponibile a quello del gruppo IV."
+  },
+  {
+    "id":5,
+    "group":"GRASSI E OLI DA CONDIMENTO",
+    "img":"img/groups/oli.jpg",
+    "description":"Comprende burro, olio d'oliva e di semi, margarina, lardo, strutto ecc. Contengono soprattutto grassi di ogni genere e relative vitamine liposolubili (A-D-E-K); dal punto di vista metabolico, alcuni lipidi sono più salutari (acidi grassi polinsaturi) mentre altri, se introdotti in eccesso, possono risultare nocivi (acidi grassi saturi e colesterolo). Per ottenere un buon rapporto tra i grassi nella dieta è opportuno prediligere gli oli vegetali a elevato contenuto di acidi grassi polinsaturi (soia, extravergine d'oliva ecc.) e limitare burro, lardo, strutto ecc., poiché contengono molto colesterolo e, come i grassi idrogenati, tendono ad alzare la produzione di quello endogeno. Ricordiamo che i lipidi sono i macronutrienti più calorici (9kcal/g) e devono rappresentare il 25-30% delle kcal totali, pertanto, se introdotti in eccesso possono favorire il sovrappeso e l'obesità."
+  },
+  {
+    "id":6,
+    "group":"ORTAGGI E FRUTTA - VITAMINA A",
+    "img":"img/groups/ortaggi.jpg",
+    "description":"Appartengono a questo gruppo le carote, le albicocche, i kaki, il melone, la zucca, i peperoni gialli e verdi, gli spinaci, la bieta, le foglie di rapa, la cicoria, i broccoli, l'indivia, la lattuga ecc.; quindi ortaggi e frutta di colore giallo, verde e arancione. Forniscono soprattutto carotenoidi, ottimi antiossidanti e provitamine di tipo A; apportano anche molta acqua, fibre, sali minerali (molto potassio) e glucidi semplici (soprattutto nella frutta e nelle carote).E' opportuno prediligere i prodotti di stagione."
+  },
+  {
+    "id":7,
+    "group":"ORTAGGI E FRUTTA - VITAMINA C",
+    "img":"img/groups/agrumi.jpg",
+    "description":"Fanno parte di questo insieme le arance, i limoni, i pompelmi, i kiwi, l'ananas, le fragole, i pomodori, i broccoli, il cavolfiore, il cavolo, il cavolo cappuccio, la lattuga da taglio ecc; in definitiva,tutti gli ortaggi a gemma e la frutta acidula. Se mangiati crudi, assicurano elevate quantità di vitamina C (ma non solo), sali minerali, fibra e acqua. Come sopra, interessante la quantità di zuccheri semplici della frutta.E' opportuno prediligere i prodotti di stagione"
+  }
+
+]
+

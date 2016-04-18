@@ -215,10 +215,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/frigo',
     views: {
       'menuContent': {
-        templateUrl: 'templates/frigo.html'
+        templateUrl: 'templates/frigo.html',
+        controller:'groupsController'
       }
     }
   })
+
+
+
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/elencoRicette');

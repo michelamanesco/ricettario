@@ -1,0 +1,26 @@
+<ion-view title="{{groups.name}}"  id="group">
+    <ion-content>
+        <ion-list>
+
+            <ion-item class="item-image">
+                <img ng-src="{{groups.img}}">
+            </ion-item>
+            <i class="favorite icon ion-ios-heart"></i>
+
+            <div class="item item-icon-left item-divider" ng-hide="group.description==null">
+                <i class="icon ion-ios-list-outline"></i>  Descrizione:
+            </div>
+            <div ng-show="group.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{group.description}}</div>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-clipboard"></i>Ricetta:
+            </div>
+            <ion-item>
+              <span ng-repeat="ricetta in good.method">
+              <IMG ng-show="ricetta.img" ng-src="{{ricetta.img}}" style="width:100%"><br>  {{ricetta.step}}<br></span>
+            </ion-item>
+
+        </ion-list>
+
+    </ion-content>
+</ion-view>

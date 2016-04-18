@@ -1,4 +1,43 @@
-<ion-view view-title="frigo" id="frigo">
+<!--
+<style>
+    #sfFrigo
+        {
+        background-image: url("../img/frigo-600x465.jpg");
+        background-repeat: no-repeat;
+        width:100%;
+        height: auto;
+
+        }
+</style>
+-->
+
+<ion-view view-title="Gruppi Alimenti" id="frigo">
+    <i class="ion ion-android-options"></i>
+
+    <ion-content id="sfFrigo">
+        <ion-list>
+            <ion-item class="item ricetta item-icon-right" ng-repeat="group in list" ui-sref="app.ingredienti({id:group.id})" style="background-image:url('{{group.img}}')">
+                <div class="goodName">{{group.group}}<br></div>
+                <!--<div class="groupDescription item item-icon-right">{{group.description}}</div>
+                <i class="icon ion-chevron-right"  ui-sref="app.group({group.description})"></i>-->
+               <!-- <span class="goodKcal"><i class="ion ion-ios-eye"></i></span>-->
+                <span class="groupDescription item item-icon-right" ui-sref="app.group({group.description})">{{group.description}}
+                    <i class="icon ion-chevron-right"  ></i>
+                </span>
+            </ion-item>
+           <!-- <ion-item class="groupDescription item item-icon-right">
+                <span>{{group.description}}</span>
+                <i class="icon ion-chevron-right"  ui-sref="app.group({group.description})"></i>
+            </ion-item>-->
+
+
+        </ion-list>
+        
+    </ion-content>
+    <ion-footer>
+        <p style="font-size: 4px; color: darkgray;">Bibliografia: Cibo e salute –S. Rodato, I. Gola – Clitt - pag 158:201.</p>
+    </ion-footer>
+        <!--
     <ion-content scroll="false">
         <ion-slides  options="">
             <ion-slide-page>
@@ -9,7 +48,8 @@
             </ion-slide-page>
             <ion-slide-page>
                 <div class="box"><h1>Dispensa</h1></div>
-            </ion-slide-page>
+            </ion-slide-page>cla
         </ion-slides>
     </ion-content>
+    -->
 </ion-view>
