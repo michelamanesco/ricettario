@@ -87,7 +87,8 @@ angular.module('starter.controllers', [])
       $scope.vino=wines.data[0];
     });
   })
-  .controller('ingredientiController',function($scope,$http){
+  .controller('ingredientiController',function($scope,$http,$state){
+      $scope.gruppo=$state.params.gruppo;
     $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingredienti) {
       $scope.list=ingredienti.data;
     });

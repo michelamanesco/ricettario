@@ -15,7 +15,7 @@
                 <i class="icon ion-ios-nutrition"></i>  Ortaggi:
             </div>
 
-            <ion-checkbox ng-model="prova" class="item-avatar" ng-repeat="ingrediente in list">
+            <ion-checkbox ng-model="prova" class="item-avatar" ng-repeat="ingrediente in list|filter:{groupId:gruppo}">
                 <img ng-src="{{ingrediente.img}}">
                 <h2>{{ingrediente.name}}</h2>
                 <p ng-hide="ingrediente.description==null">{{ingrediente.description}}</p>
@@ -31,11 +31,11 @@
 
         <div class="row">
 
-            <button class="button button-block button-calm col-50" ui-sref="" ng-click="listaSpesaController()" style="margin-top:-4px; margin:2px">
+            <button class="button button-block button-calm col-50" style="margin-top:-4px; margin:2px">
                 <i class="icon ion-ios-bookmarks" ></i>  Salva lista spesa
             </button>
 
-            <button class="button button-block button-positive col-50" ui-sref="" ng-click="" style="margin-top:-4px; margin:2px">
+            <button class="button button-block button-positive col-50" ng-click="" style="margin-top:-4px; margin:2px">
                 <i class="icon ion-android-restaurant" ></i>  Cerca ricette
             </button>
 

@@ -16,12 +16,12 @@
 
     <ion-content id="sfFrigo">
         <ion-list>
-            <ion-item class="item ricetta item-icon-right" ng-repeat="group in list" ui-sref="app.ingredienti({id:group.id})" style="background-image:url('{{group.img}}')">
+            <ion-item class="item ricetta item-icon-right" ng-repeat="group in list" ui-sref="app.ingredienti({gruppo:group.id})" style="background-image:url('{{group.img}}')">
                 <div class="goodName">{{group.group}}<br></div>
                 <!--<div class="groupDescription item item-icon-right">{{group.description}}</div>
                 <i class="icon ion-chevron-right"  ui-sref="app.group({group.description})"></i>-->
                <!-- <span class="goodKcal"><i class="ion ion-ios-eye"></i></span>-->
-                <span class="groupDescription item item-icon-right" ui-sref="app.group({group.description})">{{group.description}}
+                <span class="groupDescription item item-icon-right">{{group.description}}
                     <i class="icon ion-chevron-right"  ></i>
                 </span>
             </ion-item>

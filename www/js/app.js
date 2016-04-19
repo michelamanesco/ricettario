@@ -186,7 +186,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
   .state('app.ingredienti', {
-    url: '/ingredienti',
+    url: '/ingredienti/:gruppo',
     views: {
       'menuContent': {
         templateUrl: 'templates/ingredienti.html',
