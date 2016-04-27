@@ -1,0 +1,39 @@
+[
+  {
+    "id":"1",
+    "name":"Biella",
+    "view":{"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biella-Panorama_da_Chiavazza.JPG/2000px-Biella-Panorama_da_Chiavazza.JPG"},
+    "coordinate":
+            [
+              {"latitudine":
+               {"gradi":"45","secondi":"33","primi":"59","direzione":"N"}
+              },
+              {"longitudine":
+               {"gradi":"8","secondi":"03","primi":"12","direzione":"E"}
+              }
+            ],
+    "altitudine":{"420":"mt","position":"s.l.m."},
+    "superficie":"",
+    "description":"Biella (IPA: ['bjɛl:a], Bièla ['bjɛla] in piemontese) è un comune italiano di 44 763 abitanti[2], capoluogo dell'omonima provincia nel Piemonte settentrionale. La città è situata ai piedi delle Alpi Biellesi, e la sua esistenza è attestata sin dall'alto Medioevo. Dominata in seguito dai vescovi di Vercelli, nel 1379 passò ai Savoia. Nel corso dell'Ottocento Biella conobbe un grande sviluppo urbanistico e industriale, divenendo presto nota per le sue industrie tessili. Numerose sono le testimonianze storiche e artistiche del suo passato; tra le più importanti si ricordano il battistero, la cattedrale, il campanile di Santo Stefano e numerose ville e palazzi.",
+    "pointView":
+            [
+              {"nomeP":"battistero",
+               "imgP":
+                  [
+                    {"view":"https://it.wikipedia.org/wiki/Biella#/media/File:Biella_battistero-municipio.jpg"},
+                    {"view":"https://it.wikipedia.org/wiki/Battistero_di_Biella#/media/File:Battistero_Biella-1.jpg"},
+                    {"view":"http://archeocarta.org/wp-content/uploads/2014/10/biella_battistero_pianta.jpg"}
+                  ],
+               "descriptionP":"Si tratta di un antico edificio sorto sulle rovine di un preesistente sepolcreto pagano tardo-romano costruito a partire dal IX secolo e successivamente ampliato. Il Battistero presenta una struttura in stile prettamente romanico, costruita in ciottoli locali misti a parti in laterizio, a base quadrangolare avente un'abside semicircolare su ciascuno dei lati, separati dai quattro pilastri angolari che sorreggono il tiburio a pianta ottagonale, in conformità con la tradizione Cristiana. Al di sotto del livello del terreno si trova una cripta a croce greca scavata nel 1791. La struttura è sormontata da una esile lanterna ad uso campanario ornata di bifore sui quattro lati; il tiburio è invece caratterizzato da una monofora per ciascuna faccia del prisma ottagonale che lo compone, mentre ciascuna abside è ornata da tre monofore, ad eccezione di quella frontale, dove la monofora centrale è sostituita dalla porta d'accesso. Detta porta è resa celebre dal Bassorilievo di età tardo romana scolpito su peoca dal soggetto discusso ma certamente pagano. Il bassorilievo è stato con ogni probabilità recuperato dalle sottostanti tombe romane ed ha, in passato, indotto un grande numero di storici a credere che l'intera struttura fosse riadattata da un edificio pagano. L'aspetto dell'edificio è ingentilito dalle mensole che sorreggono le sporgenze del tetto dell'edificio. All'interno sono presenti degli affreschi attribuiti al Maestro di Oropa dipinti tra il 1318 e il 1319."
+              }
+            ],
+    "population":"45.000",
+    "curiosità":"",
+    "prodotti":"",
+    "ricette":
+        [
+          {"name":"Bonet piemontese"},
+          {"name":"Bagna Cauda"}
+        ]
+  }
+]

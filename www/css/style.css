@@ -151,7 +151,7 @@
 ==========================
 */
 
-#ricetta .favorite, #frigo .favorite, #ingrediente .favorite
+#ricetta .favorite, #frigo .favorite, #ingrediente .favorite, #luogo .favorite
   {
   color: red;
   position: absolute;

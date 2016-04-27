@@ -103,7 +103,11 @@ angular.module('starter.controllers', [])
       $scope.list=groups.data;
     });
   })
-
+    .controller('luogoController',function($scope,$http){
+      $http.get("http://localhost:8100/data/luoghi.json").then(function(luogo) {
+        $scope.luogo=luogo.data[0];
+      });
+    })
 
 
 

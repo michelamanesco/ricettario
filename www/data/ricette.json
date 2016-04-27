@@ -1,40 +1,38 @@
 [
   {
     "id":1,
-    "name":"Spaghetti carbonara",
-    "img":"/img/catalogo/primi/cannelloni.jpg",
+    "name":"Acciughe in verde",
+    "categoria":"antipasti",
+    "img":"/img/catalogo/antipasti/acciughe.png",
     "allergeni":[
-      {"nome":"glutine","img":"http://okceliachia.it/wp-content/uploads/2016/02/glutine.png"},
+      {"nome":"","img":"http://okceliachia.it/wp-content/uploads/2016/02/glutine.png"},
       {"nome":"uova"},
       {"nome":"latte"}
     ],
     "persone":4,
-    "tempo":40,
+    "tempo":30,
     "kcal":300,
     "difficolta":3,
     "ingredienti": [
-      {"nome":"pasta all'uovo","dose":"400","um":"gr"},
-      {"nome":"pancetta","dose":"200","um":"gr"},
+      {"nome":"acciughe","dose":"20","um":"n"},
+      {"nome":"prezzemolo","dose":"1","um":"mazzo"},
       {"nome":"grana padano","dose":"100","um":"gr"},
-      {"nome":"pecorino","dose":"100","um":"gr"},
-      {"nome":"sale","dose":"","um":"qb"},
-      {"nome":"pepe","dose":"","um":"qb"}
+      {"nome":"tuorlo d'uovo","dose":"2","um":"n"},
+      {"nome":"aglio","dose":"3","um":"spicchi"},
+      {"nome":"basilico","dose":"0,5","um":"mazzo"},
+      {"nome":"peperoncino","dose":"1","um":"n"},
+      {"nome":"olio d'oliva","dose":"","um":"qb"}
     ],
     "abbinamenti":[
-      {"nota":"Panissa: questa pietanza si abbina con Vino Rosso Fermo, di medio corpo, anche Novello in particolare con vini prodotti in Piemonte."},
-      {"nome":"vino rosso"},
-      {"nome":"Chianti"},
-      {"nome":"Barbera"},
-      {"nome":"San Giovese"},
+      {"nota":""},
       {"nome":"Brunello"}
     ],
     "method": [
-      {"step":"pulire le verdure per il soffritto","img":""},
-      {"step":"portare a ebollizione acqua salata"},
-      {"step":"soffriggere verdure con la pancetta in una padella con un velo di olio EVO", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_1-3.jpg"},
-      {"step":"buttare la pasta in acqua salata e bollire 4 min", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_4-6.jpg"},
-      {"step":"scolare e unire la pasta all'uovo sbattuto e la pancetta", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_ok_strip_10-12.jpg"}
-    ],
+      {"step":"prendere delle acciughe carnose sotto sale, pulirle dal sale, aprirle e dislicarle.","img":""},
+      {"step":"a parte preparare un sugo composto di prezzemolo, aglio, basilico, peperoncino, rossi d'uovo sodi, finemente tritati e ammalgamnati con olio e aceto."},
+      {"step":"nel piccolo piatto di portata porre le acciughe pulite e copritele con la salsa; continuare con altre acciughe e così via fino ad esaurimento della salsa che deve coprire bene l'ultimo strato", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_1-3.jpg"},
+      {"step":"lasciare riposare 4-6 ore prima di servire.", "img":"http://ricette.giallozafferano.it/images/ricette/0/4/4_spaghetti_alla_carbonara_def_strip_4-6.jpg"}
+      ],
     "origin":
       {
       "territory":"Lazio",
@@ -47,6 +45,7 @@
   {
     "id":2,
     "name":"Panissa Piemontese",
+    "categoria":"primi",
     "img":"http://www.riseriarecarlo.it/wp-content/uploads/2015/11/Ricetta_Panissa.jpg",
     "allergeni":[
       {"nome":"lattosio"}
@@ -101,12 +100,15 @@
   {
     "id":3,
     "name":"Bagna Cauda",
+    "categoria":"secondi",
     "img":"http://atnews.it/images/repertorio/EVENTI_E_MANIFESTAZIONI/bagna-caoda.jpg",
     "allergeni":[
       {"nome":"lattosio"}
     ],
     "persone":4,
-
+    "tempo":40,
+    "kcal":300,
+    "difficolta":2,
     "ingredienti": [
       {"nome":"acciughe rosse di Spagna","dose":"12","um":"n."},
       {"nome":"spicchi d'aglio","dose":"12","um":"n."},
@@ -147,11 +149,53 @@
       "country":"Italy"
       },
     "prezzo":20,
-    "quantita":2,
-    "tempo":40,
-    "kcal":300,
+    "quantita":2
+  },
+  {
+    "id":4,
+    "name":"Bonet piemontese",
+    "categoria":"dessert",
+    "img":"../img/catalogo/dessert/bunet.jpg",
+    "allergeni":[
+      {"nome":"lattosio"},
+      {"nome":"nocciole"},
+      {"nome":"uova"}
+    ],
     "persone":4,
-    "difficolta":3
+    "tempo":40,
+    "kcal":"",
+    "difficolta":1,
+    "ingredienti": [
+      {"nome":"latte","dose":"125","um":"ml"},
+      {"nome":"cacao amaro","dose":"20","um":"gr"},
+      {"nome":"uova","dose":"2","um":"n"},
+      {"nome":"liquore all'amaretto","dose":"2","um":"cucchiai"},
+      {"nome":"zucchero","dose":"160","um":"gr"},
+      {"nome":"caffè bevanda","dose":"1","um":"tazzina"},
+      {"nome":"amaretti","dose":"25","um":"n"}
+    ],
+    "abbinamenti":
+    [
+      {"nota":"."},
+      {"nome":"Moscato d’Asti"}
+    ],
+    "method": [
+      {"step":"Imburrate 6 piccoli stampini in alluminio (o in silicone)."},
+      {"step":"Scaldate una piccola casseruola con 100 g di zucchero e 2 cucchiai d’acqua. Fate caramellare fino ad ottenere una salsa dal color ambrato. Suddividete il caramello che avete ottenuto negli stampini."},
+      {"step":"A parte intiepidite il latte e frullate gli amaretti assieme al cacao fino ad ottenere una polvere fine."},
+      {"step":"Rompete le uova in una ciotola e sbattetele assieme a 60 g di zucchero con le fruste. Aggiungete la polvere di cacao ed amaretti, il liquore, il caffè ristretto e mescolate bene il tutto. Per ultimo, aggiungete il latte caldo a filo."},
+      {"step":"Suddividete il liquido negli stampini. Riponeteli in una teglia dai bordi alti e riempitela per metà d’acqua."},
+      {"step":"Scaldate il forno a 180°C, infornate e cuocete i Bonet a bagnomaria per almeno 30 – 40 minuti."},
+      {"step":"Quando la superficie si sarà solidificata, sfornate i Bonet e sformateli sui piattini da portata. Decorateli con amaretti interi, lasciateli leggermente intiepidire e servite."}
+    ],
+    "curiosità":"Si scrive Bonet ma di pronuncia Bùnet, questo goloso dessert al cucchiaio tipico del Piemonte. Il termine bonèt in dialetto piemontese  significa berretto, e secondo la tradizione, il dolce ne ha preso il nome poiché si usava servirlo a fine pasto, come cappello a tutto ciò che si è mangiato.",
+    "origin":
+      {
+      "territory":"Piemonte",
+      "country":"Italy"
+      },
+    "prezzo":3,
+    "quantita":2
   }
 
 ]

@@ -220,7 +220,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
+  .state('app.luogo', {
+    url: '/luogo',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/luogo.html',
+        controller:'luogoController'
+      }
+    }
+  })
 
 
 
