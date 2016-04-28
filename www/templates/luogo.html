@@ -1,6 +1,6 @@
-
+<!--
 <ion-view title="{{luogo.name}}"  id="luogo">
-   <ion-content>
+   <ion-content >
 
                     <ion-list>
                        <ion-item class="item-image">
@@ -12,7 +12,7 @@
                             <i class="icon ion-map"></i>DOVE
                         </div>
                         <div class="row">
-                            <div class="col col-25"><img ng-src="{{luogo.imgFlag}}" style="max-height:20px"></div>
+                            <div class="col col-25"><img class="imgFlag" ng-src="{{luogo.imgFlag}}"></div>
                             <div class="col col-25">{{luogo.country}}</div>
                             <div class="col col-25">{{luogo.territory}}</div>
                             <div class="col col-25">{{luogo.city}}</div>
@@ -34,11 +34,11 @@
    </ion-content>
 </ion-view>
 
+-->
 
-<!--
 
 <ion-view title="{{luogo.name}}"  id="luogo">
-    <ion-content>
+    <ion-content  scroll="false">
 
         <ion-slides>
             <ion-slide-page>
@@ -69,18 +69,19 @@
                            <i class="icon ion-ios-list-outline"></i>  Descrizione:
                        </div>
                        <div ng-show="luogo.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{luogo.description}}</div>
-                   </ion-list>
+
+                    </ion-list>
                 </ion-content>
             </ion-slide-page>
 
             <ion-slide-page>
                 <ion-content>
+
                   <h4>PROVA</h4>
+
                 </ion-content>
             </ion-slide-page>
         </ion-slides>
 
     </ion-content>
 </ion-view>
-
--->

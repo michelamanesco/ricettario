@@ -243,11 +243,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
   // APP museo x Vittorio //
 .state('app.autore', {
-  url: '/autore/:id',
+  url: '/autore',
   views: {
     'menuContent': {
-      templateUrl: 'templates/author.html',
-      controller:'autoreController'
+      templateUrl: 'templates/author.html'
+     // controller:'autoreController'
     }
   }
 })

@@ -152,7 +152,7 @@ angular.module('starter.controllers', [])
 
 
 // APP museo x Vittorio //
-    .controller('autoreController',function($scope,$http,$state){
+    .controller('3autoreController',function($scope,$http,$state){
       $http.get("http://localhost:8100/data/authors.json").then(function(obj) {
         var list = obj.data;
         angular.forEach(list,function(item){

@@ -7,14 +7,14 @@
 	"birth":{
 	  "date":"1842-12-31",
 	  "city":"Ferrara",
-	  "country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png",
+	  "country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 		},
 	"die":{
 	  "date":"1931-11-01",
 	  "city":"Paris",
 	  "country":"FR"
-		}
-
+		},
+	"story":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor scelerisque lacus id maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eu faucibus libero, vitae pellentesque nulla. Donec eleifend lectus at elit porta cursus. Vestibulum pretium maximus venenatis. Mauris ultricies nibh id urna commodo bibendum. Praesent sit amet tempor quam, at finibus elit. Nullam quis ligula pulvinar, pretium risus sed, iaculis arcu. Vivamus tristique cursus luctus. Quisque id risus tellus. Donec lacus risus, pulvinar vel neque at, laoreet tempor urna. Sed vel nisi risus. Sed lacinia mattis metus tempus iaculis.Nulla ut urna eget felis volutpat facilisis vitae non ligula. Nam vitae ligula vitae metus tincidunt rutrum. Vestibulum ac metus massa. Aenean ut facilisis felis. Nullam elit nibh, vestibulum non neque vitae, scelerisque imperdiet quam. Morbi molestie lacus sit amet mattis mollis. Morbi eu tortor at arcu malesuada ultrices at in dui. Ut eu porttitor eros. Nam id molestie ante. Phasellus aliquam id risus interdum pulvinar. Nulla condimentum suscipit imperdiet. Praesent cursus pulvinar eleifend. Donec vel sapien vel metus aliquet interdum fermentum at erat. Aliquam gravida sollicitudin porta. In ultrices lorem vitae ornare maximus. Quisque auctor lorem in ante luctus vehicula."
 	},
 	{
 	"id":12,

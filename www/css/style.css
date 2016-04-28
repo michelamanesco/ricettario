@@ -299,3 +299,19 @@
   {
   text-align: center;
   }
+
+
+
+
+/*
+==========================
+   CSS   generale
+==========================
+*/
+
+
+/* scheda autore  e scheda luoghi */
+.imgFlag
+{
+  max-height:20px;
+}
