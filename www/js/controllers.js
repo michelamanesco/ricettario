@@ -72,21 +72,48 @@ angular.module('starter.controllers', [])
         $scope.list=list.data;
       });
   })
-  .controller('ricettaController',function($scope,$http){
-    $http.get("http://localhost:8100/data/ricette.json").then(function(item) {
-      $scope.good=item.data[0];
+  .controller('ricettaController',function($scope,$http,$state){
+    $http.get("http://localhost:8100/data/ricette.json").then(function(obj) {
+      var list = obj.data;
+
+      /* soluzione angular*/
+      angular.forEach(list,function(item){
+        if(item.id==$state.params.id)
+          $scope.good = item;
+      });
+
+      /* soluzione javascript*/
+      /*for(i in list){
+        var item = list[i];
+        if(item.id==$state.params.id) {
+          $scope.good = item;
+          return;
+        }
+      }*/
     });
+
   })
   .controller('viniController',function($scope,$http) {
     $http.get("http://localhost:8100/data/vini.json").then(function(wines) {
       $scope.vini=wines.data;
     })
   })
-  .controller('vinoController',function($scope,$http){
+  .controller('vinoController',function($scope,$http,$state){
     $http.get("http://localhost:8100/data/vini.json").then(function(wines) {
-      $scope.vino=wines.data[0];
+      var list = wines.data;
+      angular.forEach(list,function(item){
+        if(item.id==$state.params.id)
+          $scope.vino=item;
+      });
     });
   })
+    /*
+     .controller('vinoController',function($scope,$http){
+     $http.get("http://localhost:8100/data/vini.json").then(function(wines) {
+     $scope.vino=wines.data[0];
+     });
+     })
+     */
   .controller('ingredientiController',function($scope,$http,$state){
       $scope.gruppo=$state.params.gruppo;
     $http.get("http://localhost:8100/data/ingredienti.json").then(function(ingredienti) {
@@ -123,19 +150,23 @@ angular.module('starter.controllers', [])
     $scope.ingrediente=[];
    })
 
-//.controller('goodController',function($scope,$http){
-//   $http.get("data/ricette.json").then(function(list) {
-//     $scope.list=list.data;
-//    });
-//  })
-    //
 
+// APP museo x Vittorio //
+    .controller('autoreController',function($scope,$http,$state){
+      $http.get("http://localhost:8100/data/authors.json").then(function(obj) {
+        var list = obj.data;
+        angular.forEach(list,function(item){
+          if(item.id==$state.params.id)
+            $scope.autore = item;
+        });
+      });
+    })
 
-
-
-  .controller('fatturaController',function($scope){
-
-  })
-
+// APP museo x Vittorio //
+    .controller('55autoreController',function($scope,$http){
+      $http.get("http://localhost:8100/data/authors.json").then(function(item) {
+            $scope.list=item.data[0];
+      });
+    })
 
 

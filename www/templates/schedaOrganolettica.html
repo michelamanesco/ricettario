@@ -1,46 +1,46 @@
 <ion-view view-title="{{vino.name}}" id="schedaOrganolettica">
     <ion-content>
-            <h3>Scheda organolettica</h3>
+            <h4 style="text-align: center">Scheda organolettica</h4>
             <div class="item item-icon-left item-divider">
-                <i class="icon ion-ios-eye"></i>  Esame visivo:
+                <i class="icon ion-ios-eye"></i> Esame visivo:
             </div>
             <div class="item item-icon-left">
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameVisivo.limpidezza">limpidezza:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameVisivo.limpidezza">limpidezza:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameVisivo.limpidezza}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameVisivo.colore">colore:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameVisivo.colore">colore:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameVisivo.colore}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameVisivo.consistenza">consistenza:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameVisivo.consistenza">consistenza:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameVisivo.consistenza}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameVisivo.effervescenza">effervescenza:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameVisivo.effervescenza">effervescenza:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameVisivo.effervescenza}}</div>
                 </div>
             </div>
 
             <div class="item item-icon-left item-divider">
-                <i class="icon ion-ios-wineglass"></i>  Esame Olfattivo:
+                <i class="icon ion-ios-infinite"></i>  Esame Olfattivo:
             </div>
             <div class="item item-icon-left">
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameOlfattivo.intensita">intensita:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameOlfattivo.intensita">intensita:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameOlfattivo.intensita}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameOlfattivo.complessita">complessita:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameOlfattivo.complessita">complessita:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameOlfattivo.complessita}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameOlfattivo.consistenza">qualita:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameOlfattivo.consistenza">qualita:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameOlfattivo.consistenza}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameOlfattivo.effervescenza">descrizione:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameOlfattivo.effervescenza">descrizione:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameOlfattivo.effervescenza}}</div>
                 </div>
             </div>
@@ -50,68 +50,81 @@
             </div>
             <div class="item item-icon-left">Morbidezza:
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.zuccheri">zuccheri:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.zuccheri">zuccheri:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.zuccheri}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.alcoli">alcoli:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.alcoli">alcoli:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.alcoli}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.polialcoli">polialcoli:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.polialcoli">polialcoli:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.morbidezza.polialcoli}}</div>
                 </div>
             </div>
             <div class="item item-icon-left">Durezza:
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.durezza.acidi">acidi:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.durezza.acidi">acidi:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.durezza.acidi}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.durezza.tanniti">tanniti:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.durezza.tanniti">tanniti:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.durezza.tanniti}}</div>
                 </div>
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.durezza.sostanze_minerali">sostanze<br>minerali:</div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.durezza.sostanze_minerali">sostanze<br>minerali:</div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.durezza['sostanze_minerali']}}</div>
                 </div>
             </div>
             <div class="item item-icon-left">Struttura Corpo:
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.strutturaCorpo"></div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.strutturaCorpo"></div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.strutturaCorpo}}</div>
                 </div>
             </div>
             <div class="item item-icon-left">Equilibrio:
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.equilibrio"></div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.equilibrio"></div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.equilibrio}}</div>
                 </div>
             </div>
             <div class="item item-icon-left">Intensita:
                 <div class="row">
-                    <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.intensita"></div>
+                    <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.intensita"></div>
                     <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.intensita}}</div>
                 </div>
             </div>
         <div class="item item-icon-left">Persistenza:
             <div class="row">
-                <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.persistenza"></div>
+                <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.persistenza"></div>
                 <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.persistenza}}</div>
             </div>
         </div>
         <div class="item item-icon-left">Qualita:
             <div class="row">
-                <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.qualita"></div>
+                <div class="col organoletticaSottovoci" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.qualita"></div>
                 <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.qualita}}</div>
             </div>
         </div>
 
+
+
+
+        <div class="item item-icon-left item-divider">
+            <i class="icon ion-ios-body"></i> Stato evolutivo:
+        </div>
         <div class="item item-icon-left row">
-                <div class="col" style="text-align: right" ng-show="vino.schedaOrganolettica.esameGustoOlfattivo.qualita">Qualita:</div>
-                <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.esameGustoOlfattivo.qualita}}</div>
+            <div class="col" ng-show="vino.schedaOrganolettica.statoEvolutivo"></div>
+            <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.statoEvolutivo}}</div>
         </div>
 
 
+        <div class="item item-icon-left item-divider">
+            <i class="icon ion-ios-musical-notes"></i> Armonia:
+        </div>
+        <div class="item item-icon-left row">
+            <div class="col" style="text-align: right; color: lightgray" ng-show="vino.schedaOrganolettica.armonia"></div>
+            <div class="col col-75" style="text-align: left">{{vino.schedaOrganolettica.armonia}}</div>
+        </div>
     </ion-content>
 </ion-view>

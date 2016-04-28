@@ -1,0 +1,66 @@
+
+<ion-view title="{{autore.firstName}} - {{autore.lastName}}"  id="autore">
+    <ion-content>
+
+        <ion-list>
+            <ion-item class="item-image">
+                <img ng-src="http://img11.hostingpics.net/pics/816903Angouleme2013IMG4602.jpg">
+            </ion-item>
+            <i class="favorite icon ion-ios-heart"></i>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-map"></i>DOVE
+            </div>
+            <div class="row">
+                <div class="col col-25"><img ng-src="{{autore.img}}" style="max-height:20px"></div>
+                <div class="col col-25">{{autore.firstName}}</div>
+                <div class="col col-25">{{autore.territory}}</div>
+                <div class="col col-25">{{autore.city}}</div>
+            </div>
+
+
+            <div class="item item-icon-left item-divider" ng-hide="autore.coordinate==null">
+                <i class="icon ion-android-globe"></i>  Coordiante:
+            </div>
+            <div  ng-show="autore.coordinate>=1" ng-hide="autore.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
+
+           </ion-list>
+
+
+    </ion-content>
+</ion-view>
+
+
+<!--
+
+        <ion-view title="{{autore.firstName}} - {{autore.lastName}}"  id="autore">
+    <ion-content>
+
+        <ion-list>
+            <ion-item class="item-image">
+                <img ng-src="http://img11.hostingpics.net/pics/816903Angouleme2013IMG4602.jpg">
+            </ion-item>
+            <i class="favorite icon ion-ios-heart"></i>
+
+            <div class="item item-icon-left item-divider">
+                <i class="icon ion-map"></i>DOVE
+            </div>
+            <div class="row">
+                <div class="col col-25"><img ng-src="{{autore.img}}" style="max-height:20px"></div>
+                <div class="col col-25">{{autore.firstName}}</div>
+                <div class="col col-25">{{autore.territory}}</div>
+                <div class="col col-25">{{autore.city}}</div>
+            </div>
+
+
+            <div class="item item-icon-left item-divider" ng-hide="autore.coordinate==null">
+                <i class="icon ion-android-globe"></i>  Coordiante:
+            </div>
+            <div  ng-show="autore.coordinate>=1" ng-hide="autore.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
+
+           </ion-list>
+
+
+    </ion-content>
+</ion-view>
+-->

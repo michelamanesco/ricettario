@@ -1,47 +1,86 @@
 
 <ion-view title="{{luogo.name}}"  id="luogo">
+   <ion-content>
+
+                    <ion-list>
+                       <ion-item class="item-image">
+                           <img ng-src="{{luogo.view.img}}" style="max-height:250px">
+                       </ion-item>
+                           <i class="favorite icon ion-ios-heart"></i>
+
+                        <div class="item item-icon-left item-divider" ng-hide="luogo.country==null">
+                            <i class="icon ion-map"></i>DOVE
+                        </div>
+                        <div class="row">
+                            <div class="col col-25"><img ng-src="{{luogo.imgFlag}}" style="max-height:20px"></div>
+                            <div class="col col-25">{{luogo.country}}</div>
+                            <div class="col col-25">{{luogo.territory}}</div>
+                            <div class="col col-25">{{luogo.city}}</div>
+                        </div>
+
+
+                        <div class="item item-icon-left item-divider" ng-hide="luogo.coordinate==null">
+                           <i class="icon ion-android-globe"></i>  Coordiante:
+                       </div>
+                       <div  ng-show="luogo.coordinate>=1" ng-hide="luogo.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
+
+                       <div class="item item-icon-left item-divider" ng-hide="luogo.description==null">
+                           <i class="icon ion-ios-list-outline"></i>  Descrizione:
+                       </div>
+                       <div ng-show="luogo.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{luogo.description}}</div>
+                   </ion-list>
+
+
+   </ion-content>
+</ion-view>
+
+
+<!--
+
+<ion-view title="{{luogo.name}}"  id="luogo">
     <ion-content>
-        <ion-list>
 
-            <ion-item class="item-image">
-                <img ng-src="{{luogo.view.img}}" style="max-height:250px">
-            </ion-item>
-                <i class="favorite icon ion-ios-heart"></i>
+        <ion-slides>
+            <ion-slide-page>
+                <ion-content>
+                    <ion-list>
+                       <ion-item class="item-image">
+                           <img ng-src="{{luogo.view.img}}" style="max-height:250px">
+                       </ion-item>
+                           <i class="favorite icon ion-ios-heart"></i>
 
-            <ion-item class="dashboard">
-                <span class="goodTempo button button-outline button-dark icon ion-ios-nutrition" ng-show="ingrediente.group>=1" ng-hide="ingrediente.group==null"> {{ingrediente.group}}</span>
-                <span class="goodKcal button button-outline button-assertive icon ion-flame" ng-show="ingrediente.kcal>=1"> {{ingrediente.kcal}}</span>
-                <span class="goodDifficolta button icon ion-calendar" ng-show="ingrediente.period>=1" ng-hide="ingrediente.period==null"> {{ingrediente.period}}</span>
-            </ion-item>
+                        <div class="item item-icon-left item-divider" ng-hide="luogo.country==null">
+                            <i class="icon ion-map"></i>DOVE
+                        </div>
+                        <div class="row">
+                            <div class="col col-25"><img ng-src="{{luogo.imgFlag}}" style="max-height:20px"></div>
+                            <div class="col col-25">{{luogo.country}}</div>
+                            <div class="col col-25">{{luogo.territory}}</div>
+                            <div class="col col-25">{{luogo.city}}</div>
+                        </div>
 
-            <div class="item item-icon-left item-divider" ng-hide="luogo.coordinate==null">
-                <i class="icon ion-android-hand"></i>  Coordiante:
-            </div>
-            <div  ng-show="luogo.coordinate>=1" ng-hide="luogo.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
 
-            <div class="item item-icon-left item-divider" ng-hide="luogo.description==null">
-                <i class="icon ion-ios-list-outline"></i>  Descrizione:
-            </div>
-            <div ng-show="luogo.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{luogo.description}}</div>
+                        <div class="item item-icon-left item-divider" ng-hide="luogo.coordinate==null">
+                           <i class="icon ion-android-globe"></i>  Coordiante:
+                       </div>
+                       <div  ng-show="luogo.coordinate>=1" ng-hide="luogo.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
 
-            <div class="item item-icon-left item-divider">
-                <i class="icon ion-wineglass"></i>  Abbinamenti:
-            </div>
-            <div class="item item-icon-left  item-icon-right" ui-sref="app.vini">
-                <span class="item-text-wrap" ng-repeat="abbinamento in luogo.abbinamenti">{{abbinamento.nota}}</span>
+                       <div class="item item-icon-left item-divider" ng-hide="luogo.description==null">
+                           <i class="icon ion-ios-list-outline"></i>  Descrizione:
+                       </div>
+                       <div ng-show="luogo.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{luogo.description}}</div>
+                   </ion-list>
+                </ion-content>
+            </ion-slide-page>
 
-                <span ng-repeat="abbinamento in luogo.abbinamenti">{{abbinamento.nome}} - </span>
-                <i class="icon ion-chevron-right"  ui-sref="#app/vini"></i>
-            </div>
-
-            <div class="item item-icon-left item-divider">
-                <i class="icon ion-clipboard"></i>Ricette:
-            </div>
-            <ion-item class="item ricetta" ng-repeat="ricetta in ingrediente.ricette" ui-sref="app.ricetta({id:ricetta.id})" style="background-image:url('{{ricetta.img}}');height: 200px; background-size: cover; background-color: transparent">
-                <div class="goodName">{{ricetta.name}}<br></div>
-            </ion-item>
-
-        </ion-list>
+            <ion-slide-page>
+                <ion-content>
+                  <h4>PROVA</h4>
+                </ion-content>
+            </ion-slide-page>
+        </ion-slides>
 
     </ion-content>
 </ion-view>
+
+-->

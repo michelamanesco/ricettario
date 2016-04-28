@@ -5,8 +5,8 @@
         <h5 style="text-align: center;">Cosa c'è nel tuo frigorifero?</h5>
 
         <ion-list>
-            <div class="item item-icon-left item-divider">
-                <i class="icon ion-ios-nutrition"></i>  Ortaggi:
+            <div class="item item-icon-left item-divider" ng-repeat="ingrediente in list|filter:{groupId:gruppo}">
+                <i class="icon ion-ios-nutrition"></i>{{ingrediente.group}}
             </div>
 
             <ion-checkbox ng-model="prova" class="item-avatar" ng-repeat="ingrediente in list|filter:{groupId:gruppo}">

@@ -168,7 +168,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
   .state('app.vino', {
-    url: '/vino',
+    url: '/vino/:id',
     views: {
       'menuContent': {
         templateUrl: 'templates/vino.html',
@@ -229,6 +229,29 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+
+// APP museo x Vittorio //
+//.state('app.autore', {
+      //url: '/autore/:id',
+      //views: {
+      //'menuContent': {
+      //templateUrl: 'templates/author.html',
+      //controller:'autoreController'
+      //}
+      //}
+//})//
+
+  // APP museo x Vittorio //
+.state('app.autore', {
+  url: '/autore/:id',
+  views: {
+    'menuContent': {
+      templateUrl: 'templates/author.html',
+      controller:'autoreController'
+    }
+  }
+})
+
 
 
 

@@ -18,9 +18,9 @@
             <div class="item item-icon-left" ng-hide="vino.abbinamenti[0]==null" ng-show="vino.abbinamenti">{{vino.abbinamenti}}</div>
 
 
-            <a class="item item-icon-right item-icon-left item-divider" ui-sref="app.schedaOragnolettica" ng-hide="vino.schedaOrganolettica[0]==null">
+            <a class="item item-icon-right item-icon-left item-divider" ng-hide="vino.schedaOrganolettica==null" ui-sref="app.schedaOrganolettica"><!--ng-hide="vino.schedaOrganolettica[0]==null"-->
                 <i class="icon ion-ios-pie-outline"></i>  Scheda Organolettica:
-                <i class="icon ion-chevron-right"></i>
+                <i class="icon ion-chevron-right" ui-sref="#app.schedaOrganolettica"></i>
             </a>
 
             <div class="item item-icon-left item-divider" ng-hide="vino.description==null">
@@ -28,37 +28,36 @@
             </div>
                 <div ng-show="vino.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{vino.description}}</div>
 
-            <div class="item item-icon-left item-divider">
+            <div class="item item-icon-left item-divider" ng-hide="vino.origin==null">
                 <i class="icon ion-map"></i>  Origine:
             </div>
             <div class="item item-icon-left" ng-show="vino.origin.country">Stato:   {{vino.origin.country}} </div>
             <div class="item item-icon-left" ng-show="vino.origin.territory">Regione:   {{vino.origin.territory}} </div>
             <div class="item item-icon-left" ng-show="vino.origin.altimetria">Altimetria:   {{vino.origin.altimetria}} mt sopra il livello del mare</div>
 
-            <div class="item item-icon-left item-divider">
+
+            <div class="item item-icon-left item-divider" ng-hide="vino.origin.terreno==null">
                 <i class="icon ion-android-expand"></i>  Terreno:
             </div>
             <div class="item item-icon-left item-text-wrap" ng-show="vino.origin.terreno">{{vino.origin.terreno}}</div>
 
-            <div class="item item-icon-left item-divider">
+
+            <div class="item item-icon-left item-divider" ng-hide="vino.origin.vitigni==null">
                 <i class="icon ion-leaf"></i>  Vitigni:
             </div>
             <div class="item item-icon-left item-text-wrap" ng-show="vino.origin.vitigni">{{vino.origin.vitigni}}</div>
 
-            <div class="item item-icon-left item-divider">
+
+            <div class="item item-icon-left item-divider" ng-show="vino.origin.densitaImpianto">
                 <i class="icon ion-grid"></i> Densità Impianto:
             </div>
             <div class="item item-icon-left item-text-wrap" ng-show="vino.origin.densitaImpianto">{{vino.origin.densitaImpianto}}</div>
 
-            <div class="item item-icon-left item-divider">
-                <i class="icon ion-calendar"></i> Anno Impianto:
+
+            <div class="item item-icon-left item-divider" ng-show="vino.origin.annoImpianto">
+                <i class="icon ion-calendar"></i>Anno Impianto:
             </div>
-            <div class="item item-icon-left" ng-show="vino.origin.annoImpianto">{{vino.origin.annoImpianto}}</div>
-
-
-
-
-
+            <div class="item item-icon-left" ng-show="vino.origin.annoImpianto"> Anno Impianto:  {{vino.origin.annoImpianto}}</div>
 
         </ion-list>
 

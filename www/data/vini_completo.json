@@ -10,12 +10,12 @@
     "origin":
     {
       "altimetria":400,
-      "terreno":"",
-      "vitigni":"",
-      "densitaImpianto":"",
-      "annoImpianto":"",
       "territory":"Piemonte",
-      "country":"Italy"
+      "country":"Italy",
+      "terreno":"terreno di medio impasto caratterizzato da strato di roccia sottostante e pietre calcaree",
+      "vitigni":"Nerello mascalese 50%, Nerello cappuccino 25%, Nero d'avola 25%",
+      "densitaImpianto":"6000 piante x ha",
+      "annoImpianto":"2008"
     },
     "description":"",
     "schedaOrganolettica":

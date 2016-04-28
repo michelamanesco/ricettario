@@ -1,0 +1,77 @@
+  <div ng-include="'views/autori/banner.html'"></div>
+
+  <!--Content Central -->
+            <div class="content-central">
+                <!-- Shadow Semiboxed -->
+                <div class="semiboxshadow text-center">
+                    <img src="img/img-theme/shp.png" class="img-responsive" alt="">
+                </div>
+                <!-- End Shadow Semiboxed -->
+
+                <!-- End content info - page Fill with -->
+                <div class="content_info">
+                    <div class="container">
+                    
+                        <div class="row" ng-show="autori!=null">
+                            <!-- Grid Elements-->
+                            <div class="col-md-12">
+                                <!-- Title Results-->
+                                <div class="title-results">
+                                    <h3></h3>
+                                </div>
+                                <!-- End Title Results-->
+                                
+
+                                <!-- Item Gallery Grid View--> 
+                                <div class="row">
+                                    <!-- Item Gallery-->
+
+                                    <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="autore in autori | filter:filter">
+                                    	
+                                        <div ui-sref="autore({id:autore.id})" class="img-hover" style="position: relative;overflow: hidden;height:400px; background-image:url('{{autore.gallery[0].img}}'); background-size:cover">
+                                            <img ng-src="{{autore.gallery[0].img}}" alt="" class="img-responsive" style="display:none">
+                                            <div class="overlay"><a ui-sref="opera({id:autore.id})" class="fancybox"><i class="fa fa-search-plus"></i></a></div>
+                                        </div>                                        
+
+                                        <div class="info-gallery">
+                                            <h3>
+                                            	<div class="author" ng-bind-html="autore.firstName" style="display:inline"></div> <div ng-bind-html="autore.lastName" style="display:inline"></div><br>
+                                            </h3>
+                                            <hr class="separator">                                            
+                                            <P>Opera <B>originale</B>, in vendita tramite trattativa privata</P><BR>
+                                            <div class="content-btn"><a href="tel:{{contact.tel}}" class="btn btn-primary"><I class="fa fa-phone"></I> Chiama</a></div>
+                                            <!-- div class="price"><span>$</span><b>From</b>45</div-->
+                                        </div>
+                                    </div>
+                                    <!-- End Item Gallery-->              
+                                </div>
+                                <!-- End Item Gallery Grid View--> 
+                                
+                            </div>
+                            <!-- Grid Elements-->
+                        </div>
+                        
+                        
+                 <div class="row" ng-hide="autori!=null" style="min-height:600px;">
+                     <!-- Grid Elements-->
+                     <div class="col-md-12">
+                     	<div class="title-results">
+                             <h3>Opere artistiche di grande valore in vendita</h3>
+                             <P>
+                             In questa pagina potrai vedere opere originali di grande valore appartenenti a grandi maestra<BR>
+                             L'accesso a quest'area prevede, per&ograve; la richiesto di una password
+                             </P>
+                             
+                             <a href="tel:contact.tel"><I class="fa fa-phone"></I> Chiama</a>|                             
+                             <a ng-click="reserved()"><I class="fa fa-user"></I> Accedi</a>
+                        </div>                     	
+                     </div>
+                </div>
+                        
+                    </div>
+                </div>   
+                <!-- End content info - page Fill with  --> 
+                
+                                
+            </div>
+            <!-- End Content Central -->

@@ -232,7 +232,26 @@
   width: 100%;
   padding: 0px;
   margin: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0;
   }
+#schedaOrganolettica
+  {
+  /*background-image: url("../img/grape2.png");
+  background-size: cover;*/
+  }
+#schedaOrganolettica .item
+  {
+  /*background-color:rgba(0,0,0,.5);
+  background-color: transparent;*/
+  }
+.organoletticaSottovoci
+{
+  text-align: right;
+  color: #ababab;
+}
 /*
 ==========================
    CSS   INGREDIENTI.html
@@ -268,4 +287,15 @@
   position: initial;
   padding: 0px;
   background-color: initial;
+  }
+#frigo .item
+  {  text-align: justify;}
+/*
+==========================
+   CSS   SLIDE.html
+==========================
+*/
+#slide .box>h1
+  {
+  text-align: center;
   }
