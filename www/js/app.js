@@ -246,8 +246,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   url: '/autore',
   views: {
     'menuContent': {
-      templateUrl: 'templates/author.html'
-     // controller:'autoreController'
+      templateUrl: 'templates/author.html',
+     controller:'autoreController'
     }
   }
 })

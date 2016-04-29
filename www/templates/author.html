@@ -8,47 +8,63 @@
         top: -205px;
         left: 5px;
         }
+    .bgAuthor
+        {
+        height: 400px;
+        width: auto;
+        max-width: initial;
+        max-height: initial;
+        background-repeat: no-repeat;
+        }
+    .bgAuthor .swiper-slide img
+    {
+        max-width: initial;
+        max-height: initial;
+    }
+
 </style>
 
-
-<ion-view title="Riccardo - Federici"  id="autore">
+<ion-view title="{{autore.firstName}} {{autore.lastName}}"  id="autore">
     <ion-content scroll="false">
         <ion-slides>
             <ion-slide-page>
                 <ion-content>
                     <ion-list>
                         <ion-item class="item-image">
-                            <img ng-src="http://3.bp.blogspot.com/-FmKL2nv7wsA/UJzwEgNQ_aI/AAAAAAAAAWk/wiZucCuGxTo/s1600/tav44.jpg"  style="max-height: 400px;">
+                            <img ng-src="{{autore.gallery[0].img}}" class="bgAuthor">
+                            <div class="" style="text-align: right">{{autore.firstName}} - {{autore.lastName}}</div>
                         </ion-item>
 
                         <ion-item class="item-image avatarAuthor">
-                            <img ng-src="http://img11.hostingpics.net/pics/816903Angouleme2013IMG4602.jpg">
+                            <img ng-src="{{autore.avatar}}">
                         </ion-item>
 
                         <div class="item item-text-wrap" style="text-align: justify;">
                             <div class="row">
-                                <div class="col"> <img class="imgFlag" ng-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"></div>
-                                <div class="col col-90"> <p>1842-12-31  Ferrara / 1931-11-01  Paris</p></div>
+                                <div class="col"> <img class="imgFlag" ng-src="{{autore.birth.imgFlag}}"></div>
+                                <div class="col col-90"> {{autore.birth.date}} {{autore.birth.city}}  /  {{autore.die.date}} {{autore.die.city}}</div>
                             </div>
                         </div>
 
 
-                        <div class="item item-icon-left item-divider">
-                            <i class="icon ion-ios-list-outline"></i>  Storia:
+                        <div class="item item-icon-left item-divider" ng-hide="autore.story==null">
+                            <i class="icon ion-ios-list-outline"></i>Storia:
                         </div>
-                        <div class="item item-icon-left item-text-wrap" style="text-align: justify;">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor scelerisque lacus id maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eu faucibus libero, vitae pellentesque nulla. Donec eleifend lectus at elit porta cursus. Vestibulum pretium maximus venenatis. Mauris ultricies nibh id urna commodo bibendum. Praesent sit amet tempor quam, at finibus elit. Nullam quis ligula pulvinar, pretium risus sed, iaculis arcu. Vivamus tristique cursus luctus. Quisque id risus tellus. Donec lacus risus, pulvinar vel neque at, laoreet tempor urna. Sed vel nisi risus. Sed lacinia mattis metus tempus iaculis.
-                                <br><br>
-                            Nulla ut urna eget felis volutpat facilisis vitae non ligula. Nam vitae ligula vitae metus tincidunt rutrum. Vestibulum ac metus massa. Aenean ut facilisis felis. Nullam elit nibh, vestibulum non neque vitae, scelerisque imperdiet quam. Morbi molestie lacus sit amet mattis mollis. Morbi eu tortor at arcu malesuada ultrices at in dui. Ut eu porttitor eros. Nam id molestie ante. Phasellus aliquam id risus interdum pulvinar. Nulla condimentum suscipit imperdiet. Praesent cursus pulvinar eleifend. Donec vel sapien vel metus aliquet interdum fermentum at erat. Aliquam gravida sollicitudin porta. In ultrices lorem vitae ornare maximus. Quisque auctor lorem in ante luctus vehicula.
-                            </p>
+                        <div ng-show="autore.story" class="item item-icon-left item-text-wrap" style="text-align: justify">
+                            {{autore.story}}
                         </div>
-                   </ion-list>
+                    </ion-list>
                 </ion-content>
             </ion-slide-page>
 
             <ion-slide-page class="gallery">
-                GALLERY
+                <ion-item class="item-image">
+                    <ion-gallery ion-gallery-items="items"> <!--ng-repeat="gallery.img in autore.gallery"-->
+                        <img ng-src="{{autore.gallery.img}}">
+                    </ion-gallery>
+                </ion-item>
             </ion-slide-page>
+
         </ion-slides>
     </ion-content>
 </ion-view>

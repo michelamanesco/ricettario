@@ -163,9 +163,9 @@ angular.module('starter.controllers', [])
     })
 
 // APP museo x Vittorio //
-    .controller('55autoreController',function($scope,$http){
+    .controller('autoreController',function($scope,$http){
       $http.get("http://localhost:8100/data/authors.json").then(function(item) {
-            $scope.list=item.data[0];
+            $scope.autore=item.data[0];
       });
     })
 

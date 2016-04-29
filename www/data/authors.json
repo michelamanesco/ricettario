@@ -3,7 +3,14 @@
 	"id":1,
 	"firstName":"Riccardo",
     "lastName":"Federici",
-	"gallery":[{"img":"http://img11.hostingpics.net/pics/816903Angouleme2013IMG4602.jpg"}],
+	"avatar":"http://img11.hostingpics.net/pics/816903Angouleme2013IMG4602.jpg",
+	"gallery":[
+	  {"img":"http://img01.deviantart.net/2806/i/2011/178/e/a/riccardo_federici_art_by_riccardofedericiart-d3k4sj5.jpg"},
+	  {"img":"https://lh5.googleusercontent.com/-u-2xojjC-dc/TYiIxfcn0fI/AAAAAAAAAFo/WUca1csPjJ8/s1600/IMG_8119.JPG"},
+	  {"img":"http://img07.deviantart.net/f95f/i/2011/153/2/2/riccardo_federici_art_by_riccardofedericiart-d3hu4m3.jpg"},
+	  {"img":"http://www.canalbd.net/img/couvpage/95/9782756018959_pg.jpg"},
+	  {"img":"http://www.rat-man.org/wp-content/uploads/2014/12/Federici1.jpg"}
+	],
 	"birth":{
 	  "date":"1842-12-31",
 	  "city":"Ferrara",
