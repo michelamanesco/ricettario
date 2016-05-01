@@ -31,7 +31,40 @@
         "name":"zuppa bietole",
         "img":"http://www.lacucinadellapallina.it/wp-content/uploads/2015/03/zuppa-patate-e-bietole_4.jpg"
       }
-    ]
+    ],
+    "composizione": {
+      "vitamine": {
+        "A": 100,
+        "B6": 0,
+        "C": 67,
+        "K": 100
+      },
+      "minerali": {
+        "ferro": 1.00,
+        "calcio": 150.00,
+        "sodio": 38.00,
+        "magnesio": 47.00,
+        "potassio": 491.00,
+        "fosforo": 491.00
+      },
+      "valori_nutrizionali": {
+        "proteine": 4,
+        "carboidrati": 8,
+        "grassi": 0,
+        "fibre": 3,
+        "acqua": 84,
+        "zuccheri": 2
+      }
+    },
+    "orto":
+    {
+      "semina":
+      [
+        {"da": "maggio"},
+        {"a":""}
+      ],
+      "raccolta":""
+    }
   },
   {
     "id":"2",

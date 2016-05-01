@@ -85,7 +85,7 @@
   padding: initial;
   position: initial;
   }
-#elencoRicette .ricetta, #ingrediente .ricetta, #frigo .ricetta
+#elencoRicette .ricetta, #ingrediente .ricetta, #frigo .ricetta, #luogo .ricetta
   {
   background-repeat: no-repeat;
   height: 200px;

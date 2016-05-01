@@ -168,5 +168,10 @@ angular.module('starter.controllers', [])
             $scope.autore=item.data[0];
       });
     })
+    .controller('mappaController',function($scope,$http){
+      $http.get("http://localhost:8100/data/mappa.json").then(function(item) {
+        $scope.item=item.data;
+      });
+    })
 
 

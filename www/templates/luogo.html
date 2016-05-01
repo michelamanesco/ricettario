@@ -1,41 +1,3 @@
-<!--
-<ion-view title="{{luogo.name}}"  id="luogo">
-   <ion-content >
-
-                    <ion-list>
-                       <ion-item class="item-image">
-                           <img ng-src="{{luogo.view.img}}" style="max-height:250px">
-                       </ion-item>
-                           <i class="favorite icon ion-ios-heart"></i>
-
-                        <div class="item item-icon-left item-divider" ng-hide="luogo.country==null">
-                            <i class="icon ion-map"></i>DOVE
-                        </div>
-                        <div class="row">
-                            <div class="col col-25"><img class="imgFlag" ng-src="{{luogo.imgFlag}}"></div>
-                            <div class="col col-25">{{luogo.country}}</div>
-                            <div class="col col-25">{{luogo.territory}}</div>
-                            <div class="col col-25">{{luogo.city}}</div>
-                        </div>
-
-
-                        <div class="item item-icon-left item-divider" ng-hide="luogo.coordinate==null">
-                           <i class="icon ion-android-globe"></i>  Coordiante:
-                       </div>
-                       <div  ng-show="luogo.coordinate>=1" ng-hide="luogo.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
-
-                       <div class="item item-icon-left item-divider" ng-hide="luogo.description==null">
-                           <i class="icon ion-ios-list-outline"></i>  Descrizione:
-                       </div>
-                       <div ng-show="luogo.description" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{luogo.description}}</div>
-                   </ion-list>
-
-
-   </ion-content>
-</ion-view>
-
--->
-
 
 <ion-view title="{{luogo.name}}"  id="luogo">
     <ion-content  scroll="false">
@@ -62,8 +24,8 @@
 
                         <div class="item item-icon-left item-divider" ng-hide="luogo.coordinate==null">
                            <i class="icon ion-android-globe"></i>  Coordiante:
-                       </div>
-                       <div  ng-show="luogo.coordinate>=1" ng-hide="luogo.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{latitudine.gradi}} - {{longitudine.gradi}}</div>
+                       </div><!--"  ng-repeat="coordinate in luogo.coordinate"-->
+                        <div  ng-show="luogo.coordinate" ng-hide="luogo.coordinate==null" class="item item-icon-left item-text-wrap" style="text-align: justify;">{{luogo.coordinate.latitudine.gradi}} - {{luogo.coordinate.longitudine.gradi}}</div>
 
                        <div class="item item-icon-left item-divider" ng-hide="luogo.description==null">
                            <i class="icon ion-ios-list-outline"></i>  Descrizione:
@@ -74,10 +36,12 @@
                 </ion-content>
             </ion-slide-page>
 
-            <ion-slide-page>
+            <ion-slide-page title="{{luogo.nameP}}">
                 <ion-content>
 
-                  <h4>PROVA</h4>
+                    <ion-item class="item ricetta" ng-repeat="pointView in luogo.pointView" style="background-image:url('{{luogo.pointView.imgP.view[0]}}')"> <!--     ui-sref="app.luogo({id:luogo.id})" -->
+                        <div class="goodName">{{pointView.nomeP}}<br></div>
+                    </ion-item>
 
                 </ion-content>
             </ion-slide-page>

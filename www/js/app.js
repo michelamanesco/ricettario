@@ -251,8 +251,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   }
 })
-
-
+.state('app.range', {
+  url: '/range',
+  views: {
+    'menuContent': {
+      templateUrl: 'templates/range.html',
+      controller:'mappaController'
+    }
+  }
+})
 
 
   // if none of the above states are matched, use this as the fallback

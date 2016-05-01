@@ -5,8 +5,10 @@
         width: 200px;
         border: solid 8px white;
         border-radius: 200px;
-        top: -205px;
+        top: 10px;
         left: 5px;
+        position: absolute;
+        background-size: cover;
         }
     .bgAuthor
         {
@@ -35,8 +37,8 @@
                             <div class="" style="text-align: right">{{autore.firstName}} - {{autore.lastName}}</div>
                         </ion-item>
 
-                        <ion-item class="item-image avatarAuthor">
-                            <img ng-src="{{autore.avatar}}">
+                        <ion-item class="item-image avatarAuthor" style="background-image: url('{{autore.avatar}}')">
+
                         </ion-item>
 
                         <div class="item item-text-wrap" style="text-align: justify;">
