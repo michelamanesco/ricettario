@@ -268,6 +268,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   }
 })
+.state('app.itinerari', {
+  url: '/itinerari',
+  views: {
+    'menuContent': {
+      templateUrl: 'templates/itinerari.html'
+    }
+  }
+})
 
 
 

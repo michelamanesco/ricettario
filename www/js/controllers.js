@@ -151,16 +151,6 @@ angular.module('starter.controllers', [])
    })
 
 
-// APP museo x Vittorio //
-    .controller('3autoreController',function($scope,$http,$state){
-      $http.get("http://localhost:8100/data/authors.json").then(function(obj) {
-        var list = obj.data;
-        angular.forEach(list,function(item){
-          if(item.id==$state.params.id)
-            $scope.autore = item;
-        });
-      });
-    })
 
 // APP museo x Vittorio //
     .controller('autoreController',function($scope,$http){
@@ -173,5 +163,9 @@ angular.module('starter.controllers', [])
         $scope.item=item.data;
       });
     })
-
+    .controller('itinerariController',function($scope,$http){
+      $http.get("http://localhost:8100/data/itinerari.json").then(function(list) {
+        $scope.list=list.data;
+      });
+    })
 

@@ -1,0 +1,30 @@
+
+[
+    {
+    "id":1,
+    "background":
+        [{"img":"http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg","title":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011"}],
+    "name":"Illustratori Italiani",
+    "time":40,
+    "color":"blu",
+    "steps":700,
+    "description":"",
+    "point":
+    [
+        {
+            "idOpera":""
+
+        }
+    ]
+    },
+    {
+    "id":2,
+    "background":
+    [{"img":"http://www.ilbardelfumetto.com/media/articoli/2273/542fb305410a4.jpg","title":"Spiderman"}],
+    "name":"Illustratori Marvel",
+    "time":40,
+    "color":"red",
+    "steps":200,
+    "description":""
+    }
+]
