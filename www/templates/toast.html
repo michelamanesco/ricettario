@@ -1,38 +1,45 @@
 <style>
-    .toast{
+    .toast
+    {
+    font-weight: 600;
+    line-height: 1.4em;
+    vertical-align: middle;
+    }
+    .close
+    {
 
     }
-    .ion-close-circled{
-
-    }
-    .ion-android-restaurant
+    .categoria
     {
         color: red;
         font-size: 1.4em;
+        padding-right: 5px;
     }
-    .ion-information-circled
+    .info
     {
         font-size: 1.4em;
         text-align: right;
         color: #009689;
+        right: 0px;
     }
+
 </style>
 
 
 <ion-view title="toast"  id="toast">
     <ion-content>
         <ion-list>
-            <i class="ion-close-circled"></i>
+            <i class="ion-close-circled close"></i>
             <ion-item class="toast" item-icon-left item-icon-right>
                 <botton class="button button-light">
-                    <i class="ion-android-restaurant"></i>
+                    <i class="ion-android-restaurant categoria"></i>
                     Ristorante Pizzeria
                     <i class="ion-arrow-right-c"></i>
                     mt. 15
                 </botton>
                 <a href="">
                     <button class="button button-stable">
-                        <i class="ion-information-circled"></i>
+                        <i class="ion-information-circled info"></i>
                     </button>
                 </a>
             </ion-item>
