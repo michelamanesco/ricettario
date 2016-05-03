@@ -321,6 +321,8 @@
    CSS   APP MUSEO
 ==========================
 */
+/*    AUTORE   */
+
 #autore .avatarAuthor
   {
   height: 200px;
@@ -345,6 +347,37 @@
   max-width: initial;
   max-height: initial;
   }
+
+/*    MAPPA   */
+
+.mappa .map
+{
+  width: auto;
+  max-width: initial;
+  max-height: initial;
+  background-repeat: no-repeat;
+}
+.mappa .point
+{
+  color: #d72c1a;
+  font-size: 1.5em;
+}
+.mappa .N
+{
+  color: #46abba;
+  font-size: 5em;
+  position: absolute;
+  top:5%;
+  left:5%;
+
+  transform: rotate(-45deg);
+  webkit-transform: rotate(-45deg);
+  moz-transform: rotate(-45deg);
+  ms-transform: rotate(-45deg);
+}
+
+/*    ITINERARI   */
+
 #itinerari .item-complex .item-content, #itinerario .item-complex .item-content
   {
   padding: initial;
@@ -381,7 +414,8 @@
   top:10px;
   right: 10px;
   }
-/* css per CAPITOLO -  testo */
+
+/*     CAPITOLO    */
 .capitolo h1
   {
   color: #cc141c;

@@ -2,13 +2,13 @@
     <ion-content scroll="false">
 
         <ion-slides>
-            <ion-slide-page>
-                <ion-content>
+            <ion-slide-page ng-repeat="point in item.point">
+                <ion-content ng-show="point.type==opera">
                     <ion-list>
 
                         <ion-item class="item-image">
-                            <img ng-src="{{item.point[0].imgPoint}}">
-                            <div class="name">{{item.point[0].namePoint}}<br></div>
+                            <img ng-src="{{point.imgPoint}}">
+                            <div class="name">{{point.namePoint}}<br></div>
                         </ion-item>
 
                         <ion-item class="dashboard">
@@ -18,7 +18,7 @@
                             </div>
                         </ion-item>
                         <ion-item class="">
-                            Autore:   {{item.point[0].autor}}
+                            Autore:   {{point.autor}}
                         </ion-item>
 
                     </ion-list>
@@ -26,15 +26,17 @@
             </ion-slide-page>
 
             <ion-slide-page>
-                <ion-content>
+                <ion-content ng-show="item.type==chapter">
                     <ion-list>
                         <ion-item class="capitolo">
-                            <h1>It was a few minutes past nine that night when these three sentinels were joined by four other Martians, each carrying a thick black tube.</h1>
-                            <p><em>A similar tube was handed to each of the three, and the seven proceeded to distribute themselves at equal distances along a curved line between St. George's Hill, Weybridge, and the village of Send, southwest of Ripley.</em></p>
-                            <p>A dozen rockets sprang out of the hills before them so soon as they began to move, and warned the waiting batteries about Ditton and Esher. <a href="#">At the same time four of their fighting machines</a>, similarly armed with tubes, crossed the river, and two of them, black against the western sky, came into sight of myself and the curate as we hurried wearily and painfully along the road that runs northward out of Halliford.  They moved, as it seemed to us, upon a cloud, for a milky mist covered the fields and rose to a third of their height.</p>
+                            <h1>{{item.text[0].h1}}</h1>
+                            <p>
+                                <em>{{item.text[1].pem}}</em>
+                            </p>
+                            <p>
+                                {{item.text[2].p}}<a href="#">{{item.text[2].a}}</a>{{item.text[3].p}}
+                            </p>
                         </ion-item>
-                    </ion-list>
-
                     </ion-list>
                 </ion-content>
             </ion-slide-page>

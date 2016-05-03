@@ -178,8 +178,19 @@ angular.module('starter.controllers', [])
         });
       })
     })
+    /*
     .controller('chapterController', function($scope,$http,$state){
       $http.get("http://localhost:8100/data/chapters.json").then(function(item){
         $scope.item=item.data;
+      })
+    })*/
+
+    .controller('chapterController',function($scope,$http,$state){
+      $http.get("http://localhost:8100/data/chapters.json").then(function(obj) {
+        var list = obj.data;
+        angular.forEach(list,function(item){
+          if(item.id==$state.params.id)
+            $scope.item = item;
+        });
       })
     })
