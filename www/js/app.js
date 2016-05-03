@@ -290,7 +290,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   url: '/capitolo',
   views: {
     'menuContent': {
-      templateUrl: 'templates/capitolo.html'
+      templateUrl: 'templates/capitolo.html',
+      controller:'chapterController'
     }
   }
 })

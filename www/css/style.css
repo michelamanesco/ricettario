@@ -382,15 +382,16 @@
   right: 10px;
   }
 /* css per CAPITOLO -  testo */
-#capitolo h1
+.capitolo h1
   {
   color: #cc141c;
   font-family: 'Squada One';
-  font-size: 60px;
-  line-height: 54px;
-  margin-bottom: 72px;
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-bottom: 2.2em;
+  white-space: initial;
   }
-#capitolo h1:before
+.capitolo h1:before
   {
   background: #cc141c;
   content: '';
@@ -399,21 +400,23 @@
   margin-bottom: 36px;
   width: 72px;
   }
-#capitolo p
+.capitolo p
   {
   color: #574432;
   font-family: 'Libre Baskerville';
-  font-size: 20px;
-  line-height: 36px;
+  /*font-size: 20px;
+  line-height: 36px;*/
   margin-bottom: 36px;
-  margin-left: 25%;
+  margin-left: 15%;
+  white-space: initial;
+  text-align: justify;
   }
-#capitolo a
+.capitolo a
   {
   color: #ec7309;
   font-style: italic;
   }
-#capitolo a:hover
+.capitolo a:hover
   {
   color: #cc141c;
   }
