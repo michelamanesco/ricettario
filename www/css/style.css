@@ -315,3 +315,105 @@
 {
   max-height:20px;
 }
+
+/*
+==========================
+   CSS   APP MUSEO
+==========================
+*/
+#autore .avatarAuthor
+  {
+  height: 200px;
+  width: 200px;
+  border: solid 8px white;
+  border-radius: 200px;
+  top: 10px;
+  left: 5px;
+  position: absolute;
+  background-size: cover;
+  }
+#autore .bgAuthor
+  {
+  height: 400px;
+  width: auto;
+  max-width: initial;
+  max-height: initial;
+  background-repeat: no-repeat;
+  }
+#autore .bgAuthor .swiper-slide img
+  {
+  max-width: initial;
+  max-height: initial;
+  }
+#itinerari .item-complex .item-content, #itinerario .item-complex .item-content
+  {
+  padding: initial;
+  position: initial;
+  }
+#itinerari .itemList, #itinerario .itemList
+  {
+  background-repeat: no-repeat;
+  height: 200px;
+  margin: 5px;
+  border: solid 1px #000000;
+  border-radius: 4px;
+  background-size: cover;
+  }
+#itinerari .name, #itinerario .name
+  {
+  position: absolute;
+  bottom:20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #404040;
+  padding-left: 20px;
+  }
+#itinerari .time, #itinerario .time
+  {
+  position: absolute;
+  top:10px;
+  left: 10px;
+  }
+#itinerari .iconaSx, #itinerario .iconaSx
+  {
+  position: absolute;
+  top:10px;
+  right: 10px;
+  }
+/* css per CAPITOLO -  testo */
+#capitolo h1
+  {
+  color: #cc141c;
+  font-family: 'Squada One';
+  font-size: 60px;
+  line-height: 54px;
+  margin-bottom: 72px;
+  }
+#capitolo h1:before
+  {
+  background: #cc141c;
+  content: '';
+  display: block;
+  height: 12px;
+  margin-bottom: 36px;
+  width: 72px;
+  }
+#capitolo p
+  {
+  color: #574432;
+  font-family: 'Libre Baskerville';
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 36px;
+  margin-left: 25%;
+  }
+#capitolo a
+  {
+  color: #ec7309;
+  font-style: italic;
+  }
+#capitolo a:hover
+  {
+  color: #cc141c;
+  }

@@ -1,0 +1,55 @@
+<ion-view title="{{item.name}}"  id="itinerario">
+    <ion-content scroll="false">
+
+        <ion-slides>
+            <ion-slide-page>
+                <ion-content>
+                    <ion-list>
+
+                        <ion-item class="item-image">
+                            <img ng-src="{{item.point[0].imgPoint}}">
+                            <div class="name">{{item.point[0].namePoint}}<br></div>
+                        </ion-item>
+
+                        <ion-item class="dashboard">
+                            <div class="colorBackground">
+                                <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
+                                <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
+                            </div>
+                        </ion-item>
+                        <ion-item class="">
+                            Autore:   {{item.point[0].autor}}
+                        </ion-item>
+
+                    </ion-list>
+                </ion-content>
+            </ion-slide-page>
+
+            <ion-slide-page>
+                <ion-content>
+                    <ion-list>
+                        <ion-item class="">prova</ion-item>
+
+                        <!--
+                                                <ion-item class="item-image">
+                                                    <img ng-src="{{item.point[1].imgPoint}}">
+                                                    <div class="name">{{item.point[1].namePoint}}<br></div>
+                                                </ion-item>
+
+                                                <ion-item class="dashboard">
+                                                    <div class="colorBackground">
+                                                        <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
+                                                        <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
+                                                    </div>
+                                                </ion-item>
+                                                <ion-item class="">
+                                                    Autore:   {{item.point[1].autor}}
+                                                </ion-item>
+                        -->
+                    </ion-list>
+                </ion-content>
+            </ion-slide-page>
+        </ion-slides>
+
+    </ion-content>
+</ion-view>

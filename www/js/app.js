@@ -272,10 +272,30 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   url: '/itinerari',
   views: {
     'menuContent': {
-      templateUrl: 'templates/itinerari.html'
+      templateUrl: 'templates/itinerari.html',
+      controller:'itinerariController'
     }
   }
 })
+.state('app.itinerario', {
+  url: '/itinerario/:id',
+  views: {
+    'menuContent': {
+      templateUrl: 'templates/itinerario.html',
+      controller:'itinerarioController'
+    }
+  }
+})
+.state('app.capitolo', {
+  url: '/capitolo',
+  views: {
+    'menuContent': {
+      templateUrl: 'templates/capitolo.html'
+    }
+  }
+})
+
+
 
 
 

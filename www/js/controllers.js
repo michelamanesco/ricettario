@@ -168,4 +168,13 @@ angular.module('starter.controllers', [])
         $scope.list=list.data;
       });
     })
-
+    .controller('itinerarioController',function($scope,$http,$state){
+      $http.get("http://localhost:8100/data/itinerari.json").then(function(obj) {
+        var list = obj.data;
+        /* soluzione angular*/
+        angular.forEach(list, function (item) {
+          if (item.id == $state.params.id)
+            $scope.item = item;
+        });
+      })
+    })
