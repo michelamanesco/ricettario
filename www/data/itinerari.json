@@ -1,27 +1,37 @@
-
-[
-    {
-    "id":1,
-    "background":"http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
-    "name":"Illustratori Italiani",
-    "time":40,
-    "color":"blue",
-    "steps":700,
-    "description":"",
-    "point":
-            [
-            {"type":"opera","namePoint":"Ulisse","autor":"Milo Manara","imgPoint":"http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg"},
-            {"type":"opera","namePoint":"","autor":"Milo Manara","imgPoint":"http://www.ilgiornale.it/sites/default/files/styles/large/public/foto/2015/04/15/1429074003-ipad-449-0.jpg"},
-            {"type":"chapter","idChapter":3,"namePoint":"Capitolo di Prova","autor":"Staff Museo Prova","imgPoint":""}
-            ]
-    },
-    {
-    "id":2,
-    "background":"http://www.ilbardelfumetto.com/media/articoli/2273/542fb305410a4.jpg",
-    "name":"Illustratori Marvel",
-    "time":15,
-    "color":"red",
-    "steps":200,
-    "description":""
-    }
-]
+[{
+     "id": 1,
+     "background": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
+     "name": "Illustratori Italiani",
+     "time": 40,
+     "color": "blue",
+     "steps": 700,
+     "description": "",
+     "point": [ {
+                    "id":"3432",
+                    "type": "chapter",
+                    "title":"Capitolo 1",
+                    "subtitle":"sottotitolo 1",
+                    "text":"A dozen rockets sprang out of the hills before them so soon as they began to move, and warned the waiting batteries about Ditton and Esher.", "a":"At the same time four of their fighting machines"
+                },
+                {
+                   "id":"3432fdsa",
+                   "type": "opera",
+                   "name": "Ulisse",
+                   "autor": "Milo Manara",
+                   "img": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg"
+               }, {
+                    "id":"3sd432",
+                   "type": "opera",
+                   "name": "",
+                   "autor": "Milo Manara",
+                   "img": "http://www.ilgiornale.it/sites/default/files/styles/large/public/foto/2015/04/15/1429074003-ipad-449-0.jpg"
+               }]
+ }, {
+     "id": 2,
+     "background": "http://www.ilbardelfumetto.com/media/articoli/2273/542fb305410a4.jpg",
+     "name": "Illustratori Marvel",
+     "time": 15,
+     "color": "red",
+     "steps": 200,
+     "description": ""
+ }]

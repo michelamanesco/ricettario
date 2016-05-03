@@ -1,0 +1,20 @@
+<ion-content>
+    <ion-list>
+
+        <ion-item class="item-image">
+            <img ng-src="{{point.img}}">
+            <div class="name">{{point.name}}<br></div>
+        </ion-item>
+
+        <ion-item class="dashboard">
+            <div class="colorBackground">
+                <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
+                <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
+            </div>
+        </ion-item>
+        <ion-item>
+            Autore:   {{point.autor}}
+        </ion-item>
+
+    </ion-list>
+</ion-content>

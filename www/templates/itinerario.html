@@ -3,44 +3,20 @@
 
         <ion-slides>
             <ion-slide-page ng-repeat="point in item.point">
-                <ion-content ng-show="point.type==opera">
-                    <ion-list>
 
-                        <ion-item class="item-image">
-                            <img ng-src="{{point.imgPoint}}">
-                            <div class="name">{{point.namePoint}}<br></div>
-                        </ion-item>
+                <ng-include src="point.slide"></ng-include>
 
-                        <ion-item class="dashboard">
-                            <div class="colorBackground">
-                                <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
-                                <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
-                            </div>
-                        </ion-item>
-                        <ion-item class="">
-                            Autore:   {{point.autor}}
-                        </ion-item>
-
-                    </ion-list>
-                </ion-content>
             </ion-slide-page>
 
-            <ion-slide-page>
-                <ion-content ng-show="item.type==chapter">
-                    <ion-list>
-                        <ion-item class="capitolo">
-                            <h1>{{item.text[0].h1}}</h1>
-                            <p>
-                                <em>{{item.text[1].pem}}</em>
-                            </p>
-                            <p>
-                                {{item.text[2].p}}<a href="#">{{item.text[2].a}}</a>{{item.text[3].p}}
-                            </p>
-                        </ion-item>
-                    </ion-list>
-                </ion-content>
-            </ion-slide-page>
         </ion-slides>
 
     </ion-content>
+    <ion-footer-bar>
+        <div class="dashboard">
+            <div class="colorBackground">
+                <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
+                <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
+            </div>
+        </div>
+    </ion-footer-bar>
 </ion-view>

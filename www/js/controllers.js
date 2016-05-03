@@ -173,8 +173,12 @@ angular.module('starter.controllers', [])
         var list = obj.data;
         /* soluzione angular*/
         angular.forEach(list, function (item) {
-          if (item.id == $state.params.id)
+          if (item.id == $state.params.id) {
             $scope.item = item;
+            angular.forEach(item.point,function(point){
+              point.slide='templates/points/'+point.type+'.html';
+            })
+          }
         });
       })
     })
