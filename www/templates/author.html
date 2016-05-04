@@ -7,11 +7,10 @@
                     <ion-list>
                         <ion-item class="item-image">
                             <img ng-src="{{autore.gallery[0].img}}" class="bgAuthor">
-                            <div class="" style="text-align: right">{{autore.firstName}} - {{autore.lastName}}</div>
+                           <!-- <div class="" style="text-align: right">{{autore.firstName}} - {{autore.lastName}}</div>-->
                         </ion-item>
 
                         <ion-item class="item-image avatarAuthor" style="background-image: url('{{autore.avatar}}')">
-
                         </ion-item>
 
                         <div class="item item-text-wrap" style="text-align: justify;">
@@ -20,7 +19,6 @@
                                 <div class="col col-90"> {{autore.birth.date}} {{autore.birth.city}}  /  {{autore.die.date}} {{autore.die.city}}</div>
                             </div>
                         </div>
-
 
                         <div class="item item-icon-left item-divider" ng-hide="autore.story==null">
                             <i class="icon ion-ios-list-outline"></i>Storia:

@@ -1,202 +1,99 @@
 [
 	{
 	"id":1,
-	"firstName":"Riccardo",
-    "lastName":"Federici",
-	"avatar":"http://img11.hostingpics.net/pics/816903Angouleme2013IMG4602.jpg",
+	"firstName":"Massimiliano",
+    "lastName":"Frezzato",
+	"avatar":"https://scontent.xx.fbcdn.net/v/t1.0-9/1005515_1086286138078538_7635819501409857230_n.jpg?oh=18d03102226d66848be392a51111ceca&oe=57A89E55",
 	"gallery":[
-	  {"img":"http://img01.deviantart.net/2806/i/2011/178/e/a/riccardo_federici_art_by_riccardofedericiart-d3k4sj5.jpg"},
-	  {"img":"https://lh5.googleusercontent.com/-u-2xojjC-dc/TYiIxfcn0fI/AAAAAAAAAFo/WUca1csPjJ8/s1600/IMG_8119.JPG"},
-	  {"img":"http://img07.deviantart.net/f95f/i/2011/153/2/2/riccardo_federici_art_by_riccardofedericiart-d3hu4m3.jpg"},
-	  {"img":"http://www.canalbd.net/img/couvpage/95/9782756018959_pg.jpg"},
-	  {"img":"http://www.rat-man.org/wp-content/uploads/2014/12/Federici1.jpg"}
+	  {"img":"http://www.fumetto-online.it/ew/ew_albi/images/EDIZIONI%20DI/g_vetrina/FREZZATO-PAUSA-PRANZO011.jpg"},
+	  {"img":""},
+	  {"img":""},
+	  {"img":""},
+	  {"img":""}
 	],
 	"birth":{
-	  "date":"1842-12-31",
-	  "city":"Ferrara",
+	  "date":"1967-03-12",
+	  "city":"Torino",
 	  "country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 		},
 	"die":{
-	  "date":"1931-11-01",
-	  "city":"Paris",
-	  "country":"FR"
+	  "date":"",
+	  "city":"",
+	  "country":""
 		},
-	"story":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor scelerisque lacus id maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eu faucibus libero, vitae pellentesque nulla. Donec eleifend lectus at elit porta cursus. Vestibulum pretium maximus venenatis. Mauris ultricies nibh id urna commodo bibendum. Praesent sit amet tempor quam, at finibus elit. Nullam quis ligula pulvinar, pretium risus sed, iaculis arcu. Vivamus tristique cursus luctus. Quisque id risus tellus. Donec lacus risus, pulvinar vel neque at, laoreet tempor urna. Sed vel nisi risus. Sed lacinia mattis metus tempus iaculis.Nulla ut urna eget felis volutpat facilisis vitae non ligula. Nam vitae ligula vitae metus tincidunt rutrum. Vestibulum ac metus massa. Aenean ut facilisis felis. Nullam elit nibh, vestibulum non neque vitae, scelerisque imperdiet quam. Morbi molestie lacus sit amet mattis mollis. Morbi eu tortor at arcu malesuada ultrices at in dui. Ut eu porttitor eros. Nam id molestie ante. Phasellus aliquam id risus interdum pulvinar. Nulla condimentum suscipit imperdiet. Praesent cursus pulvinar eleifend. Donec vel sapien vel metus aliquet interdum fermentum at erat. Aliquam gravida sollicitudin porta. In ultrices lorem vitae ornare maximus. Quisque auctor lorem in ante luctus vehicula."
+	"story":"Fumettista italiano.Tra il 1982 e il 1986 frequentò il I Liceo Artistico di Torino e, durante gli studi, si classificò secondo al concorso nazionale di fumetto a Prato. Bisogna aspettare il 1989 perché vinca il primo premio. I suoi primi lavori vennero pubblicati su varie riviste a partire dal 1985. Nel 1990 realizza Margot scritto da Jerome Charyn. Tra il 1994 e il 1997 tiene un corso di fumetto e d'illustrazione editoriale presso l'Istituto Europeo di Design a Torino.Nel 1996 pubblica il primo volume della saga I custodi del Maser, che lo terrà impegnato sino all'aprile 2005. Dal 2007 si affida alla matita di Fabio Ruotolo per il prosieguo della saga, dedicandosi alla scrittura e alla supervisione dell'opera. La saga viene pubblicata in diversi paesi tra i quali: Francia[1], Italia, Spagna, Portogallo, Germania, Belgio, Danimarca[senza fonte] e Stati Uniti d'America.Tra il 1998 e il 1999 insegna all'Accademia d'Arte Pictor di Torino."
 	},
 	{
-	"id":12,
-	"firstName":"Giovanni",
-	"lastName":"Boldini",
-	"birth":{
-		"date":"1842-12-31",
-		"city":"Ferrara",
-		"country":"IT"
-		},
-	"die":{
-		"date":"1931-11-01",
-		"city":"Paris",
-		"country":"FR"
-		},
-	"notes":""
-    },
-	{
 	  "id":2,
-	  "firstName":"Giorgio",
-	  "lastName":"de Chirico",
+	  "firstName":"Riccardo",
+	  "lastName":"Federici",
+	  "avatar":"",
+	  "gallery":[
+		{"img":"http://img01.deviantart.net/2806/i/2011/178/e/a/riccardo_federici_art_by_riccardofedericiart-d3k4sj5.jpg"},
+		{"img":"https://lh5.googleusercontent.com/-u-2xojjC-dc/TYiIxfcn0fI/AAAAAAAAAFo/WUca1csPjJ8/s1600/IMG_8119.JPG"},
+		{"img":"http://img07.deviantart.net/f95f/i/2011/153/2/2/riccardo_federici_art_by_riccardofedericiart-d3hu4m3.jpg"},
+		{"img":"http://www.canalbd.net/img/couvpage/95/9782756018959_pg.jpg"},
+		{"img":"http://www.rat-man.org/wp-content/uploads/2014/12/Federici1.jpg"}
+	  ],
 	  "birth":{
-		"date":"1888-07-10",
-		"city":"Vol",
-		"country":"IT"
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 	  },
 	  "die":{
-		"date":"1978-11-20",
-		"city":"Roma",
-		"country":"IT"
+		"date":"",
+		"city":"",
+		"country":""
 	  },
-	  "notes":""
+	  "story":"Fumettista italiano.Tra il 1982 e il 1986 frequentò il I Liceo Artistico di Torino e, durante gli studi, si classificò secondo al concorso nazionale di fumetto a Prato. Bisogna aspettare il 1989 perché vinca il primo premio. I suoi primi lavori vennero pubblicati su varie riviste a partire dal 1985. Nel 1990 realizza Margot scritto da Jerome Charyn. Tra il 1994 e il 1997 tiene un corso di fumetto e d'illustrazione editoriale presso l'Istituto Europeo di Design a Torino.Nel 1996 pubblica il primo volume della saga I custodi del Maser, che lo terrà impegnato sino all'aprile 2005. Dal 2007 si affida alla matita di Fabio Ruotolo per il prosieguo della saga, dedicandosi alla scrittura e alla supervisione dell'opera. La saga viene pubblicata in diversi paesi tra i quali: Francia[1], Italia, Spagna, Portogallo, Germania, Belgio, Danimarca[senza fonte] e Stati Uniti d'America.Tra il 1998 e il 1999 insegna all'Accademia d'Arte Pictor di Torino."
 	},
 	{
 	  "id":3,
-	  "firstName":"Mario",
-	  "lastName":"Schifano",
+	  "firstName":"Milo",
+	  "lastName":"Manara",
+	  "avatar":"",
+	  "gallery":[
+		{"img":""},
+		{"img":""},
+		{"img":""},
+		{"img":""},
+		{"img":""}
+	  ],
 	  "birth":{
-		"date":"1934-09-20",
-		"city":"Homs",
-		"country":""
+		"date":"1945-09-12",
+		"city":"Bolzano",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 	  },
 	  "die":{
-		"date":"1998-01-26",
-		"city":"Roma",
-		"country":"IT"
+		"date":"",
+		"city":"",
+		"country":""
 	  },
-	  "notes":"stato un artista, pittore e regista italiano. Insieme a Franco Angeli e Tano Festa rappresent un punto fondamentale della Pop Art italiana ed europea. Perfettamente inserito nel panorama culturale internazionale degli anni Sessanta, era reputato un artista prolifico, esuberante ed amante della mondanit . L'abitudine alle droghe che dur per tutta la sua vita, gli valse l'etichetta di artista maledetto"
+	  "story":"Milo Manara nasce a Luson in provincia di Bolzano il 12 settembre 1945, in una famiglia in cui Manara e i fratelli, per essere autosufficienti, fanno lavoretti sin da adolescenti (dall’età di dodici anni Manara realizzava pannelli decorativi su commissione).Seguendo le sue inclinazioni naturali, si diploma a un liceo artistico privato. Si trasferisce a Verona dove inizia a lavorare come assistente dello scultore spagnolo Miguel Berrocal e nello stesso periodo s’iscrive alla Facoltà di Architettura a Venezia. Insieme ad altri artisti, durante i movimenti del Sessantotto, contesta in maniera netta la Biennale di Venezia. Improvvisamente, grazie alla moglie francese di Berrocal, Manara scopre il Fumetto, di cui non era mai stato durante l’infanzia o l’adolescenza un appassionato e viene affascinato dal carattere di produzione in serie del medium, che lo discosta dall’unicità dell’opera d’arte pittorica per apparentarlo molto di più alla letteratura, anche nei confronti del pubblico di massa per l’accessibilità dei prezzi. Manara vede nel fumetto la possibilità di costruire un proprio ruolo nella società, anche grazie a un rapporto con la retribuzione, nel campo editoriale rispetto a quello artistico,  più onesto e aderente alla società, e decide pertanto di provare a cimentarsi con questo linguaggio. È così che debutta alla fine degli anni Sessanta come autore di storie erotico-poliziesche sulla collana “Genius”, e subito dopo in Jolanda de Almaviva, serie sexy di grande successo. Lascia intanto gli studi universitari. Negli anni Settanta avvia la collaborazione con il “Corriere dei Ragazzi”, dove disegna una serie di fumetti sceneggiati da Mino Milani in cui vengono processati i grandi personaggi storici, La parola alla giuria. Nello stesso periodo, sui testi di Alfredo Castelli e Mario Gomboli, realizza Un fascio di bombe, fumetto sulla strategia della tensione nelle stragi di Stato, da poco ripubblicato in Italia. Subito dopo, assieme a Silverio Pisu, Manara dà vita a Lo Scimmiotto ad Alessio, il borghese rivoluzionario, che segnano il suo debutto nel fumetto d’autore. Collabora con la casa editrice francese Larousse, per cui realizza alcune storie inserite nelle raccolte L’Histoire de France en bandes dessinées, La decouverte du monde e L’Histoire de la Chine.Nel 1978 crea il suo primo personaggio di successo e ne sceneggia anche la storia, pubblicata in prima battuta in Francia dalla rivista “(A SUIVRE)”: HP e Giuseppe Bergman, dove HP è un chiaro riferimento al suo maestro e mentore Hugo Pratt, trasformato in uno dei protagonisti del racconto; negli anni a seguire, Manara pubblica altri episodi dedicati a Giuseppe Bergman, che fisionomicamente ha le fattezze dell’autore e di Alain Delon.Tra la fine del decennio e i primi anni Ottanta partecipa alla realizzazione della Storia d’Italia a fumetti da Enzo Biagi e crea, su commissione della rivista “Playmen”, Il gioco, storia ad alta densità erotica che dà un successo a livello mondiale, straordinario e inatteso, a Manara. Di questo periodo è anche il primo di due lavori su testi di Hugo Pratt, per il quale disegna due storie fondamentali per la sua carriera: Tutto ricominciò con un’estate indiana, pubblicata dalla rivista “Corto Maltese”, seguita da El gaucho, pubblicata da “Il grifo”. Oltre a un’altra storia importante, questa volta di ambientazione western, pubblicata ancora in Francia dalla rivista “Pilote”: L’uomo di carta.Su sceneggiatura di Castelli, Manara disegna poi L’uomo delle nevi, per la collana “Un uomo, un’avventura”, edita da Cepim, oggi Sergio Bonelli Editore. Subito dopo crea Miele, forse il suo personaggio femminile più famoso, protagonista dei volumi Il profumo dell’invisibile di sei storie brevi intitolate Candid Camera.Nel 1987 inizia la collaborazione con Federico Fellini. Il grande maestro riminese, al quale Manara  aveva dedicato una storia breve, Senza Titolo, lo aveva molto influenzato, soprattutto con 8 1/2. In seguito al loro incontro, Fellini gli chiede le illustrazioni per una sceneggiatura che pubblica sul “Corriere della Sera”. Da qui Manara, con il consenso del regista, trasforma il testo di Fellini in uno straordinario fumetto, Viaggio a Tulum, apparso su “Corto Maltese”. Il rapporto tra i due si consolida: Fellini rimette mano a uno dei suoi progetti più personali e insieme danno vita a Il viaggio di G. Mastorna detto Fernet, pubblicato da “Il grifo”. Manara realizza inoltre i manifesti dei film di Fellini Intervista La voce della luna.All’inizio degli anni Novanta, realizza le tavole a fumetti del Cristoforo Colombo di Enzo Biagi. In questo periodo tra le tante collaborazioni internazionali illustra un libro di racconti di Pedro Almodovar, El fuego y las entrañas. Illustra anche Fantasex, raccolta di racconti di erotismo e fantascienza, cui fa seguito la trasposizione fumettistica di tre classici della letteratura: Gulliveriana, Kamasutra L’asino d’oro. Disegna poi tre storie di carattere sociale: Ballata in si bemolle, dedicata al tema dell’usura, Rivoluzione, sull’imbarbarimento generato dalla televisione, e Tre ragazze nella rete, ispirata al mondo di Internet. Il decennio si chiude con il ritorno di Giuseppe Bergman con quella che si può considerare una delle sue storie più belle, A riveder le stelle – Le avventure metropolitane di Giuseppe Bergman, riflessione sull’arte all’inizio del nuovo millennio, attraverso il ricordo di tre grandi amici scomparsi: Andrea Pazienza, Federico Fellini, Hugo Pratt.Dopo tante pubblicazioni in Francia è la volta degli Stati Uniti, grazie ad una collaborazione con la DC Comics per la sua etichetta adulta Vertigo, per cui realizza la storia di Desiderio nel volume Sandman – Notti Eterne. Qualche anno dopo, anche la Marvel Comics commissiona un lavoro a Manara: in coppia con Chris Claremont, nasce una storia degli X-Men femminile, X-Men:Ragazze in fuga.Realizza 46, una storia a fumetti tra sogno e realtà su Valentino Rossi, che prende il titolo dal numero della moto del campione italiano, pubblicata su “Rolling Stones” e poi in volume, mentre su sceneggiatura di Vincenzo Cerami, al suo esordio nella scrittura di un fumetto, pubblica Gli occhi di Pandora.Dall’inizio degli anni Duemila, Manara lavora al progetto Il pittore e la modella, un viaggio nella storia dell’arte pittorica a partire dal rapporto pittore-modella.Su testi di Alejandro Jodorowsky disegna poi un fumetto sulla casata de I Borgia, in quattro puntate, tra il 2004 e il 2010.Con l’espandersi della comunicazione multimediale, l’attività di Manara si diversifica orientandosi anche verso la realizzazione di storyboard e la consulenza per campagne pubblicitarie, come quelle per Chanel, per lo spot firmato da Luc Besson, Fastweb, Eminence, Permaflex e Yamamay, contributi e progetti realizzati per Internet e il computer, come Gulliveriana, un cd-rom su una sua storia, seguito da Il gioco del Kamasutra.Nel 2008 Manara sigla un accordo di esclusiva con Napoli COMICON per la cura e la gestione di tutte le sue mostre, in Italia e all’estero, in conseguenza negli ultimi anni moltissimi sono stati gli eventi, le mostre, i festival a cui Manara ha partecipato in tutto il mondo, dal Brasile, alla Francia, alla Germania, al Belgio, alla Polonia, alla Norvegia e fino alla Corea del Sud.Dopo numerosi premi e riconoscimenti in Italia e all’estero, il 20 febbraio 2009 l’Accademia di Belle Arti di Macerata il titolo di Accademico Honoris Causa."
 	},
 	{
 	  "id":4,
-	  "firstName":"Giovan Battista",
-	  "lastName":"Tiepolo",
+	  "firstName":"Milo",
+	  "lastName":"Manara",
+	  "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Milo_Manara_Lodz_2008.jpg/440px-Milo_Manara_Lodz_2008.jpg",
+	  "gallery":[
+		{"img":""},
+		{"img":""},
+		{"img":""},
+		{"img":""},
+		{"img":""}
+	  ],
 	  "birth":{
-		"date":"1696",
-		"city":"Venezia",
-		"country":"IT"
+		"date":"1945-09-12",
+		"city":"Bolzano",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 	  },
 	  "die":{
-		"date":"1770",
-		"city":"Madrid",
-		"country":"ES"
+		"date":"",
+		"city":"",
+		"country":""
 	  },
-	  "notes":""
-	},
-	{
-	  "id":5,
-	  "firstName":"Filippo",
-	  "lastName":"de Pisis",
-	  "birth":{
-		"date":"1896-05-11",
-		"city":"Ferrara",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1956-04-02",
-		"city":"Brugherio",
-		"country":"IT"
-	  },
-	  "notes":""
-	},
-	{
-	  "id":6,
-	"firstName":"Carlo",
-	  "lastName":"Carr&agrave;",
-	  "birth":{
-		"date":"1881-02-11",
-		"city":"Quargnento",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1966-04-13",
-		"city":"Milano",
-		"country":"IT"
-	  },
-	  "notes":""
-	},
-	{
-	  "id":7,
-	  "firstName":"Giorgio",
-	  "lastName":"Morandi",
-	  "birth":{
-		"date":"1890-07-20",
-		"city":"Bologna",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1964-06-18",
-		"city":"Bologna",
-		"country":"IT"
-	  },
-	  "notes":""
-	},
-	{
-	  "id":8,
-	  "firstName":"Carlo Antonio",
-	  "lastName":"Tavella",
-	  "birth":{
-		"date":"1668",
-		"city":"Milano",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1738",
-		"city":"Genova",
-		"country":"IT"
-	  },
-	  "notes":""
-	},
-	{
-	  "id":9,
-	  "firstName":"Stefano",
-	  "lastName":"Magnasco",
-	  "birth":{
-		"date":"1635",
-		"city":"Genova",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1672",
-		"city":"Genova",
-		"country":"IT"
-	  },
-	  "notes":""
-	},
-	{
-	  "id":10,
-	  "firstName":"Aldo Renato",
-	  "lastName":"Guttuso",
-	  "birth":{
-		"date":"1911-12-26",
-		"city":"Bagheria",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1987-01-18",
-		"city":"Roma",
-		"country":"IT"
-	  },
-	  "notes":""
-	},
-	{
-	  "id":11,
-	  "firstName":"Vittorio Amedeo",
-	  "lastName":"Rapous",
-	  "birth":{
-		"date":"1729",
-		"city":"Torino",
-		"country":"IT"
-	  },
-	  "die":{
-		"date":"1800",
-		"city":"Torino",
-		"country":"IT"
-	  },
-	  "notes":""
+	  "story":" - Quando ho letto Barbarella ho contemporaneamente scoperto un universo per me, per le mie possibilità, per il mio lavoro… In quel momento ho deciso che avrei fatto quel lavoro lì, che io avrei fatto solo questo nella vita… - Milo Manara nasce a Luson in provincia di Bolzano il 12 settembre 1945, in una famiglia in cui Manara e i fratelli, per essere autosufficienti, fanno lavoretti sin da adolescenti (dall’età di dodici anni Manara realizzava pannelli decorativi su commissione).Seguendo le sue inclinazioni naturali, si diploma a un liceo artistico privato. Si trasferisce a Verona dove inizia a lavorare come assistente dello scultore spagnolo Miguel Berrocal e nello stesso periodo s’iscrive alla Facoltà di Architettura a Venezia. Insieme ad altri artisti, durante i movimenti del Sessantotto, contesta in maniera netta la Biennale di Venezia. Improvvisamente, grazie alla moglie francese di Berrocal, Manara scopre il Fumetto, di cui non era mai stato durante l’infanzia o l’adolescenza un appassionato e viene affascinato dal carattere di produzione in serie del medium, che lo discosta dall’unicità dell’opera d’arte pittorica per apparentarlo molto di più alla letteratura, anche nei confronti del pubblico di massa per l’accessibilità dei prezzi. Manara vede nel fumetto la possibilità di costruire un proprio ruolo nella società, anche grazie a un rapporto con la retribuzione, nel campo editoriale rispetto a quello artistico,  più onesto e aderente alla società, e decide pertanto di provare a cimentarsi con questo linguaggio. È così che debutta alla fine degli anni Sessanta come autore di storie erotico-poliziesche sulla collana “Genius”, e subito dopo in Jolanda de Almaviva, serie sexy di grande successo. Lascia intanto gli studi universitari. Negli anni Settanta avvia la collaborazione con il “Corriere dei Ragazzi”, dove disegna una serie di fumetti sceneggiati da Mino Milani in cui vengono processati i grandi personaggi storici, La parola alla giuria. Nello stesso periodo, sui testi di Alfredo Castelli e Mario Gomboli, realizza Un fascio di bombe, fumetto sulla strategia della tensione nelle stragi di Stato, da poco ripubblicato in Italia. Subito dopo, assieme a Silverio Pisu, Manara dà vita a Lo Scimmiotto ad Alessio, il borghese rivoluzionario, che segnano il suo debutto nel fumetto d’autore. Collabora con la casa editrice francese Larousse, per cui realizza alcune storie inserite nelle raccolte L’Histoire de France en bandes dessinées, La decouverte du monde e L’Histoire de la Chine.Nel 1978 crea il suo primo personaggio di successo e ne sceneggia anche la storia, pubblicata in prima battuta in Francia dalla rivista “(A SUIVRE)”: HP e Giuseppe Bergman, dove HP è un chiaro riferimento al suo maestro e mentore Hugo Pratt, trasformato in uno dei protagonisti del racconto; negli anni a seguire, Manara pubblica altri episodi dedicati a Giuseppe Bergman, che fisionomicamente ha le fattezze dell’autore e di Alain Delon.Tra la fine del decennio e i primi anni Ottanta partecipa alla realizzazione della Storia d’Italia a fumetti da Enzo Biagi e crea, su commissione della rivista “Playmen”, Il gioco, storia ad alta densità erotica che dà un successo a livello mondiale, straordinario e inatteso, a Manara. Di questo periodo è anche il primo di due lavori su testi di Hugo Pratt, per il quale disegna due storie fondamentali per la sua carriera: Tutto ricominciò con un’estate indiana, pubblicata dalla rivista “Corto Maltese”, seguita da El gaucho, pubblicata da “Il grifo”. Oltre a un’altra storia importante, questa volta di ambientazione western, pubblicata ancora in Francia dalla rivista “Pilote”: L’uomo di carta.Su sceneggiatura di Castelli, Manara disegna poi L’uomo delle nevi, per la collana “Un uomo, un’avventura”, edita da Cepim, oggi Sergio Bonelli Editore. Subito dopo crea Miele, forse il suo personaggio femminile più famoso, protagonista dei volumi Il profumo dell’invisibile di sei storie brevi intitolate Candid Camera.Nel 1987 inizia la collaborazione con Federico Fellini. Il grande maestro riminese, al quale Manara  aveva dedicato una storia breve, Senza Titolo, lo aveva molto influenzato, soprattutto con 8 1/2. In seguito al loro incontro, Fellini gli chiede le illustrazioni per una sceneggiatura che pubblica sul “Corriere della Sera”. Da qui Manara, con il consenso del regista, trasforma il testo di Fellini in uno straordinario fumetto, Viaggio a Tulum, apparso su “Corto Maltese”. Il rapporto tra i due si consolida: Fellini rimette mano a uno dei suoi progetti più personali e insieme danno vita a Il viaggio di G. Mastorna detto Fernet, pubblicato da “Il grifo”. Manara realizza inoltre i manifesti dei film di Fellini Intervista La voce della luna.All’inizio degli anni Novanta, realizza le tavole a fumetti del Cristoforo Colombo di Enzo Biagi. In questo periodo tra le tante collaborazioni internazionali illustra un libro di racconti di Pedro Almodovar, El fuego y las entrañas. Illustra anche Fantasex, raccolta di racconti di erotismo e fantascienza, cui fa seguito la trasposizione fumettistica di tre classici della letteratura: Gulliveriana, Kamasutra L’asino d’oro. Disegna poi tre storie di carattere sociale: Ballata in si bemolle, dedicata al tema dell’usura, Rivoluzione, sull’imbarbarimento generato dalla televisione, e Tre ragazze nella rete, ispirata al mondo di Internet. Il decennio si chiude con il ritorno di Giuseppe Bergman con quella che si può considerare una delle sue storie più belle, A riveder le stelle – Le avventure metropolitane di Giuseppe Bergman, riflessione sull’arte all’inizio del nuovo millennio, attraverso il ricordo di tre grandi amici scomparsi: Andrea Pazienza, Federico Fellini, Hugo Pratt.Dopo tante pubblicazioni in Francia è la volta degli Stati Uniti, grazie ad una collaborazione con la DC Comics per la sua etichetta adulta Vertigo, per cui realizza la storia di Desiderio nel volume Sandman – Notti Eterne. Qualche anno dopo, anche la Marvel Comics commissiona un lavoro a Manara: in coppia con Chris Claremont, nasce una storia degli X-Men femminile, X-Men:Ragazze in fuga.Realizza 46, una storia a fumetti tra sogno e realtà su Valentino Rossi, che prende il titolo dal numero della moto del campione italiano, pubblicata su “Rolling Stones” e poi in volume, mentre su sceneggiatura di Vincenzo Cerami, al suo esordio nella scrittura di un fumetto, pubblica Gli occhi di Pandora.Dall’inizio degli anni Duemila, Manara lavora al progetto Il pittore e la modella, un viaggio nella storia dell’arte pittorica a partire dal rapporto pittore-modella.Su testi di Alejandro Jodorowsky disegna poi un fumetto sulla casata de I Borgia, in quattro puntate, tra il 2004 e il 2010.Con l’espandersi della comunicazione multimediale, l’attività di Manara si diversifica orientandosi anche verso la realizzazione di storyboard e la consulenza per campagne pubblicitarie, come quelle per Chanel, per lo spot firmato da Luc Besson, Fastweb, Eminence, Permaflex e Yamamay, contributi e progetti realizzati per Internet e il computer, come Gulliveriana, un cd-rom su una sua storia, seguito da Il gioco del Kamasutra.Nel 2008 Manara sigla un accordo di esclusiva con Napoli COMICON per la cura e la gestione di tutte le sue mostre, in Italia e all’estero, in conseguenza negli ultimi anni moltissimi sono stati gli eventi, le mostre, i festival a cui Manara ha partecipato in tutto il mondo, dal Brasile, alla Francia, alla Germania, al Belgio, alla Polonia, alla Norvegia e fino alla Corea del Sud.Dopo numerosi premi e riconoscimenti in Italia e all’estero, il 20 febbraio 2009 l’Accademia di Belle Arti di Macerata il titolo di Accademico Honoris Causa."
 	}
+
 ]

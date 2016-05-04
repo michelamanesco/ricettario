@@ -6,15 +6,16 @@
             <div class="name">{{point.name}}<br></div>
         </ion-item>
 
-        <ion-item class="dashboard">
-            <div class="colorBackground">
-                <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
-                <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
-            </div>
-        </ion-item>
-        <ion-item>
-            Autore:   {{point.autor}}
-        </ion-item>
+        <div class="item item-divider">Autore:</div>
+            <ion-item class="item-icon-right">
+                <span class="item-text-wrap">{{point.autor}}</span>
+                <i class="icon ion-chevron-right"  ui-sref="#app/.."></i>
+            </ion-item>
+
+        <div class="item item-divider"> Descrizione:</div>
+            <ion-item>
+                {{point.text}}
+            </ion-item>
 
     </ion-list>
 </ion-content>

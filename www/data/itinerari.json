@@ -1,4 +1,5 @@
-[{
+[
+    {
      "id": 1,
      "background": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
      "name": "Illustratori Italiani",
@@ -9,24 +10,27 @@
      "point": [ {
                     "id":"3432",
                     "type": "chapter",
-                    "title":"Capitolo 1",
-                    "subtitle":"sottotitolo 1",
-                    "text":"A dozen rockets sprang out of the hills before them so soon as they began to move, and warned the waiting batteries about Ditton and Esher.", "a":"At the same time four of their fighting machines"
+                    "title":"Illustratori italiani - I grandi maestri del fumetto",
+                    "subtitle":"Così gli illustratori italiani conquistano il mondo",
+                    "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
                 },
                 {
                    "id":"3432fdsa",
                    "type": "opera",
                    "name": "Ulisse",
                    "autor": "Milo Manara",
-                   "img": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg"
-               }, {
+                   "img": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
+                   "text":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011"
+                },
+                {
                     "id":"3sd432",
                    "type": "opera",
                    "name": "",
                    "autor": "Milo Manara",
                    "img": "http://www.ilgiornale.it/sites/default/files/styles/large/public/foto/2015/04/15/1429074003-ipad-449-0.jpg"
                }]
- }, {
+    },
+    {
      "id": 2,
      "background": "http://www.ilbardelfumetto.com/media/articoli/2273/542fb305410a4.jpg",
      "name": "Illustratori Marvel",
@@ -34,4 +38,5 @@
      "color": "red",
      "steps": 200,
      "description": ""
- }]
+     }
+]

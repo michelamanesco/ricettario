@@ -4,12 +4,14 @@
         <ion-list>
             <ion-item class="item-image" style="height:600px;">
                 <ion-content scrollbar-x="true" scrollbar-y="true">
-                    <div style="z-index:1"><i class="N ion-ios-navigate-outline"></i></div>
-                <div class="map" style="height:100%; transform:scale({{1+(scale/100)}}) rotate(41deg);">
-                    <img src="../img/museo/museumMap.png">
-                    <div ng-repeat="marker in item.markers" style="position:absolute; top:{{marker.lat}}%; left:{{marker.lng}}%;"><i class="point ion-ios-circle-filled"></i></div>
-                    <!--<div style="position:absolute; top:{{top}}%; left:{{left}}%;"><i class="point ion-ios-circle-filled"></i></div>-->
-                </div>
+                    <div style="z-index:1">
+                        <i class="N ion-ios-navigate-outline"></i>
+                    </div>
+                    <div class="map" style="height:100%; transform:scale({{1+(scale/100)}}) rotate(41deg);">
+                        <img src="../img/museo/museumMap.png">
+                        <div ng-repeat="marker in item.markers" style="position:absolute; top:{{marker.lat}}%; left:{{marker.lng}}%;"><i class="point ion-ios-circle-filled"></i></div>
+                        <!--<div style="position:absolute; top:{{top}}%; left:{{left}}%;"><i class="point ion-ios-circle-filled"></i></div>-->
+                    </div>
                 </ion-content>
             </ion-item>
 

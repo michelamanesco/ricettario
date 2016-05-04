@@ -1,5 +1,10 @@
 <ion-view title="{{item.name}}"  id="itinerario">
+<!--    <button class="button button-clear button-positive">Edit</button>-->
     <ion-content scroll="false">
+
+
+
+
 
         <ion-slides>
             <ion-slide-page ng-repeat="point in item.point">
@@ -11,12 +16,25 @@
         </ion-slides>
 
     </ion-content>
+
     <ion-footer-bar>
-        <div class="dashboard">
-            <div class="colorBackground">
-                <span class="time button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
-                <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
-            </div>
+        <div class="tabs tabs-icon-top">
+            <a class="tab-item">
+                <i class="icon ion-android-arrow-back"></i>
+            </a>
+            <a class="tab-item" ng-show="item.time>=1">
+                <i class="icon ion-clock"></i>{{item.time}}
+            </a>
+            <a class="tab-item" ui-sref="app.range">
+                <i class="icon ion-map"></i>
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-music-note"></i>
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-android-arrow-forward"></i>
+            </a>
         </div>
     </ion-footer-bar>
+
 </ion-view>
