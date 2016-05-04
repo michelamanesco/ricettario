@@ -6,10 +6,11 @@
 	"avatar":"https://scontent.xx.fbcdn.net/v/t1.0-9/1005515_1086286138078538_7635819501409857230_n.jpg?oh=18d03102226d66848be392a51111ceca&oe=57A89E55",
 	"gallery":[
 	  {"img":"http://www.fumetto-online.it/ew/ew_albi/images/EDIZIONI%20DI/g_vetrina/FREZZATO-PAUSA-PRANZO011.jpg"},
-	  {"img":""},
-	  {"img":""},
-	  {"img":""},
-	  {"img":""}
+	  {"img":"http://www.lindiceonline.com/wp-content/uploads/2016/01/tumblr_lr5y64OVj81r14duto1_1280.jpg"},
+	  {"img":"http://neuramagazine.com/wp-content/uploads/2013/10/litografia-frezzato-1024x669.jpg"},
+	  {"img":"http://1.bp.blogspot.com/-AhDUgkmJz0A/UwcfU1UVx7I/AAAAAAAACS8/0CLqJxR5noo/s1600/foto+(2).JPG"},
+	  {"img":"http://41.media.tumblr.com/736d4941f80ddea59a828f458945d038/tumblr_nutn0e6oDw1r14duto1_1280.png"},
+	  {"img":"https://lookayou.files.wordpress.com/2011/08/mg_0083.jpg"}
 	],
 	"birth":{
 	  "date":"1967-03-12",
@@ -27,17 +28,18 @@
 	  "id":2,
 	  "firstName":"Riccardo",
 	  "lastName":"Federici",
-	  "avatar":"",
-	  "gallery":[
+	  "avatar":"http://static4.comicvine.com/uploads/scale_small/11116/111165226/4315828-0297360191-Photo.jpg",
+	  "gallery":
+	  	[
 		{"img":"http://img01.deviantart.net/2806/i/2011/178/e/a/riccardo_federici_art_by_riccardofedericiart-d3k4sj5.jpg"},
 		{"img":"https://lh5.googleusercontent.com/-u-2xojjC-dc/TYiIxfcn0fI/AAAAAAAAAFo/WUca1csPjJ8/s1600/IMG_8119.JPG"},
 		{"img":"http://img07.deviantart.net/f95f/i/2011/153/2/2/riccardo_federici_art_by_riccardofedericiart-d3hu4m3.jpg"},
 		{"img":"http://www.canalbd.net/img/couvpage/95/9782756018959_pg.jpg"},
 		{"img":"http://www.rat-man.org/wp-content/uploads/2014/12/Federici1.jpg"}
-	  ],
+	  	],
 	  "birth":{
-		"date":"",
-		"city":"",
+		"date":"1976-02.09",
+		"city":"Roma",
 		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 	  },
 	  "die":{
@@ -45,19 +47,19 @@
 		"city":"",
 		"country":""
 	  },
-	  "story":"Fumettista italiano.Tra il 1982 e il 1986 frequentò il I Liceo Artistico di Torino e, durante gli studi, si classificò secondo al concorso nazionale di fumetto a Prato. Bisogna aspettare il 1989 perché vinca il primo premio. I suoi primi lavori vennero pubblicati su varie riviste a partire dal 1985. Nel 1990 realizza Margot scritto da Jerome Charyn. Tra il 1994 e il 1997 tiene un corso di fumetto e d'illustrazione editoriale presso l'Istituto Europeo di Design a Torino.Nel 1996 pubblica il primo volume della saga I custodi del Maser, che lo terrà impegnato sino all'aprile 2005. Dal 2007 si affida alla matita di Fabio Ruotolo per il prosieguo della saga, dedicandosi alla scrittura e alla supervisione dell'opera. La saga viene pubblicata in diversi paesi tra i quali: Francia[1], Italia, Spagna, Portogallo, Germania, Belgio, Danimarca[senza fonte] e Stati Uniti d'America.Tra il 1998 e il 1999 insegna all'Accademia d'Arte Pictor di Torino."
+	  "story":"Riccardo Federici is born in Roma on september the 2nd 1976, Riccardo Federicci took up an early interest for drawing and painting, while playing the drums. After getting his art diploma, he attended the Architecture faculty in “The Sapienza” University of Roma. At the same time, he studied physiology. He was drawing anatomical illustrations, children comic strips, ad campaign illustrations, until he met Marya Smirnoff in 2005, with whom he signed an edition contract for the realization of two comic strip albums “La Madone de Pellini” In 2009, he carried on the graphic of “Saria”, initiated by one of the greatest comic strip author: Paolo Serpieri. Each and every page of that album is a painting, one needs only sifting through it to realize it. But, his desire for creation lead him to painting, mostly with oils and to sculpting, never denying his basics: comic strip, but willing to transcend them, to take them to cutting edge concepts and materials. Riccardo Federici was the first comic strip artist to have been exposed at the Roma Biennale, next to the greatest contemporary painters and photographers."
 	},
 	{
 	  "id":3,
 	  "firstName":"Milo",
 	  "lastName":"Manara",
-	  "avatar":"",
+	  "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Milo_Manara_Lodz_2008.jpg/440px-Milo_Manara_Lodz_2008.jpg",
 	  "gallery":[
-		{"img":""},
-		{"img":""},
-		{"img":""},
-		{"img":""},
-		{"img":""}
+		{"img":"http://www.passion-estampes.com/toiles-BD/manara/toile-manara-indienne-50x70.jpg"},
+		{"img":"https://i.ytimg.com/vi/J2nMvvwqVlY/maxresdefault.jpg"},
+		{"img":"http://www.napolike.it/wp-content/uploads/2015/06/milo-manara-caravaggio.jpg"},
+		{"img":"http://visionaria.eu/upload/userfiles/images/1278519015b.jpg"},
+		{"img":"http://www.comicon.it/MiloManarasite/wp-content/uploads/2011/10/16.jpg"}
 	  ],
 	  "birth":{
 		"date":"1945-09-12",
@@ -73,10 +75,133 @@
 	},
 	{
 	  "id":4,
-	  "firstName":"Milo",
-	  "lastName":"Manara",
-	  "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Milo_Manara_Lodz_2008.jpg/440px-Milo_Manara_Lodz_2008.jpg",
-	  "gallery":[
+	  "firstName":"Franco",
+	  "lastName":"Bruna",
+	  "avatar":"http://www.lastampa.it/rf/image_lowres/Pub/p3/2014/03/28/Cuneo/Foto/RitagliWeb/Franco%20Bruna%203-1703-knLG-U1030300972071ATF-568x320@LaStampa.it.JPG",
+	  "gallery":
+	  	[
+		{"img":"http://lucaboschi.nova100.ilsole24ore.com/wp-content/uploads/sites/14/imported/6a00d8341c684553ef01a3fce1a89d970b-500wi.jpg"},
+		{"img":"http://www.quotidianopiemontese.it/wp-content/uploads/2014/03/franco-bruna.gif"},
+		{"img":"http://www.comicartcity.com/immagini/valutazioni/2013/07/19/211/un-topolino-a-firma-del-pittore-franco-bruna-2.jpg"},
+		{"img":"http://lucaboschi.nova100.ilsole24ore.com/wp-content/uploads/sites/14/imported/6a00d8341c684553ef01a51191576b970c-500wi.jpg"},
+		{"img":"http://xl.repubblica.it/wp-content/gallery/bruna-2/bruna-betty.jpg"}
+	  	],
+	  "birth":{
+		"date":"1935-15-12",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "die":{
+		"date":"2014-03-28",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "story":"Franco Bruna è stato un fumettista e illustratore italiano. Collaborò per oltre quarant'anni come vignettista per il quotidiano La Stampa a partire dal 1971, quando realizzò una caricatura sull'Incontro del secolo tra Muhammad Ali e Joe Frazier. "
+	},
+	{
+	  "id":5,
+	  "firstName":"Benito",
+	  "lastName":"Jacovitti",
+	  "avatar":"https://upload.wikimedia.org/wikipedia/commons/d/d9/Jacovitti-photo-by-joe-zatt.jpg",
+	  "gallery":
+	  [
+		{"img":"http://www.comicartcity.com/immagini/approfondimenti/2011/12/16/19/tavole-originali-un-sogno-fatto-di-carta-2-parte--1.jpg?=1347369488"},
+		{"img":"http://cdn.lospaziobianco.it/wp-content/uploads/2014/08/300-coccobill17.png"},
+		{"img":"http://news-art.it/custom/news-art/writable/news/Benito%20Jacovitti%20-%20Pinocchio,%201964%20(base%20d'asta%209_800).jpg"},
+		{"img":"http://a405.idata.over-blog.com/3/79/28/51/CLAUDE/rand/malo/kat/Katyyy/nikita/jason/peet/jacovitti-1.coccobill.jpg"}
+	  ],
+	  "birth":{
+		"date":"1923-",
+		"city":"Termoli",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "die":{
+		"date":"",
+		"city":"Roma",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "story":"Disegnatore e autore di fumetti italiano (Termoli 1923 - Roma 1997). Precocissimo talento umoristico, esordì nel 1940 sulle pagine del Vittorioso con le storie dei tre scapestrati ragazzi Pippo, Pertica e Palla, i suoi più noti e duraturi personaggi. Nel 1957 creò, per il supplemento settimanale de Il Giorno, la serie di Cocco Bill (dal 1968 trasferita sul Corriere dei piccoli), che racconta le storie di un parodistico giustiziere del West, e quella di Tom Ficcanaso, sulle esilaranti peripezie di un giornalista di cronaca. Autore anche di una simpatica riduzione di Pinocchio, J. fu, per il suo inconfondibile stile grafico e per il suo umorismo che attinge volentieri al nonsense, uno dei più apprezzati, anche all'estero, tra gli autori italiani del genere comico."
+	},
+	{
+	  "id":6,
+	  "firstName":"Gabriele",
+	  "lastName":"dell'Otto",
+	  "avatar":"https://upload.wikimedia.org/wikipedia/commons/8/83/Gabriele_Dell%27Otto_-_Studio.jpg",
+	  "gallery":
+	  [
+		{"img":"http://images-cdn.moviepilot.com/image/upload/c_scale,h_750,w_486/t_mp_quality/breathtaking-spider-man-art-by-gabriele-dell-otto-spidey-tdk-jpeg-228183.jpg"},
+		{"img":"http://images-cdn.moviepilot.com/image/upload/c_scale,h_1059,w_736/t_mp_quality/breathtaking-spider-man-art-by-gabriele-dell-otto-17366b02-6ff0-4025-8ffb-0eb91622ea11-jpeg-228189.jpg"},
+		{"img":"http://img014.cattonerd.it/uploads/2014/11/Hulk-Vs-Avengers-by-Gabriele-Dell%E2%80%99Otto1.jpg"},
+		{"img":"http://1.bp.blogspot.com/-hXkpSBJ3uhA/VDqEX7s1LpI/AAAAAAAACGE/83U7hY9kBKw/s1600/Amazing%2BSpider-Man%2B-%2BFamily%2BBusiness-014.jpg"},
+		{"img":"https://s-media-cache-ak0.pinimg.com/736x/66/63/10/66631034e189c8de9e15869f00c1898d.jpg"}
+	  ],
+	  "birth":{
+		"date":"1973",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "die":{
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "story":"Gabriele Dell’Otto is an Italian illustrator and author whose works have been published in several countries in the fields of scientific illustration, calendars, lithographies, books, colored graphic folders, and cover work for magazines and video games.In 1998 Dell'Otto started collaborating with the European division of Marvel Comics, producing covers, posters and lithographies for Italy, France and Germany. In Germany he started collaborating with DC Comics and other publishers such as IPP, Egmont Ehapa and MG Publishing.In 2002-2003 the Italian Carabinieri hired him to design the images for their historical calendar.In 2002 his work was shown to Joe Quesada, the editor-in-chief of Marvel Comics, who assigned him the art duties for the Secret War mini-series, written by Brian Michael Bendis.In 2006 he illustrated the cover and promotional images of the Italian version of the Activision videogame Marvel: Ultimate Alliance.Between 2006 and 2007 Dell'Otto provided the covers of the miniseries Annihilation, which starred the space-based characters of the Marvel Universe. In May 2007 he published the illustrated book Tales.In 2009 he was the artist of the X-Force mini-series Sex and Violence, written by Craig Kyle and Christopher Yost.In January 2012, Dell'Otto illustrated the spine images for the books in The Official Marvel Graphic Novel Collection. When put together in order, the spines form a complete landscape image."
+	},
+	{
+	  "id":7,
+	  "firstName":"Lara",
+	  "lastName":"Molinari",
+	  "avatar":"http://farm3.static.flickr.com/2103/2228127521_a348b05ec8.jpg",
+	  "gallery":
+	  [
+		{"img":"https://p2.liveauctioneers.com/1513/75988/39724689_1_x.jpg"},
+		{"img":"https://p2.liveauctioneers.com/1513/63267/31782843_1_x.jpg"},
+		{"img":"https://p2.liveauctioneers.com/1513/38832/16629074_1_l.jpg"},
+		{"img":"http://assets.catawiki.nl/assets/2016/2/13/3/9/7/397b21b2-d23b-11e5-8579-c0d7cf134a5b.jpg"}
+	  ],
+	  "birth":{
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "die":{
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "story":"Nata a Milano nel 1970, muove giovanissima i primi passi nel mondo del fumetto. Come cartoonist per la Walt Disney Italia ha all'attivo una collaborazione che ha festeggiato la maggiore età!Ha all'attivo storie, fumetti e copertine per il settimanale Topolino, illustrazioni per videogiochi Playstation e collaborazioni con Disney Channel, con albi tradotti e pubblicati in ambito europeo.Lavora anche nel mondo della grafica pubblicitaria e del design industriale come illustratrice di packaging, nonché ritrattista in trasmissioni televisive.Nel 2005, sull'onda del successo del -Codice da Vinci- di Dan Brown illustra la parodia -Zio Paperone e il Codice Metsys- per il superalbum -il Papero da Vinci-.Attualmente nel suo studio di Alassio si dedica allo studio di soggetti romantici naif di matrice fumettistica, affiancati a opere di ricerca dal fascino informale"
+	},
+	{
+	  "id":8,
+	  "firstName":"Giorgio",
+	  "lastName":"Cavazzano",
+	  "avatar":"https://upload.wikimedia.org/wikipedia/commons/d/db/Giorgio_Cavazzano,_2013.jpg",
+	  "gallery":
+	  [
+		{"img":"http://lucaboschi.nova100.ilsole24ore.com/wp-content/uploads/sites/14/2015/07/578it-dyd.jpg"},
+		{"img":"http://www.comicartcity.com/immagini/griglia/2011/12/20/2-giorgio-cavazzano-2.jpg"},
+		{"img":"https://agescimirano.files.wordpress.com/2013/05/cavazzano.jpg"},
+		{"img":"http://www.europaquotidiano.it/wp-content/uploads/2013/04/cavazzano-altai.jpg"}
+	  ],
+	  "birth":{
+		"date":"1947",
+		"city":"Venezia",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "die":{
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "story":"Cavazzano è, con Luciano Bottaro, uno dei disegnatori di fumetti umoristici più apprezzati in Europa. La sua arte è stata prestata sia ai fumetti Disney (ha collaborato sia con la Mondadori, sia con Disney Italia, sia con Mickey Parade e Le Journal de Mickey, riviste Disney francesi), sia nella creazione di fumetti umoristici non disneyani, sia di fumetti di genere realistico. Ha inoltre all'attivo numerosi lavori nel campo dell'animazione e della pubblicità."
+	},
+	{
+	  "id":9,
+	  "firstName":"",
+	  "lastName":"",
+	  "avatar":"",
+	  "gallery":
+	  [
 		{"img":""},
 		{"img":""},
 		{"img":""},
@@ -84,16 +209,42 @@
 		{"img":""}
 	  ],
 	  "birth":{
-		"date":"1945-09-12",
-		"city":"Bolzano",
+		"date":"",
+		"city":"",
 		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 	  },
 	  "die":{
 		"date":"",
 		"city":"",
-		"country":""
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
 	  },
-	  "story":" - Quando ho letto Barbarella ho contemporaneamente scoperto un universo per me, per le mie possibilità, per il mio lavoro… In quel momento ho deciso che avrei fatto quel lavoro lì, che io avrei fatto solo questo nella vita… - Milo Manara nasce a Luson in provincia di Bolzano il 12 settembre 1945, in una famiglia in cui Manara e i fratelli, per essere autosufficienti, fanno lavoretti sin da adolescenti (dall’età di dodici anni Manara realizzava pannelli decorativi su commissione).Seguendo le sue inclinazioni naturali, si diploma a un liceo artistico privato. Si trasferisce a Verona dove inizia a lavorare come assistente dello scultore spagnolo Miguel Berrocal e nello stesso periodo s’iscrive alla Facoltà di Architettura a Venezia. Insieme ad altri artisti, durante i movimenti del Sessantotto, contesta in maniera netta la Biennale di Venezia. Improvvisamente, grazie alla moglie francese di Berrocal, Manara scopre il Fumetto, di cui non era mai stato durante l’infanzia o l’adolescenza un appassionato e viene affascinato dal carattere di produzione in serie del medium, che lo discosta dall’unicità dell’opera d’arte pittorica per apparentarlo molto di più alla letteratura, anche nei confronti del pubblico di massa per l’accessibilità dei prezzi. Manara vede nel fumetto la possibilità di costruire un proprio ruolo nella società, anche grazie a un rapporto con la retribuzione, nel campo editoriale rispetto a quello artistico,  più onesto e aderente alla società, e decide pertanto di provare a cimentarsi con questo linguaggio. È così che debutta alla fine degli anni Sessanta come autore di storie erotico-poliziesche sulla collana “Genius”, e subito dopo in Jolanda de Almaviva, serie sexy di grande successo. Lascia intanto gli studi universitari. Negli anni Settanta avvia la collaborazione con il “Corriere dei Ragazzi”, dove disegna una serie di fumetti sceneggiati da Mino Milani in cui vengono processati i grandi personaggi storici, La parola alla giuria. Nello stesso periodo, sui testi di Alfredo Castelli e Mario Gomboli, realizza Un fascio di bombe, fumetto sulla strategia della tensione nelle stragi di Stato, da poco ripubblicato in Italia. Subito dopo, assieme a Silverio Pisu, Manara dà vita a Lo Scimmiotto ad Alessio, il borghese rivoluzionario, che segnano il suo debutto nel fumetto d’autore. Collabora con la casa editrice francese Larousse, per cui realizza alcune storie inserite nelle raccolte L’Histoire de France en bandes dessinées, La decouverte du monde e L’Histoire de la Chine.Nel 1978 crea il suo primo personaggio di successo e ne sceneggia anche la storia, pubblicata in prima battuta in Francia dalla rivista “(A SUIVRE)”: HP e Giuseppe Bergman, dove HP è un chiaro riferimento al suo maestro e mentore Hugo Pratt, trasformato in uno dei protagonisti del racconto; negli anni a seguire, Manara pubblica altri episodi dedicati a Giuseppe Bergman, che fisionomicamente ha le fattezze dell’autore e di Alain Delon.Tra la fine del decennio e i primi anni Ottanta partecipa alla realizzazione della Storia d’Italia a fumetti da Enzo Biagi e crea, su commissione della rivista “Playmen”, Il gioco, storia ad alta densità erotica che dà un successo a livello mondiale, straordinario e inatteso, a Manara. Di questo periodo è anche il primo di due lavori su testi di Hugo Pratt, per il quale disegna due storie fondamentali per la sua carriera: Tutto ricominciò con un’estate indiana, pubblicata dalla rivista “Corto Maltese”, seguita da El gaucho, pubblicata da “Il grifo”. Oltre a un’altra storia importante, questa volta di ambientazione western, pubblicata ancora in Francia dalla rivista “Pilote”: L’uomo di carta.Su sceneggiatura di Castelli, Manara disegna poi L’uomo delle nevi, per la collana “Un uomo, un’avventura”, edita da Cepim, oggi Sergio Bonelli Editore. Subito dopo crea Miele, forse il suo personaggio femminile più famoso, protagonista dei volumi Il profumo dell’invisibile di sei storie brevi intitolate Candid Camera.Nel 1987 inizia la collaborazione con Federico Fellini. Il grande maestro riminese, al quale Manara  aveva dedicato una storia breve, Senza Titolo, lo aveva molto influenzato, soprattutto con 8 1/2. In seguito al loro incontro, Fellini gli chiede le illustrazioni per una sceneggiatura che pubblica sul “Corriere della Sera”. Da qui Manara, con il consenso del regista, trasforma il testo di Fellini in uno straordinario fumetto, Viaggio a Tulum, apparso su “Corto Maltese”. Il rapporto tra i due si consolida: Fellini rimette mano a uno dei suoi progetti più personali e insieme danno vita a Il viaggio di G. Mastorna detto Fernet, pubblicato da “Il grifo”. Manara realizza inoltre i manifesti dei film di Fellini Intervista La voce della luna.All’inizio degli anni Novanta, realizza le tavole a fumetti del Cristoforo Colombo di Enzo Biagi. In questo periodo tra le tante collaborazioni internazionali illustra un libro di racconti di Pedro Almodovar, El fuego y las entrañas. Illustra anche Fantasex, raccolta di racconti di erotismo e fantascienza, cui fa seguito la trasposizione fumettistica di tre classici della letteratura: Gulliveriana, Kamasutra L’asino d’oro. Disegna poi tre storie di carattere sociale: Ballata in si bemolle, dedicata al tema dell’usura, Rivoluzione, sull’imbarbarimento generato dalla televisione, e Tre ragazze nella rete, ispirata al mondo di Internet. Il decennio si chiude con il ritorno di Giuseppe Bergman con quella che si può considerare una delle sue storie più belle, A riveder le stelle – Le avventure metropolitane di Giuseppe Bergman, riflessione sull’arte all’inizio del nuovo millennio, attraverso il ricordo di tre grandi amici scomparsi: Andrea Pazienza, Federico Fellini, Hugo Pratt.Dopo tante pubblicazioni in Francia è la volta degli Stati Uniti, grazie ad una collaborazione con la DC Comics per la sua etichetta adulta Vertigo, per cui realizza la storia di Desiderio nel volume Sandman – Notti Eterne. Qualche anno dopo, anche la Marvel Comics commissiona un lavoro a Manara: in coppia con Chris Claremont, nasce una storia degli X-Men femminile, X-Men:Ragazze in fuga.Realizza 46, una storia a fumetti tra sogno e realtà su Valentino Rossi, che prende il titolo dal numero della moto del campione italiano, pubblicata su “Rolling Stones” e poi in volume, mentre su sceneggiatura di Vincenzo Cerami, al suo esordio nella scrittura di un fumetto, pubblica Gli occhi di Pandora.Dall’inizio degli anni Duemila, Manara lavora al progetto Il pittore e la modella, un viaggio nella storia dell’arte pittorica a partire dal rapporto pittore-modella.Su testi di Alejandro Jodorowsky disegna poi un fumetto sulla casata de I Borgia, in quattro puntate, tra il 2004 e il 2010.Con l’espandersi della comunicazione multimediale, l’attività di Manara si diversifica orientandosi anche verso la realizzazione di storyboard e la consulenza per campagne pubblicitarie, come quelle per Chanel, per lo spot firmato da Luc Besson, Fastweb, Eminence, Permaflex e Yamamay, contributi e progetti realizzati per Internet e il computer, come Gulliveriana, un cd-rom su una sua storia, seguito da Il gioco del Kamasutra.Nel 2008 Manara sigla un accordo di esclusiva con Napoli COMICON per la cura e la gestione di tutte le sue mostre, in Italia e all’estero, in conseguenza negli ultimi anni moltissimi sono stati gli eventi, le mostre, i festival a cui Manara ha partecipato in tutto il mondo, dal Brasile, alla Francia, alla Germania, al Belgio, alla Polonia, alla Norvegia e fino alla Corea del Sud.Dopo numerosi premi e riconoscimenti in Italia e all’estero, il 20 febbraio 2009 l’Accademia di Belle Arti di Macerata il titolo di Accademico Honoris Causa."
+	  "story":""
+	},
+	{
+	  "id":10,
+	  "firstName":"",
+	  "lastName":"",
+	  "avatar":"",
+	  "gallery":
+	  [
+		{"img":""},
+		{"img":""},
+		{"img":""},
+		{"img":""},
+		{"img":""}
+	  ],
+	  "birth":{
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "die":{
+		"date":"",
+		"city":"",
+		"country":"IT", "imgFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png"
+	  },
+	  "story":""
 	}
+
 
 ]

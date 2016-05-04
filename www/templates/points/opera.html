@@ -5,17 +5,37 @@
             <img ng-src="{{point.img}}">
             <div class="name">{{point.name}}<br></div>
         </ion-item>
+<!--<div  ng-hide="point.author==null">-->
+        <div class="item item-divider">
+            Autore:
+        </div>
 
-        <div class="item item-divider">Autore:</div>
             <ion-item class="item-icon-right">
-                <span class="item-text-wrap">{{point.autor}}</span>
-                <i class="icon ion-chevron-right"  ui-sref="#app/.."></i>
+                <span class="item-text-wrap" ng-hide="point.author==null" ui-sref="#app/author">
+                    {{point.author}}
+                    <i class="icon ion-chevron-right" ></i>
+                </span>
             </ion-item>
-
-        <div class="item item-divider"> Descrizione:</div>
-            <ion-item>
+<!--</div>-->
+        <div class="item item-divider" ng-hide="point.text==null">
+            Descrizione:
+        </div>
+            <ion-item class="item-text-wrap" ng-hide="point.text==null">
                 {{point.text}}
             </ion-item>
+            <ion-item class="item-text-wrap" ng-hide="point.technique==null">
+                Tecnica:  {{point.technique}}
+            </ion-item>
+            <ion-item class="item-text-wrap" ng-hide="point.height==null" ng-hide="point.width==null">
+                Dimensioni:  H {{point.height}} x W {{point.width}}
+            </ion-item>
+            <ion-item class="item-text-wrap" ng-hide="point.epoch==null">
+                Epoca: {{point.epoch}}
+            </ion-item>
+            <ion-item class="item-text-wrap" ng-hide="point.printing==null">
+                Stampa: {{point.printing}}
+            </ion-item>
+
 
     </ion-list>
 </ion-content>

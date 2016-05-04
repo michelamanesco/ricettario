@@ -1,5 +1,5 @@
 
-<ion-view title="{{autore.firstName}} {{autore.lastName}}"  id="autore">
+<ion-view title="{{autore.firstName}} {{autore.lastName}}"  class="autore">
     <ion-content scroll="false">
         <ion-slides>
             <ion-slide-page>
@@ -31,11 +31,38 @@
             </ion-slide-page>
 
             <ion-slide-page class="gallery">
+                <ion-content>
+                    <div class="list">
+                        <!--
+                        <div class="item item-image">
+                            <img src="{{autore.gallery.img}}">
+                        </div>-->
+
+                        <div class="item item-image">
+                            <img src="https://s-media-cache-ak0.pinimg.com/736x/66/63/10/66631034e189c8de9e15869f00c1898d.jpg">
+                        </div>
+                        <div class="item item-image">
+                            <img src="http://images-cdn.moviepilot.com/image/upload/c_scale,h_750,w_486/t_mp_quality/breathtaking-spider-man-art-by-gabriele-dell-otto-spidey-tdk-jpeg-228183.jpg">
+                        </div>
+                        <div class="item item-image">
+                            <img src="http://images-cdn.moviepilot.com/image/upload/c_scale,h_1059,w_736/t_mp_quality/breathtaking-spider-man-art-by-gabriele-dell-otto-17366b02-6ff0-4025-8ffb-0eb91622ea11-jpeg-228189.jpg">
+                        </div>
+                        <div class="item item-image">
+                            <img src="http://img014.cattonerd.it/uploads/2014/11/Hulk-Vs-Avengers-by-Gabriele-Dell%E2%80%99Otto1.jpg">
+                        </div>
+                        <div class="item item-image">
+                           <img src="http://1.bp.blogspot.com/-hXkpSBJ3uhA/VDqEX7s1LpI/AAAAAAAACGE/83U7hY9kBKw/s1600/Amazing%2BSpider-Man%2B-%2BFamily%2BBusiness-014.jpg">
+                        </div>
+
+                    </div>
+                </ion-content>
+                <!--
                 <ion-item class="item-image">
                     <ion-gallery ion-gallery-items="items"> <!--ng-repeat="gallery.img in autore.gallery"-->
-                        <img ng-src="{{autore.gallery.img}}">
+                        <!--<img ng-src="{{autore.gallery.img}}">
                     </ion-gallery>
                 </ion-item>
+                -->
             </ion-slide-page>
 
         </ion-slides>

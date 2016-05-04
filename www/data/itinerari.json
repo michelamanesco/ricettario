@@ -1,11 +1,12 @@
 [
     {
      "id": 1,
-     "background": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
+     "background": "http://www.nuoveedizionibohemien.it/wp-content/uploads/milo-manara.......para-el-final.jpg",
      "name": "Illustratori Italiani",
      "time": 40,
-     "color": "blue",
+     "style": "red",
      "steps": 700,
+     "price":15,
      "description": "",
      "point": [ {
                     "id":"3432",
@@ -15,28 +16,98 @@
                     "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
                 },
                 {
-                   "id":"3432fdsa",
-                   "type": "opera",
-                   "name": "Ulisse",
-                   "autor": "Milo Manara",
-                   "img": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
-                   "text":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011"
+                    "id":"3432fdsa",
+                    "marker":"",
+                    "type": "opera",
+                    "name": "Ulisse",
+                    "author": "Milo Manara",
+                    "img": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
+                    "text":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011",
+                    "height": 40.0,
+                    "width": 25.0,
+                    "technique": "acquerello su carta",
+                    "epoch": "contemporaneo",
+                    "printing":"",
+                    "gps":{"lat":25,"lng":24}
                 },
                 {
                     "id":"3sd432",
-                   "type": "opera",
-                   "name": "",
-                   "autor": "Milo Manara",
-                   "img": "http://www.ilgiornale.it/sites/default/files/styles/large/public/foto/2015/04/15/1429074003-ipad-449-0.jpg"
-               }]
+                    "type": "opera",
+                    "name": "Giovanni e la fanciulla",
+                    "author": "Milo Manara",
+                    "img": "https://p2.liveauctioneers.com/1513/48740/22635346_1_l.jpg",
+                    "text":"Originale per Il Trombettiere di D. Riondino.",
+                    "height": 21.0,
+                    "width": 29.7,
+                    "technique": "tecnica mista su carta colorata",
+                    "epoch": "contemporaneo",
+                    "printing":"",
+                    "gps":{"lat":25,"lng":34}
+                },
+                {
+                    "id":"3400",
+                    "type": "chapter",
+                    "title":"Pittori erotici",
+                    "subtitle":"Milo Manara l'arte di scoprire le forme celando la volgarità",
+                    "text":"Claudia, chioma corvina, labbra turgide e cosce d’avorio. E poi la spregiudicata Miele, un corpo perfetto e un viso angelico incorniciato da una cascata di onde bionde. Due icone di donne sensuali, uscite dalla matita di Milo Manara, ed entrate nell’immaginario erotico anche di chi non ama i fumetti.",
+                    "gps":{"lat":33,"lng":63}
+                }
+                ]
     },
     {
      "id": 2,
      "background": "http://www.ilbardelfumetto.com/media/articoli/2273/542fb305410a4.jpg",
      "name": "Illustratori Marvel",
      "time": 15,
-     "color": "red",
+     "style": "blue",
      "steps": 200,
+     "price":15,
      "description": ""
-     }
+
+    },
+    {
+    "id": 3,
+    "background": "http://xl.repubblica.it/wp-content/gallery/bruna-2/bruna-felix-corvi.jpg",
+    "name": "Grandi del bianco e nero",
+    "time": 20,
+    "style": "blue",
+    "steps": 200,
+    "price":15,
+    "description": "",
+    "point": [ {
+                   "id":"1232",
+                   "type": "chapter",
+                   "title":"Illustratori italiani - I grandi maestri del fumetto",
+                   "subtitle":"Così gli illustratori italiani conquistano il mondo",
+                   "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
+               },
+               {
+                   "id":"222",
+                   "type": "opera",
+                   "name": "",
+                   "author": "Franco Bruna",
+                   "img": "",
+                   "text":""
+               },
+               {
+                    "id":"232",
+                    "type": "opera",
+                    "name": "",
+                    "author": "Franco Bruna",
+                    "img": "",
+                    "text":""
+               }
+    ]
+    },
+    {
+        "id": 2,
+        "background": "http://3.bp.blogspot.com/-XDcN7LmuJzA/UmkuoIBPjZI/AAAAAAAACDs/aJ4YGluHuFU/s1600/IMG_1300.JPG",
+        "name": "Illustratori di contastorie",
+        "time": 15,
+        "color": "yellow",
+        "steps": 400,
+        "description": "",
+        "price":15
+
+    }
 ]

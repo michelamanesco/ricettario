@@ -1,10 +1,21 @@
-<ion-view title="{{item.name}}"  id="itinerario">
+<style>
+    .red h1   {
+        color:red;
+    }
+    .red .capitolo h1:before{
+        background:red;
+    }
+    .blue h1   {
+        color:blue;
+    }
+    .blue .capitolo h1:before{
+        background:blue;
+    }
+</style>
+
+<ion-view title="{{item.name}}"  id="itinerario" ng-class="item.style">
 <!--    <button class="button button-clear button-positive">Edit</button>-->
     <ion-content scroll="false">
-
-
-
-
 
         <ion-slides>
             <ion-slide-page ng-repeat="point in item.point">

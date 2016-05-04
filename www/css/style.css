@@ -323,7 +323,7 @@
 */
 /*    AUTORE   */
 
-#autore .avatarAuthor
+.autore .avatarAuthor
   {
   height: 200px;
   width: 200px;
@@ -334,7 +334,7 @@
   position: absolute;
   background-size: cover;
   }
-#autore .bgAuthor
+.autore .bgAuthor
   {
   height: 400px;
   width: auto;
@@ -342,10 +342,16 @@
   max-height: initial;
   background-repeat: no-repeat;
   }
-#autore .bgAuthor .swiper-slide img
+.autore .bgAuthor .swiper-slide img
   {
   max-width: initial;
   max-height: initial;
+  }
+.autore .gallery img
+  {
+  border: solid 3px #827E7E;
+  margin-bottom: 5px;
+  padding: 30px;
   }
 
 /*    MAPPA   */
@@ -439,7 +445,7 @@
   color: #ec7309;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 1em;
   margin-left: 15%;

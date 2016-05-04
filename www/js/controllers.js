@@ -159,8 +159,17 @@ angular.module('starter.controllers', [])
       });
     })
     .controller('mappaController',function($scope,$http){
-      $http.get("http://localhost:8100/data/mappa.json").then(function(item) {
-        $scope.item=item.data;
+      $http.get("http://localhost:8100/data/itinerari.json").then(function(item) {
+        var tour=item.data[0];
+        var map={
+          "markers": []
+        };
+        angular.forEach(tour.point,function(point){
+          if(point.gps!=null)
+            map.markers.push(point.gps);
+        })
+        $scope.item=map;
+
       });
     })
     .controller('itinerariController',function($scope,$http){
@@ -191,6 +200,17 @@ angular.module('starter.controllers', [])
 
     .controller('chapterController',function($scope,$http,$state){
       $http.get("http://localhost:8100/data/chapters.json").then(function(obj) {
+        var list = obj.data;
+        angular.forEach(list,function(item){
+          if(item.id==$state.params.id)
+            $scope.item = item;
+        });
+      })
+    })
+
+    /*  PROVA MIKI */
+    .controller('operaController',function($scope,$http,$state){
+      $http.get("http://localhost:8100/data/authors.json").then(function(obj) {
         var list = obj.data;
         angular.forEach(list,function(item){
           if(item.id==$state.params.id)

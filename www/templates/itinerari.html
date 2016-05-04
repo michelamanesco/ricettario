@@ -1,3 +1,13 @@
+<style>
+    .red .step
+    {
+        background:red;
+    }
+    .blue .step
+    {
+        background:blue;
+    }
+</style>
 
 <ion-view view-title="Itinerari"  id="itinerari">
   <ion-content>
@@ -5,13 +15,15 @@
     <div class="row responsive-sm">
       <ion-list>
 
-        <ion-item class="item itemList" ng-repeat="item in list" ui-sref="app.itinerario({id:item.id})" style="background-image:url('{{item.background}}');">
+        <ion-item class="item itemList" ng-class="item.style" ng-repeat="item in list" ui-sref="app.itinerario({id:item.id})" style="background-image:url('{{item.background}}');">
           <div class="name">{{item.name}}<br></div>
 
           <div class="colorBackground">
-            <span class="iconaDx button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}"</span>
-<!--
-            <span class="goodDifficolta button">
+            <span class="iconaDx button button-light icon ion-clock" ng-show="item.time>=1"> {{item.time}}</span>
+
+            <span class="goodDifficolta button icon-left ion-cash">
+                {{item.price}}
+                <!--
               <span class="icon ion-star" ng-show="good.difficolta>=1"></span>
               <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=1"></span>
               <span class="icon ion-star" ng-show="good.difficolta>=2"></span>
@@ -22,9 +34,10 @@
               <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=4"></span>
               <span class="icon ion-star" ng-show="good.difficolta>=5"></span>
               <span class="icon ion-ios-star-outline" ng-hide="good.difficolta>=5"></span>
+              -->
             </span>
--->
-            <span class="iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
+
+            <span class="step iconaSx button button-assertive icon ion-android-walk" ng-show="item.steps>=1"> {{item.steps}}</span>
           </div>
         </ion-item>
 
