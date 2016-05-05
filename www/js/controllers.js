@@ -158,18 +158,33 @@ angular.module('starter.controllers', [])
             $scope.autore=item.data[0];
       });
     })
-    .controller('mappaController',function($scope,$http){
+    .controller('mappaController',function($scope,$http,$timeout){
       $http.get("http://localhost:8100/data/itinerari.json").then(function(item) {
         var tour=item.data[0];
         var map={
           "markers": []
         };
         angular.forEach(tour.point,function(point){
-          if(point.gps!=null)
-            map.markers.push(point.gps);
+          if(point.gps==null || point.gps.latitudine==null) return;
+
+            var marker ={
+              latitudine    :point.gps.latitudine,
+              longitudine   :point.gps.longitudine,
+              id            :point.id,
+              img           :point.gallery[0].src
+            }
+            map.markers.push(marker);
         })
         $scope.item=map;
-
+        
+        $scope.preview=function(marker){
+          $timeout.cancel($scope.time);
+          $scope.prev=marker;
+          $scope.prevshow=true;
+          $scope.time= $timeout(function(){
+            $scope.prevshow=false;
+          },5000);
+        }
       });
     })
     .controller('itinerariController',function($scope,$http){

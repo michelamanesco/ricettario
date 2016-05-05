@@ -1,17 +1,40 @@
-
+<style>
+    .preview
+        {
+        position: absolute;
+        bottom:10px;
+        width:50%;
+        right: 10px;
+        height:20%;
+        background-size:cover;
+        -webkit-transition:all linear .5s;
+        transition:all linear .5s;
+        overflow:hidden;
+        }
+    .preview.ng-hide
+        {
+        bottom:-50%;
+        }
+    .preview.ng-show
+    {
+        bottom:10px;
+    }
+</style>
 <ion-view title="1° floor"  class="mappa">
     <ion-content>
         <ion-list>
             <ion-item class="item-image" style="height:700px; border-color: transparent">
+                {{preview}}
                 <ion-content scrollbar-x="true" scrollbar-y="true">
                     <div style="z-index:1">
                         <i class="N ion-ios-navigate-outline"></i>
                     </div>
                     <div class="map" style="height:100%; transform:scale({{1+(scale/100)}}) rotate(41deg);">
                         <img src="../img/museo/museumMap.png">
-                        <div ng-repeat="marker in item.markers" style="position:absolute; top:{{marker.lat}}%; left:{{marker.lng}}%;"><i class="point ion-ios-circle-filled"></i></div>
+                        <div ng-click="preview(marker)" ng-repeat="marker in item.markers" style="position:absolute; top:{{marker.latitudine}}%; left:{{marker.longitudine}}%"><i class="point ion-ios-circle-filled"></i></div>
                     </div>
                 </ion-content>
+                <div class="preview" ng-show="prevshow" style="background-image: url('{{prev.img}}')" ui-sref="app.single({id:prev.id})"></div>
             </ion-item>
         </ion-list>
     </ion-content>

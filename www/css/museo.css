@@ -137,7 +137,7 @@
 }
 .capitolo h1:before
 {
-    /*background: #cc141c;*/
+    background: #cc141c;
     content: '';
     display: block;
     height: 12px;

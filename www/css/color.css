@@ -1,9 +1,9 @@
-.positive .step
+.positive .step,.positive .capitolo h1:before
     {
     background-color: #387ef5;
     color: #ffffff;
     }
-.positive .capitolo h1:before, .positive h1
+.positive h1
     {
     color: #387ef5;
     }
@@ -14,12 +14,12 @@
 
 
 
-.calm .step
+.calm .step,.calm .capitolo h1:before
     {
     background-color: #11c1f3;
     color: #ffffff;
     }
-.calm .capitolo h1:before, .calm h1
+.calm h1
     {
     color: #11c1f3;
     }
@@ -30,12 +30,12 @@
 
 
 
-.balanced .step
+.balanced .step,.balanced .capitolo h1:before
     {
     background-color:#33cd5f;
     color: #ffffff;
     }
-.balanced .capitolo h1:before, .balanced h1
+.balanced h1
     {
     color:#33cd5f
     }
@@ -46,12 +46,12 @@
 
 
 
-.energized .step
+.energized .step,.energized .capitolo h1:before
     {
     background-color: #ffa238;
     color: #ffffff;
     }
-.energized .capitolo h1:before, .energized h1
+.energized h1
     {
     color: #ffa238;
     }
@@ -61,12 +61,12 @@
     }
 
 
-.assertive .step
+.assertive .step,.assertive .capitolo h1:before
     {
     background-color:#ef473a;
     color: #ffffff;
     }
-.assertive .capitolo h1:before, .assertive h1
+.assertive h1
     {
     color:#ef473a;
     }
@@ -76,12 +76,12 @@
     }
 
 
-.royal .step
+.royal .step,.royal .capitolo h1:before
     {
     background-color:#886aea;
     color: #ffffff;
     }
-.royal .capitolo h1:before, .royal h1
+.royal h1
     {
     color:#886aea;
     }
@@ -91,12 +91,12 @@
     }
 
 
-. dark .step
+.dark .step, .dark .capitolo h1:before
     {
     background-color:#444444;
     color: #ffffff;
     }
-.dark .capitolo h1:before, .dark h1
+.dark h1
     {
     color:#444444;
     }
