@@ -4,7 +4,7 @@
      "background": "http://www.nuoveedizionibohemien.it/wp-content/uploads/milo-manara.......para-el-final.jpg",
      "name": "Illustratori Italiani",
      "time": 40,
-     "style": "positive",
+     "style": "assertive",
      "steps": 700,
      "price":15,
      "description": "",
@@ -129,6 +129,13 @@
      "description": "",
      "point":[
                 {
+                 "id":"89832",
+                 "type": "chapter",
+                 "title":"Marvel e supereroi",
+                 "subtitle":"7 personaggi Marvel poco conosciuti che potrebbero sconfiggere Superman",
+                 "text":"Superman. L’archetipo del fumetto, da molti profani considerato il super-eroe più forte mai creato. Chi ha però un minimo di esperienza del mondo fumettistico sa bene però che non è invincibile, e che nel corso degli anni numerosi avversari (famosi o meno) hanno avuto la meglio su di lui nel proprio universo narrativo. Ma che dire di quei super personaggi creati dalla Marvel che mai e poi mai si sono incontrati con l’Uomo d’Acciaio? Vogliamo provare ad azzardare una piccola classifica di almeno sette super-esseri della Casa delle Idee che potrebbero tranquillamente sconfiggere Superman? E per rendere le cose più difficili, non includeremo nessun personaggio mainstream, solo roba per addetti ai lavori."
+                },
+                {
                  "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
                  "id": "0.0016485305968672037",
                  "type": "opera",
@@ -171,9 +178,9 @@
                 {
                    "id":"1232",
                    "type": "chapter",
-                   "title":"Illustratori italiani - I grandi maestri del fumetto",
-                   "subtitle":"Così gli illustratori italiani conquistano il mondo",
-                   "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
+                   "title":"Grandi del bianco e nero",
+                   "subtitle":"Fumetto italiano. Cinquant’anni di romanzi disegnati",
+                   "text":"La panoramica, composta da quaranta romanzi grafici scritti e disegnati da altrettanti autori,prende il via dal 1967, anno in cui iniziò la pubblicazione di “Una Ballata del Mare Salato”, capolavoro di Hugo Pratt, in cui appare per la prima volta Corto Maltese, e prosegue nei decenni successivi con straordinari lavori tra i quali “Sheraz-De” di Sergio Toppi, “Le Straordinarie avventure di Pentothal” di Andrea Pazienza, “Fuochi” di Lorenzo Mattotti, “Max Fridman” di Vittorio Giardino, “Cinquemila chilometri al secondo” di Manuele Fior, “Dimentica il mio nome” di Zerocalcare, passando dal romanzo a puntate ai graphic novel. L’esposizione presenta circa trecento tavole originali, disposte in ordine cronologico e per la prima volta affiancate, di romanzi a fumetti scritti e disegnati da un unico autore "
                 },
                 {
                    "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
@@ -343,7 +350,7 @@
     "background": "http://3.bp.blogspot.com/-XDcN7LmuJzA/UmkuoIBPjZI/AAAAAAAACDs/aJ4YGluHuFU/s1600/IMG_1300.JPG",
     "name": "Illustratori di favole",
     "time": 15,
-    "color": "balanced",
+    "style": "balanced",
     "steps": 400,
     "description": "",
     "price": 15,
@@ -354,7 +361,35 @@
             "type": "chapter",
             "title": "Volti nuovi dell'illustrazione",
             "subtitle": "Le favole di tutti noi con i disegni magici dei grandi pittori contemporaneti",
-            "text": "L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
+            "text": "Le versioni di Cappuccetto Rosso - osserva Frezzato nella sua breve introduzione - sono milioni, una per ogni mamma, e nella maggior parte dei casi quelle delle mamme sono molto meno crudeli di quelle dei libri- E nel gioco delle rivisitazioni, nel gioco del racconto orale, Cappuccetto Rosso, rivela più di altre narrazioni moderne la sua forza: quella di essere un mito che si rinnova in ogni epoca. In questo caso l'autore l'ha rigenerato oltre che nelle immagini - con piccole aggiunte, individuabili nel testo con un colore diverso, che possono essere saltate se si vuole avere una versione più canonizzata, e leggerle per un ulteriore gioco e livello di lettura."
+        },
+        {
+            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+            "id": "0.43496251245960593",
+            "type": "opera",
+            "visible": true,
+            "name": "Cappuccetto rosso pacifista",
+            "author": "Massimiliano Frezzato",
+            "description": "Eccellente stato, firmata in basso a destra.",
+            "gallery": [{
+                            "uid": 386,
+                            "src": "http://95.110.228.140:8080/openIndex/index/image/68014f7b-7c58-4d25-9e97-77f0e0dcac73.png",
+                            "img": "http://95.110.228.140:8080/openIndex/index/image/68014f7b-7c58-4d25-9e97-77f0e0dcac73.png",
+                            "type": "image"
+                        }],
+            "height": 80.0,
+            "width": 40,
+            "technique": "acrilico su tela",
+            "epoch": "contemporaneo",
+            "printing": "",
+            "gps": {"latitudine":35,"longitudine":8},
+
+            "currency": "EUR",
+            "price": 2800.0,
+            "basePrice": 2900.0,
+            "categories": ["Tela"],
+            "catalogues": [],
+            "extra": {}
         },
         {
             "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
@@ -387,34 +422,7 @@
                 "offer": true
                 }
         },
-        {
-            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
-            "id": "0.43496251245960593",
-            "type": "opera",
-            "visible": true,
-            "name": "Cappuccetto rosso pacifista",
-            "author": "Massimiliano Frezzato",
-            "description": "Eccellente stato, firmata in basso a destra.",
-            "gallery": [{
-                            "uid": 386,
-                            "src": "http://95.110.228.140:8080/openIndex/index/image/68014f7b-7c58-4d25-9e97-77f0e0dcac73.png",
-                            "img": "http://95.110.228.140:8080/openIndex/index/image/68014f7b-7c58-4d25-9e97-77f0e0dcac73.png",
-                            "type": "image"
-                        }],
-            "height": 80.0,
-            "width": 40,
-            "technique": "acrilico su tela",
-            "epoch": "contemporaneo",
-            "printing": "",
-            "gps": {"latitudine":35,"longitudine":8},
 
-            "currency": "EUR",
-            "price": 2800.0,
-            "basePrice": 2900.0,
-            "categories": ["Tela"],
-            "catalogues": [],
-            "extra": {}
-        },
         {
             "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
             "id": "",

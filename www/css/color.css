@@ -1,4 +1,9 @@
-.positive .step, .positive .capitolo h1:before, .positive h1
+.positive .step
+    {
+    background-color: #387ef5;
+    color: #ffffff;
+    }
+.positive .capitolo h1:before, .positive h1
     {
     color: #387ef5;
     }
@@ -7,7 +12,14 @@
     color: rgba(56, 126, 245, 0.71);
     }
 
-.calm .step, .calm .capitolo h1:before, .calm h1
+
+
+.calm .step
+    {
+    background-color: #11c1f3;
+    color: #ffffff;
+    }
+.calm .capitolo h1:before, .calm h1
     {
     color: #11c1f3;
     }
@@ -16,16 +28,30 @@
     color: #87d1c7;
     }
 
-.balanced .step, .balanced .capitolo h1:before, .balanced h1
+
+
+.balanced .step
+    {
+    background-color:#33cd5f;
+    color: #ffffff;
+    }
+.balanced .capitolo h1:before, .balanced h1
     {
     color:#33cd5f
     }
 .balanced h2
     {
-    color: #b3ff85
+    color: #99da72
     }
 
-.energized .step, .energized .capitolo h1:before, .energized h1
+
+
+.energized .step
+    {
+    background-color: #ffa238;
+    color: #ffffff;
+    }
+.energized .capitolo h1:before, .energized h1
     {
     color: #ffa238;
     }
@@ -34,7 +60,13 @@
     color:#ffc900;
     }
 
-.assertive .step, .assertive .capitolo h1:before, .assertive h1
+
+.assertive .step
+    {
+    background-color:#ef473a;
+    color: #ffffff;
+    }
+.assertive .capitolo h1:before, .assertive h1
     {
     color:#ef473a;
     }
@@ -43,7 +75,13 @@
     color: #ec7309;
     }
 
-.royal .step, .royal .capitolo h1:before, .royal h1
+
+.royal .step
+    {
+    background-color:#886aea;
+    color: #ffffff;
+    }
+.royal .capitolo h1:before, .royal h1
     {
     color:#886aea;
     }
@@ -52,7 +90,13 @@
     color: #c996ea;
     }
 
-. dark .step, .dark .capitolo h1:before, .dark h1
+
+. dark .step
+    {
+    background-color:#444444;
+    color: #ffffff;
+    }
+.dark .capitolo h1:before, .dark h1
     {
     color:#444444;
     }
