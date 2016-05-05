@@ -1,0 +1,62 @@
+.positive .step, .positive .capitolo h1:before, .positive h1
+    {
+    color: #387ef5;
+    }
+.positive h2
+    {
+    color: rgba(56, 126, 245, 0.71);
+    }
+
+.calm .step, .calm .capitolo h1:before, .calm h1
+    {
+    color: #11c1f3;
+    }
+.calm h2
+    {
+    color: #87d1c7;
+    }
+
+.balanced .step, .balanced .capitolo h1:before, .balanced h1
+    {
+    color:#33cd5f
+    }
+.balanced h2
+    {
+    color: #b3ff85
+    }
+
+.energized .step, .energized .capitolo h1:before, .energized h1
+    {
+    color: #ffa238;
+    }
+.energized h2
+    {
+    color:#ffc900;
+    }
+
+.assertive .step, .assertive .capitolo h1:before, .assertive h1
+    {
+    color:#ef473a;
+    }
+.assertive h2
+    {
+    color: #ec7309;
+    }
+
+.royal .step, .royal .capitolo h1:before, .royal h1
+    {
+    color:#886aea;
+    }
+.royal h2
+    {
+    color: #c996ea;
+    }
+
+. dark .step, .dark .capitolo h1:before, .dark h1
+    {
+    color:#444444;
+    }
+.dark h2
+    {
+    color: #a0a0a0;
+    }

@@ -424,7 +424,7 @@
 /*     CAPITOLO    */
 .capitolo h1
   {
-  color: #cc141c;
+  /*color: #cc141c;*/
   font-family: 'Squada One';
   font-size: 2.2em;
   line-height: 1.3em;
@@ -433,7 +433,7 @@
   }
 .capitolo h1:before
   {
-  background: #cc141c;
+  /*background: #cc141c;*/
   content: '';
   display: block;
   height: 12px;
@@ -442,7 +442,7 @@
   }
 .capitolo h2
   {
-  color: #ec7309;
+  /*color: #ec7309;*/
   font-family: 'Libre Baskerville';
   font-style: italic;
   font-size: 1.3em;
@@ -454,7 +454,7 @@
   }
 .capitolo p
   {
-  color: #574432;
+  /*color: #574432;*/
   font-family: 'Libre Baskerville';
   /*font-size: 20px;
   line-height: 36px;*/
@@ -465,10 +465,10 @@
   }
 .capitolo a
   {
-  color: #ec7309;
+  /*color: #ec7309;*/
   font-style: italic;
   }
 .capitolo a:hover
   {
-  color: #cc141c;
-  }
+/*color: #cc141c;*/
+}

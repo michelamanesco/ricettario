@@ -4,7 +4,7 @@
      "background": "http://www.nuoveedizionibohemien.it/wp-content/uploads/milo-manara.......para-el-final.jpg",
      "name": "Illustratori Italiani",
      "time": 40,
-     "style": "red",
+     "style": "positive",
      "steps": 700,
      "price":15,
      "description": "",
@@ -16,19 +16,32 @@
                     "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
                 },
                 {
-                    "id":"3432fdsa",
-                    "marker":"",
-                    "type": "opera",
+                    "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                    "id": "0.022111419588327408",
                     "name": "Ulisse",
+                    "visible": true,
                     "author": "Milo Manara",
-                    "img": "http://wwwrb.ansa.it/webimages/foto_large/2013/10/2/debc75f8844ffd249b21bcd83aca20ad.jpg",
-                    "text":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011",
+                    "description":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011",
+                    "gallery": [{
+                                    "uid": 383,
+                                    "src": "http://95.110.228.140:8080/openIndex/index/image/05242c45-3453-4bb4-8868-d4fa046f79d0.png",
+                                    "img": "http://95.110.228.140:8080/openIndex/index/image/05242c45-3453-4bb4-8868-d4fa046f79d0.png",
+                                    "type": "image"
+                                }],
                     "height": 40.0,
                     "width": 25.0,
                     "technique": "acquerello su carta",
                     "epoch": "contemporaneo",
                     "printing":"",
-                    "gps":{"lat":25,"lng":24}
+                    "gps":{"lat":25,"lng":24},
+                    "currency": "EUR",
+                    "price": 8000.0,
+                    "basePrice": 7000.0,
+                    "categories": ["Pittura su carta"],
+                    "catalogues": [],
+                    "extra": {
+                        "offer": true
+                            }
                 },
                 {
                     "id":"3sd432",
@@ -59,7 +72,7 @@
      "background": "http://www.ilbardelfumetto.com/media/articoli/2273/542fb305410a4.jpg",
      "name": "Illustratori Marvel",
      "time": 15,
-     "style": "blue",
+     "style": "positive",
      "steps": 200,
      "price":15,
      "description": ""
@@ -70,7 +83,7 @@
     "background": "http://xl.repubblica.it/wp-content/gallery/bruna-2/bruna-felix-corvi.jpg",
     "name": "Grandi del bianco e nero",
     "time": 20,
-    "style": "blue",
+    "style": "energized",
     "steps": 200,
     "price":15,
     "description": "",
@@ -104,7 +117,7 @@
         "background": "http://3.bp.blogspot.com/-XDcN7LmuJzA/UmkuoIBPjZI/AAAAAAAACDs/aJ4YGluHuFU/s1600/IMG_1300.JPG",
         "name": "Illustratori di contastorie",
         "time": 15,
-        "color": "yellow",
+        "color": "balanced",
         "steps": 400,
         "description": "",
         "price":15
