@@ -17,10 +17,11 @@
                 </span>
             </ion-item>
 <!--</div>-->
+
         <div class="item item-divider" ng-hide="point.description==null">
             Descrizione:
         </div>
-            <ion-item class="item-description-wrap" ng-hide="point.description==null">
+            <ion-item class="item-text-wrap" ng-hide="point.description==null">
                 {{point.description}}
             </ion-item>
             <ion-item class="item-text-wrap" ng-hide="point.technique==null">
@@ -29,11 +30,15 @@
             <ion-item class="item-text-wrap" ng-hide="point.height==null" ng-hide="point.width==null">
                 Dimensioni:  H {{point.height}} x W {{point.width}}
             </ion-item>
+            <ion-item class="item-text-wrap" ng-hide="point.year==null">
+                Anno: {{point.year}}
+            </ion-item>
             <ion-item class="item-text-wrap" ng-hide="point.epoch==null">
                 Epoca: {{point.epoch}}
             </ion-item>
             <ion-item class="item-text-wrap" ng-hide="point.printing==null">
-                Stampa: {{point.printing}}
+               <div ng-hide="point.printing==null"> Stampa: </div>
+                {{point.printing}}
             </ion-item>
 
 

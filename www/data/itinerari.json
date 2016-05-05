@@ -47,6 +47,14 @@
                             }
                 },
                 {
+                    "id":"3400",
+                    "type": "chapter",
+                    "title":"Pittori erotici",
+                    "subtitle":"Milo Manara l'arte di scoprire le forme celando la volgarità",
+                    "text":"Claudia, chioma corvina, labbra turgide e cosce d’avorio. E poi la spregiudicata Miele, un corpo perfetto e un viso angelico incorniciato da una cascata di onde bionde. Due icone di donne sensuali, uscite dalla matita di Milo Manara, ed entrate nell’immaginario erotico anche di chi non ama i fumetti.",
+                    "gps":{}
+                },
+                {
                     "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
                     "id": "0.07550284080207348",
                     "type": "opera",
@@ -74,11 +82,11 @@
                     "extra": {}
                 },
                 {
-                    "id":"3400",
+                    "id":"300",
                     "type": "chapter",
-                    "title":"Pittori erotici",
-                    "subtitle":"Milo Manara l'arte di scoprire le forme celando la volgarità",
-                    "text":"Claudia, chioma corvina, labbra turgide e cosce d’avorio. E poi la spregiudicata Miele, un corpo perfetto e un viso angelico incorniciato da una cascata di onde bionde. Due icone di donne sensuali, uscite dalla matita di Milo Manara, ed entrate nell’immaginario erotico anche di chi non ama i fumetti.",
+                    "title":"Satira irriverente",
+                    "subtitle":"Jacovitti: stile ed influenze",
+                    "text":"Dal punto di vista stilistico Jacovitti subì l'influenza di Elzie Crisler Segar, padre di Braccio di Ferro e quella dell'autore svizzero Walter Faccini. I testi dei suoi fumetti sono spesso accostati con intento elogiativo ai nuovi termini entrati nel linguaggio comune, ma al contrario gli è stata mossa l'accusa secondo la quale i suoi disegni surreali, che a volte sconfinano nel paranoico, rappresentano scene eccessivamente violente.« Qualcuno brontolò perché, per esempio nelle storie western, c'era qualche ammazzamento. Ma sarà violenza quella in cui il morto fa un paio di capriole, entra nella cassa e cammina per il cimitero con mani e piedi che gli escono dai legni? »(Benito Jacovitti, in un'intervista al Corriere della Sera del 22 novembre 1992)Il caratteristico tratto dinamico e veloce, apparentemente -di getto-, si rivela, ad un'attenta osservazione, realizzato per piccoli frammenti e con grande cura: ogni linea delle sue tavole appare infatti ripassata più volte con un tipico tratto estremamente fine. Lo -stile Jacovitti- ha ispirato molti fumettisti, tra questi il famoso e coevo Francisco Ibáñez molto noto in Spagna per aver creato i personaggi di Mortadelo y Filemón.",
                     "gps":{}
                 },
                 {
@@ -88,7 +96,7 @@
                     "visible": true,
                     "name": "Cacciatori",
                     "author":"Benito Jacovitti",
-                    "description": "Original illustration mixed tecnique on thin cardboard cm 45,5x32. Excellent conditions, scroll signed (and fishsbone logo), dated 1958.\n\n\neccellente stato, firmata in cartiglio, datata 1958 e con lisca di pesce. Jacovitti è stato il più innovativo, originale, eclettico e prolifico genio della comicità. Suoi alcuni dei personaggi cult del fumetto, oltre a un’incredibile mole di lavoro dedicata alla pubblicità. Dotato di un tratto sicuro, assolutamente privo di ripensamenti, Jacovitti può a piena ragione essere definito il Giotto del fumetto italiano. Affollata e divertente panoramica, caratterizzata dall’affastellarsi di personaggi e gags tipiche del geniale artista.",
+                    "description": "Eccellente stato, firmata in cartiglio, datata 1958 e con lisca di pesce. Jacovitti è stato il più innovativo, originale, eclettico e prolifico genio della comicità. Suoi alcuni dei personaggi cult del fumetto, oltre a un’incredibile mole di lavoro dedicata alla pubblicità. Dotato di un tratto sicuro, assolutamente privo di ripensamenti, Jacovitti può a piena ragione essere definito il Giotto del fumetto italiano. Affollata e divertente panoramica, caratterizzata dall’affastellarsi di personaggi e gags tipiche del geniale artista.",
                     "gallery": [{
                                     "uid": 389,
                                     "src": "http://95.110.228.140:8080/openIndex/index/image/0de481e7-6d30-439f-a3c3-d2825433b970.png",
@@ -127,7 +135,7 @@
                  "visible": true,
                  "name": "SpiderMan Family Business",
                  "author":"Gabriele Dell'Otto",
-                 "description": "Marvel",
+                 "description": "Marvel - “Affari di famiglia” è un volume cartonato contenente una storia di Spider-Man scritta da Mark Waid e James Robinson e disegnata da Gabriele Dell’Otto e Werther Dell’Edera.",
                  "gallery": [{
                                  "uid": 398,
                                  "src": "http://95.110.228.140:8080/openIndex/index/image/e7a37ff1-5d53-4bd0-805c-fd4c64d27e21.jpeg",
@@ -146,6 +154,7 @@
                  "catalogues": [],
                  "extra": {}
                  }
+
 
      ]
     },
@@ -403,6 +412,64 @@
             "price": 2800.0,
             "basePrice": 2900.0,
             "categories": ["Tela"],
+            "catalogues": [],
+            "extra": {}
+        },
+        {
+            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+            "id": "",
+            "type":"opera",
+            "visible": true,
+            "name": "Pinocchio, vino!",
+            "author":"Massimiliano Frezzato",
+            "description": "",
+            "gallery": [{
+                            "uid":"",
+                            "src": "http://2.bp.blogspot.com/-Z-vQ-MQeQF4/UdZxIZArpkI/AAAAAAAABy0/zcrhK67Rjoc/s640/.jpg",
+                            "img": "http://2.bp.blogspot.com/-Z-vQ-MQeQF4/UdZxIZArpkI/AAAAAAAABy0/zcrhK67Rjoc/s640/.jpg",
+                            "type": "image"
+                        }],
+            "height": 43,
+            "width": 30,
+            "technique": "tecnica mista su carta",
+            "year":2013,
+            "epoch": "contemporaneo",
+            "printing": "",
+            "gps": {},
+
+            "currency": "EUR",
+            "price": 1800.0,
+            "basePrice": 2000.0,
+            "categories": ["Pittura su carta"],
+            "catalogues": [],
+            "extra": {}
+        },
+        {
+            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+            "id": "",
+            "type":"opera",
+            "visible": true,
+            "name": "Pinocchio, spaghetti!",
+            "author":"Massimiliano Frezzato",
+            "description": "",
+            "gallery": [{
+                            "uid":"",
+                            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRtZ874SyjI33IAix-5rjuOvXK9a1gi9WSZBPUIyj7JxFDYNSrvDA",
+                            "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRtZ874SyjI33IAix-5rjuOvXK9a1gi9WSZBPUIyj7JxFDYNSrvDA",
+                            "type": "image"
+                        }],
+            "height": 43,
+            "width": 30,
+            "technique": "tecnica mista su carta",
+            "year":2013,
+            "epoch": "contemporaneo",
+            "printing": "",
+            "gps": {},
+
+            "currency": "EUR",
+            "price": 1800.0,
+            "basePrice": 2000.0,
+            "categories": ["Pittura su carta"],
             "catalogues": [],
             "extra": {}
         },
