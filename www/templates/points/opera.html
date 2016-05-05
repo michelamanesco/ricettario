@@ -2,7 +2,7 @@
     <ion-list>
 
         <ion-item class="item-image">
-            <img ng-src="{{point.img}}">
+            <img ng-src="{{point.gallery[0].img}}">
             <div class="name">{{point.name}}<br></div>
         </ion-item>
 <!--<div  ng-hide="point.author==null">-->
@@ -17,11 +17,11 @@
                 </span>
             </ion-item>
 <!--</div>-->
-        <div class="item item-divider" ng-hide="point.text==null">
+        <div class="item item-divider" ng-hide="point.description==null">
             Descrizione:
         </div>
-            <ion-item class="item-text-wrap" ng-hide="point.text==null">
-                {{point.text}}
+            <ion-item class="item-description-wrap" ng-hide="point.description==null">
+                {{point.description}}
             </ion-item>
             <ion-item class="item-text-wrap" ng-hide="point.technique==null">
                 Tecnica:  {{point.technique}}

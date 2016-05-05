@@ -8,18 +8,21 @@
      "steps": 700,
      "price":15,
      "description": "",
-     "point": [ {
+     "point": [
+                {
                     "id":"3432",
                     "type": "chapter",
                     "title":"Illustratori italiani - I grandi maestri del fumetto",
                     "subtitle":"Così gli illustratori italiani conquistano il mondo",
-                    "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
+                    "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relatitudineivi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
                 },
                 {
                     "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
                     "id": "0.022111419588327408",
-                    "name": "Ulisse",
+                    "type":"opera",
                     "visible": true,
+                    "name": "Ulisse",
+
                     "author": "Milo Manara",
                     "description":"Ulisse-​​Pasolini, illustrazione per la scenografia dei Viaggi di Ulisse di Nicola Piovani, 2011",
                     "gallery": [{
@@ -33,7 +36,7 @@
                     "technique": "acquerello su carta",
                     "epoch": "contemporaneo",
                     "printing":"",
-                    "gps":{"lat":25,"lng":24},
+                    "gps":{"latitudine":25,"longitudine":24},
                     "currency": "EUR",
                     "price": 8000.0,
                     "basePrice": 7000.0,
@@ -44,18 +47,31 @@
                             }
                 },
                 {
-                    "id":"3sd432",
+                    "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                    "id": "0.07550284080207348",
                     "type": "opera",
+                    "visible": true,
                     "name": "Giovanni e la fanciulla",
                     "author": "Milo Manara",
-                    "img": "https://p2.liveauctioneers.com/1513/48740/22635346_1_l.jpg",
-                    "text":"Originale per Il Trombettiere di D. Riondino.",
+                    "description":"Originale per Il Trombettiere di D. Riondino.",
+                    "gallery": [{
+                                    "uid": 384,
+                                    "src": "http://95.110.228.140:8080/openIndex/index/image/f695b0ba-79d8-4743-9692-83252cdbd296.png",
+                                    "img": "http://95.110.228.140:8080/openIndex/index/image/f695b0ba-79d8-4743-9692-83252cdbd296.png",
+                                    "type": "image"
+                                }],
                     "height": 21.0,
                     "width": 29.7,
                     "technique": "tecnica mista su carta colorata",
                     "epoch": "contemporaneo",
                     "printing":"",
-                    "gps":{"lat":25,"lng":34}
+                    "gps":{"latitudine":25,"longitudine":34},
+                    "currency": "EUR",
+                    "price": 1500.0,
+                    "basePrice": 1700.0,
+                    "categories": ["Pastello di carta"],
+                    "catalogues": [],
+                    "extra": {}
                 },
                 {
                     "id":"3400",
@@ -63,8 +79,35 @@
                     "title":"Pittori erotici",
                     "subtitle":"Milo Manara l'arte di scoprire le forme celando la volgarità",
                     "text":"Claudia, chioma corvina, labbra turgide e cosce d’avorio. E poi la spregiudicata Miele, un corpo perfetto e un viso angelico incorniciato da una cascata di onde bionde. Due icone di donne sensuali, uscite dalla matita di Milo Manara, ed entrate nell’immaginario erotico anche di chi non ama i fumetti.",
-                    "gps":{"lat":33,"lng":63}
+                    "gps":{}
+                },
+                {
+                    "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                    "id": "0.21736210770905018",
+                    "type": "opera",
+                    "visible": true,
+                    "name": "Cacciatori",
+                    "author":"Benito Jacovitti",
+                    "description": "Original illustration mixed tecnique on thin cardboard cm 45,5x32. Excellent conditions, scroll signed (and fishsbone logo), dated 1958.\n\n\neccellente stato, firmata in cartiglio, datata 1958 e con lisca di pesce. Jacovitti è stato il più innovativo, originale, eclettico e prolifico genio della comicità. Suoi alcuni dei personaggi cult del fumetto, oltre a un’incredibile mole di lavoro dedicata alla pubblicità. Dotato di un tratto sicuro, assolutamente privo di ripensamenti, Jacovitti può a piena ragione essere definito il Giotto del fumetto italiano. Affollata e divertente panoramica, caratterizzata dall’affastellarsi di personaggi e gags tipiche del geniale artista.",
+                    "gallery": [{
+                                    "uid": 389,
+                                    "src": "http://95.110.228.140:8080/openIndex/index/image/0de481e7-6d30-439f-a3c3-d2825433b970.png",
+                                    "img": "http://95.110.228.140:8080/openIndex/index/image/0de481e7-6d30-439f-a3c3-d2825433b970.png",
+                                    "type": "image"
+                                }],
+                    "height": 32.0,
+                    "width": 45.5,
+                    "year":1958,
+                    "technique": "tecnica mista su carta colorata",
+                    "epoch": "contemporaneo",
+                    "printing":"",
+                    "gps":{},
+                    "currency": "EUR",
+                    "categories": ["Illustrazioni", "Pittura su carta"],
+                    "catalogues": [],
+                    "extra": {}
                 }
+
                 ]
     },
     {
@@ -75,8 +118,36 @@
      "style": "positive",
      "steps": 200,
      "price":15,
-     "description": ""
+     "description": "",
+     "point":[
+                {
+                 "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                 "id": "0.0016485305968672037",
+                 "type": "opera",
+                 "visible": true,
+                 "name": "SpiderMan Family Business",
+                 "author":"Gabriele Dell'Otto",
+                 "description": "Marvel",
+                 "gallery": [{
+                                 "uid": 398,
+                                 "src": "http://95.110.228.140:8080/openIndex/index/image/e7a37ff1-5d53-4bd0-805c-fd4c64d27e21.jpeg",
+                                 "img": "http://95.110.228.140:8080/openIndex/index/image/e7a37ff1-5d53-4bd0-805c-fd4c64d27e21.jpeg",
+                                 "type": "image"
+                             }],
+                 "height": 43.0,
+                 "width":28,
+                 "technique": "china su carta",
+                 "epoch": "contemporaneo",
+                 "printing":"",
+                 "gps":{"latitudine":26,"longitudine":49},
 
+                 "currency": "EUR",
+                 "categories": ["Pittura su carta"],
+                 "catalogues": [],
+                 "extra": {}
+                 }
+
+     ]
     },
     {
     "id": 3,
@@ -87,40 +158,282 @@
     "steps": 200,
     "price":15,
     "description": "",
-    "point": [ {
+    "point": [
+                {
                    "id":"1232",
                    "type": "chapter",
                    "title":"Illustratori italiani - I grandi maestri del fumetto",
                    "subtitle":"Così gli illustratori italiani conquistano il mondo",
                    "text":"L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
-               },
-               {
-                   "id":"222",
+                },
+                {
+                   "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                   "id": "0.9905302568804473",
                    "type": "opera",
-                   "name": "",
-                   "author": "Franco Bruna",
-                   "img": "",
-                   "text":""
+                   "visible": true,
+                   "name": "Popey e Bruto in lotta per Olivia",
+                   "author": "Franco Bruna ",
+                   "description": "China su carta\nDimensioni 38x33 cm\nAutore Franco Bruna",
+                   "gallery": [{
+                                   "uid": 385,
+                                   "src": "http://95.110.228.140:8080/openIndex/index/image/ca7b3d30-4f96-475c-a05a-8711e5ec318e.png",
+                                   "img": "http://95.110.228.140:8080/openIndex/index/image/ca7b3d30-4f96-475c-a05a-8711e5ec318e.png",
+                                   "type": "image"
+                               }],
+                   "height": 21.0,
+                   "width": 29.7,
+                   "technique": "china su carta",
+                   "epoch": "contemporaneo",
+                   "printing":"",
+                   "gps":{"latitudine":7,"longitudine":50},
+
+                   "currency": "EUR",
+                   "categories": ["China su carta"],
+                   "catalogues": [],
+                   "extra": {}
                },
                {
-                    "id":"232",
+                   "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                   "id": "0.41280467668548226",
                     "type": "opera",
-                    "name": "",
+                    "visible": true,
+                    "name": "Topolino aviatore",
                     "author": "Franco Bruna",
-                    "img": "",
-                    "text":""
+                    "description": "Autore Franco Bruna\nChina su tela\nDimensione 38x 33cm",
+                    "gallery": [{
+                                    "uid": 387,
+                                    "src": "http://95.110.228.140:8080/openIndex/index/image/2be68464-524e-4aaf-b301-16e042e37f61.png",
+                                    "img": "http://95.110.228.140:8080/openIndex/index/image/2be68464-524e-4aaf-b301-16e042e37f61.png",
+                                    "type": "image"
+                                }],
+                    "height": 21.0,
+                    "width": 29.7,
+                    "technique": "china su carta",
+                    "epoch": "contemporaneo",
+                    "printing":"",
+                    "gps":{"latitudine":7,"longitudine":62},
+                    "currency": "EUR",
+                    "price": 900.0,
+                    "basePrice": 1000.0,
+                    "categories": ["China su carta"],
+                    "catalogues": [],
+                    "extra": {}
+               },
+               {
+                   "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                   "id": "0.38274141727015376",
+                   "type":"opera",
+                   "visible": true,
+                   "name": "Zio Paperone",
+                   "author":"Don Rosa",
+                   "description": "Zio Paperone, anni '90\n\nPin Up originale eseguita dal maestro Disney Don Rosa per Zio Paperone, risalente agli anni '90. Firmata.\nCartoncino 21x 28,5 cm\n\nPencil on thin cardboard. Original Pin Up drawn by Disney master Don Rosa depicting Uncle Scrooge. Signed.",
+                   "gallery": [{
+                                   "uid": 394,
+                                   "src": "http://95.110.228.140:8080/openIndex/index/image/0d15d298-202a-4650-9cf7-52ef330fc6f6.png",
+                                   "img": "http://95.110.228.140:8080/openIndex/index/image/0d15d298-202a-4650-9cf7-52ef330fc6f6.png",
+                                   "type": "image"
+                               }],
+                   "height": 21.0,
+                   "width": 29.7,
+                   "technique": "matita su carta",
+                   "epoch": "contemporaneo",
+                   "printing":"",
+                   "gps":{},
+                   "currency": "EUR",
+                   "price": 800.0,
+                   "basePrice": 1000.0,
+                   "categories": ["Disney"],
+                   "catalogues": [],
+                   "extra": {}
+               },
+               {
+                   "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                   "id": "0.5296633669640869",
+                   "type": "opera",
+                   "visible": true,
+                   "name": "Kriminal 276 - Polmone d'acciaio",
+                   "author": "Magnus",
+                   "description": "anno 1970",
+                   "gallery": [{
+                                   "uid": 390,
+                                   "src": "http://95.110.228.140:8080/openIndex/index/image/c0c715bb-84e1-4009-b400-49012c9790da.png",
+                                   "img": "http://95.110.228.140:8080/openIndex/index/image/c0c715bb-84e1-4009-b400-49012c9790da.png",
+                                   "type": "image"
+                             }],
+                   "height": 21.0,
+                   "width": 29.7,
+                   "technique": "china su carta",
+                   "epoch": "contemporaneo",
+                   "printing": "",
+                   "gps": {},
+                   "currency": "EUR",
+                   "categories": ["China su carta"],
+                   "catalogues": [],
+                   "extra": {
+                       "offer": true
+                        }
+               },
+               {
+                   "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                   "id": "0.8968929743859917",
+                   "type": "opera",
+                   "visible": true,
+                   "name": "Paperinik",
+                   "author":"Giorgio Cavazzano",
+                   "description": "Illustrazione misure reali cm17x18. Firmata.",
+                   "gallery": [{
+                                   "uid": 392,
+                                   "src": "http://95.110.228.140:8080/openIndex/index/image/8febf2f5-fece-4c67-bf2d-c83e11508f71.png",
+                                   "img": "http://95.110.228.140:8080/openIndex/index/image/8febf2f5-fece-4c67-bf2d-c83e11508f71.png",
+                                   "type": "image"
+                               }],
+                   "height": 21.0,
+                   "width": 29.7,
+                   "technique": "matita su carta",
+                   "epoch": "contemporaneo",
+                   "printing": "",
+                   "gps": {},
+                   "currency": "EUR",
+                   "price": 500.0,
+                   "basePrice": 600.0,
+                   "categories": ["Disney"],
+                   "catalogues": [],
+                   "extra": {}
+               },
+               {
+                   "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+                   "id": "0.02768105105496943",
+                   "type": "opera",
+                   "visible": true,
+                   "name": "Colpo di fortuna",
+                   "author":"Giorgio Cavazzano",
+                   "description": "Preliminare di copertina (censurata) per “Topolino”, n.d. ma anni 2000. Illustrazione misure reali cm 17x18. Firmato.",
+                   "gallery": [{
+                                   "uid": 393,
+                                   "src": "http://95.110.228.140:8080/openIndex/index/image/34aba1e0-5f3a-4ce1-b1f7-491ed43ab39f.png",
+                                   "img": "http://95.110.228.140:8080/openIndex/index/image/34aba1e0-5f3a-4ce1-b1f7-491ed43ab39f.png",
+                                   "type": "image"
+                               }],
+                   "height": 21.0,
+                   "width": 29.7,
+                   "technique": "matita su carta",
+                   "epoch": "contemporaneo",
+                   "printing": "",
+                   "gps": {},
+                   "currency": "EUR",
+                   "price": 700.0,
+                   "basePrice": 800.0,
+                   "categories": ["Disney"],
+                   "catalogues": [],
+                   "extra": {}
                }
-    ]
+            ]
     },
     {
-        "id": 2,
-        "background": "http://3.bp.blogspot.com/-XDcN7LmuJzA/UmkuoIBPjZI/AAAAAAAACDs/aJ4YGluHuFU/s1600/IMG_1300.JPG",
-        "name": "Illustratori di contastorie",
-        "time": 15,
-        "color": "balanced",
-        "steps": 400,
-        "description": "",
-        "price":15
+    "id": 4,
+    "background": "http://3.bp.blogspot.com/-XDcN7LmuJzA/UmkuoIBPjZI/AAAAAAAACDs/aJ4YGluHuFU/s1600/IMG_1300.JPG",
+    "name": "Illustratori di favole",
+    "time": 15,
+    "color": "balanced",
+    "steps": 400,
+    "description": "",
+    "price": 15,
+    "point":
+    [
+        {
+            "id": "18832",
+            "type": "chapter",
+            "title": "Volti nuovi dell'illustrazione",
+            "subtitle": "Le favole di tutti noi con i disegni magici dei grandi pittori contemporaneti",
+            "text": "L’illustrazione è una disciplina che sta tornando ad essere molto apprezzata dal grande pubblico, eppure sono ancora poco conosciuti gli autori delle immagini. Ad esempio, solo gli addetti del settore conoscono gli artisti italiani più rappresentativi del momento e sanno distinguere una buona illustrazione da una mediocre.Per provare a fare luce su questa disciplina, ho pensato a dei post dal gusto enciclopedico, che accomunino per temi, i migliori illustratori del mondo (Italia compresa). Sarà un viaggio spero avvincente, fatto per aiutare a conoscere grandi artisti, le cui opere magari vediamo ogni giorno su riviste e quotidiani. E, chissà che solleticando la curiosità di qualche committente nascosto nel pubblico, l’illustrazione non torni ad essere centrale nella comunicazione visiva italiana di questi anni.Ho pensato di iniziare da quelli che sono gli illustratori italiani più premiati a livello internazionale negli ultimi 20 anni. I premi di cui si parla sono per lo più relativi all’editoria (periodica e per l’infanzia), in rari casi riguardano il mondo dell’Advertising (soltanto perché è difficile reperire i premi degli anni passati se non nelle biografie degli illustratori). Non sono state prese in considerazione le selezioni nei vari Annual, ma soltanto i massimi riconoscimenti. A fine articolo troverete una breve legenda con le indicazioni sui vari premi citati nell’articolo.Come vedrete non sono pochi e hanno vinto premi molto prestigiosi, i più importanti del mondo!"
+        },
+        {
+            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+            "id": "0.28514020005241036",
+            "type": "opera",
+            "visible": true,
+            "name": "Capitan uncino",
+            "author": "Massimiliano Frezzato",
+            "description": "Capitan Uncino illustrazione originale matita e china su carta.\nDimensioni 88x21 cm\nAutore: Massimilano Frezzato\nFirmata",
+            "gallery": [
+                {
+                    "uid": 388,
+                    "src": "http://95.110.228.140:8080/openIndex/index/image/8af12bb1-0ccd-4da6-8093-c6bd23493ed6.png",
+                    "img": "http://95.110.228.140:8080/openIndex/index/image/8af12bb1-0ccd-4da6-8093-c6bd23493ed6.png",
+                    "type": "image"
+                }
+            ],
+            "height": 30.0,
+            "width": 130,
+            "technique": "china su carta",
+            "epoch": "contemporaneo",
+            "printing": "",
+            "gps": {"latitudine": 74, "longitudine": 60},
+            "currency": "EUR",
+            "price": 12000.0,
+            "basePrice": 1400.0,
+            "categories": ["China su carta"],
+            "catalogues": [],
+            "extra": {
+                "offer": true
+                }
+        },
+        {
+            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+            "id": "0.43496251245960593",
+            "type": "opera",
+            "visible": true,
+            "name": "Cappuccetto rosso pacifista",
+            "author": "Massimiliano Frezzato",
+            "description": "Eccellente stato, firmata in basso a destra.",
+            "gallery": [{
+                            "uid": 386,
+                            "src": "http://95.110.228.140:8080/openIndex/index/image/68014f7b-7c58-4d25-9e97-77f0e0dcac73.png",
+                            "img": "http://95.110.228.140:8080/openIndex/index/image/68014f7b-7c58-4d25-9e97-77f0e0dcac73.png",
+                            "type": "image"
+                        }],
+            "height": 80.0,
+            "width": 40,
+            "technique": "acrilico su tela",
+            "epoch": "contemporaneo",
+            "printing": "",
+            "gps": {"latitudine":35,"longitudine":8},
 
+            "currency": "EUR",
+            "price": 2800.0,
+            "basePrice": 2900.0,
+            "categories": ["Tela"],
+            "catalogues": [],
+            "extra": {}
+        },
+        {
+            "shop": "e24d2607-94aa-4521-b5ef-b9158935b346",
+            "id": "0.34746618778444827",
+            "type":"opera",
+            "visible": true,
+            "name": "La fattoria di nonna Papera",
+            "author":"Lara Molinari",
+            "description": "Come di consueto nei dipinti della Molinari non assistiamo a una semplice parata di personaggi, ma a una vera e propria storia che si sviluppa in un unico piano sequenza: un maialino affamato scatena lo scompiglio in uno dei luoghi più amati dell’iconografia disneyana: la fattoria di Nonna Papera. Firmata, eccellente stato.",
+            "gallery": [{
+                            "uid": 391,
+                            "src": "http://95.110.228.140:8080/openIndex/index/image/73f72d0d-532c-4d43-b084-350b9f60d06a.png",
+                            "img": "http://95.110.228.140:8080/openIndex/index/image/73f72d0d-532c-4d43-b084-350b9f60d06a.png",
+                            "type": "image"
+                        }],
+            "height": 70.0,
+            "width": 100,
+            "technique": "acrilico su cartone",
+            "epoch": "contemporaneo",
+            "printing": "",
+            "gps": {"latitudine":50,"longitudine":8},
+
+            "currency": "EUR",
+            "price": 1800.0,
+            "basePrice": 2000.0,
+            "categories": ["Tela"],
+            "catalogues": [],
+            "extra": {}
+        }
+    ]
     }
 ]
