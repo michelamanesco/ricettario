@@ -39,30 +39,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.codStore', {
-    url: '/codStore',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/codStore.html'
-      }
-    }
-  })
-  .state('app.myStore', {
-    url: '/myStore',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/myStore.html'
-      }
-    }
-  })
-  .state('app.configCash', {
-    url: '/configCash',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/configCash.html'
-      }
-    }
-  })
+
+
   .state('app.configTables', {
     url: '/configTables',
     views: {
@@ -105,24 +83,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.catalogo', {
-    url: '/catalogo',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/catalogo.html',
-        controller:'goodController'
-      }
-    }
-  })
-  .state('app.carrello', {
-    url: '/carrello',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/carrello.html',
-        controller:'goodController'
-      }
-    }
-  })
+
   .state('app.ricetta', {
     url: '/ricetta/:id',
     views: {
