@@ -1,76 +1,3 @@
-
-/*
-====================================================
-          CSS   home MyCASh
-====================================================
-*/
-
-#home p, #codStore p, #myStore p
-  {
-  padding:10%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: justify;
-  }
-#home
-  {
-  background-image: url("../img/bk2.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-  }
-#home >ion-content
-  {
-  top: 30%;
-  text-align:  center;
-  }
-#home h1
-  {
-  color: #ffffff;
-  }
-#codStore ion-content
-  {
-  padding:10%;
-  }
-/*
-#catalogo
-  {
-  background-image: url("../img/catalogo.jpg");
-  background-size:contain;
-  background-repeat: no-repeat;
-  }
-  */
-/*
-==========================
-     CSS   CARRELLO
-==========================
-*/
-#carrello
-  {
-  /*background-image: url("../img/carrello.jpg");*/
-  background-color: #f8f8f8;
-  background-size:contain;
-  background-repeat: no-repeat;
-  }
-#carrello .qntPriceCarrello
-  {
-  text-align:right;
-  background-color: #f3f3f3;
-  border-radius: 20px;
-  float: right;
-  }
-#carrello .qntTotCarrello
-  {
-  text-align:right;
-  background-color: #00d70a;
-  border-radius: 20px;
-  float: right;
-  color: #ffffff;
-  font-size: 1.4em;
-  padding: 4px;
-  }
-
-
-
 /*
 ====================================================
        CSS APP RICETTARIO
@@ -219,39 +146,7 @@
   {
   padding: 16px;
   }
-/*
-==========================
-   CSS   VINO.html
-==========================
-*/
-#vino .winesDashboard
-  {
-  position: absolute;
-  background-color: rgba(255,255,255,.6);
-  text-align:right;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-radius: 0;
-  }
-#schedaOrganolettica
-  {
-  /*background-image: url("../img/grape2.png");
-  background-size: cover;*/
-  }
-#schedaOrganolettica .item
-  {
-  /*background-color:rgba(0,0,0,.5);
-  background-color: transparent;*/
-  }
-.organoletticaSottovoci
-{
-  text-align: right;
-  color: #ababab;
-}
+
 /*
 ==========================
    CSS   INGREDIENTI.html

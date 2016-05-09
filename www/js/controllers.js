@@ -176,7 +176,7 @@ angular.module('starter.controllers', [])
             map.markers.push(marker);
         })
         $scope.item=map;
-        
+
         $scope.preview=function(marker){
           $timeout.cancel($scope.time);
           $scope.prev=marker;
