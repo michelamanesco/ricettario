@@ -1,4 +1,9 @@
 {
   "name": "myCash",
-  "app_id": ""
+  "app_id": "",
+  "gulpStartupTasks": [
+     "index",
+     "watch",
+     "sass"
+ 	]
 }

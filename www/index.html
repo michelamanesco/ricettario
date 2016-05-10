@@ -5,8 +5,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">    
     <!--  prova per galleria immagini --->
     <!--
     <link href="lib/ion-gallery/dist/ion-gallery.css" rel="stylesheet">-->
@@ -14,24 +13,37 @@
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
-
-
-    <!--   APP museo -- CAPITOLO -->
-    <link href='https://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href="css/color.css" rel="stylesheet">
-    <link href="css/museo.css" rel="stylesheet">
-
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
+    <!-- inject:js -->    
+    <script src="js/app.js"></script>    
+    <script src="js/controllers.js"></script>    
+    <script src="components/cassa/controllers.js"></script>    
+    <script src="components/cassa/directives.js"></script>    
+    <script src="components/cassa/module.js"></script>    
+    <script src="components/cassa/routes.js"></script>    
+    <script src="components/cassa/services.js"></script>    
+    <!-- endinject -->
 
+    <!-- inject:css -->    
+    <link rel="stylesheet" href="css/color.css">    
+    <link rel="stylesheet" href="css/museo.css">    
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- endinject -->
+
+    <!--   APP museo -- CAPITOLO -->
+    <link href='https://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+    
+
+    
+
+    <!-- your app's js -->
+    
     <!--  prova per galleria immagini --->
     <!--
     <script src="lib/ion-gallery/dist/ion-gallery.min.js"></script>
