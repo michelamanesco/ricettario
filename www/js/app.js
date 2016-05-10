@@ -4,7 +4,16 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', [
+  'ionic',
+  'starter.controllers',
+  'ricette.routes',
+  'ristorante.routes',
+  'vini.routes',
+  'cassa.routes',
+  'museo.routes',
+  'luoghi.routes'
+])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -21,7 +30,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   });
 })
-
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
@@ -39,170 +47,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.codStore', {
-    url: '/codStore',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/codStore.html'
-      }
-    }
-  })
-  .state('app.myStore', {
-    url: '/myStore',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/myStore.html'
-      }
-    }
-  })
-  .state('app.configCash', {
-    url: '/configCash',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/configCash.html'
-      }
-    }
-  })
-  .state('app.configTables', {
-    url: '/configTables',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/configTables.html',
-        controller:'configTableController'
-      }
-    }
-  })
-  .state('app.configWaiters', {
-    url: '/configWaiters',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/configWaiters.html'
-      }
-    }
-  })
-  .state('app.waiter', {
-    url: '/waiter',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/waiter.html'
-      }
-    }
-  })
-  .state('app.comanda', {
-    url: '/comanda',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/comanda.html'
-      }
-    }
-  })
-  .state('app.fattura', {
-    url: '/fattura',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/fattura.html',
-        controller:'fatturaController'
-      }
-    }
-  })
-  .state('app.catalogo', {
-    url: '/catalogo',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/catalogo.html',
-        controller:'goodController'
-      }
-    }
-  })
-  .state('app.carrello', {
-    url: '/carrello',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/carrello.html',
-        controller:'goodController'
-      }
-    }
-  })
-  .state('app.ricetta', {
-    url: '/ricetta/:id',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/ricetta.html',
-        controller:'ricettaController'
-      }
-    }
-  })
-  .state('app.elencoRicette', {
-    url: '/elencoRicette',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/elencoRicette.html',
-        controller:'goodController'
-      }
-    }
-  })
-  .state('app.ftemessa', {
-    url: '/ftemessa',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/ftemessa.html',
-        controller:'fatturaController'
-      }
-    }
-  })
-  .state('app.disponibilita', {
-    url: '/disponibilita',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/disponibilita.html'
-      }
-    }
-  })
-  .state('app.vini', {
-    url: '/vini',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/vini.html',
-        controller:'viniController'
-      }
-    }
-  })
-  .state('app.vino', {
-    url: '/vino/:id',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/vino.html',
-        controller:'vinoController'
-      }
-    }
-  })
-  .state('app.schedaOrganolettica', {
-    url: '/schedaOrganolettica',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/schedaOrganolettica.html',
-        controller:'vinoController'
-      }
-    }
-  })
-  .state('app.ingredienti', {
-    url: '/ingredienti/:gruppo',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/ingredienti.html',
-        controller:'ingredientiController'
-      }
-    }
-  })
-  .state('app.ingrediente', {
-    url: '/ingrediente',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/ingrediente.html',
-        controller:'ingredienteController'
-      }
-    }
-  })
   .state('app.slide', {
     url: '/slide',
     views: {
@@ -211,90 +55,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-  .state('app.frigo', {
-    url: '/frigo',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/frigo.html',
-        controller:'groupsController'
-      }
-    }
-  })
-  .state('app.luogo', {
-    url: '/luogo',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/luogo.html',
-        controller:'luogoController'
-      }
-    }
-  })
 
-// APP museo x Vittorio //
-//.state('app.autore', {
-      //url: '/autore/:id',
-      //views: {
-      //'menuContent': {
-      //templateUrl: 'templates/author.html',
-      //controller:'autoreController'
-      //}
-      //}
-//})//
 
-  // APP museo x Vittorio //
-.state('app.autore', {
-  url: '/autore',
-  views: {
-    'menuContent': {
-      templateUrl: 'templates/author.html',
-     controller:'autoreController'
-    }
-  }
-})
-.state('app.range', {
-  url: '/range',
-  views: {
-    'menuContent': {
-      templateUrl: 'templates/range.html',
-      controller:'mappaController'
-    }
-  }
-})
-.state('app.toast', {
-  url: '/toast',
-  views: {
-    'menuContent': {
-      templateUrl: 'templates/toast.html'
-    }
-  }
-})
-.state('app.itinerari', {
-  url: '/itinerari',
-  views: {
-    'menuContent': {
-      templateUrl: 'templates/itinerari.html',
-      controller:'itinerariController'
-    }
-  }
-})
-.state('app.itinerario', {
-  url: '/itinerario/:id',
-  views: {
-    'menuContent': {
-      templateUrl: 'templates/itinerario.html',
-      controller:'itinerarioController'
-    }
-  }
-})
-.state('app.capitolo', {
-  url: '/capitolo',
-  views: {
-    'menuContent': {
-      templateUrl: 'templates/capitolo.html',
-      controller:'chapterController'
-    }
-  }
-})
 
 
 

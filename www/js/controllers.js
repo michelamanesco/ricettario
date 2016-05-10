@@ -8,7 +8,6 @@ angular.module('starter.controllers', [])
   // listen for the $ionicView.enter event:
   //$scope.$on('$ionicView.enter', function(e) {
   //});
-
     $scope.dataOra=new Date();
     $scope.user={
       name:"Luigi",
@@ -73,6 +72,7 @@ angular.module('starter.controllers', [])
       });
   })
   .controller('ricettaController',function($scope,$http,$state){
+
     $http.get("http://localhost:8100/data/ricette.json").then(function(obj) {
       var list = obj.data;
 
@@ -176,7 +176,7 @@ angular.module('starter.controllers', [])
             map.markers.push(marker);
         })
         $scope.item=map;
-        
+
         $scope.preview=function(marker){
           $timeout.cancel($scope.time);
           $scope.prev=marker;

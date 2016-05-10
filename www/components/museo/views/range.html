@@ -1,25 +1,4 @@
-<style>
-    .preview
-        {
-        position: absolute;
-        bottom:10px;
-        width:50%;
-        right: 10px;
-        height:20%;
-        background-size:cover;
-        -webkit-transition:all linear .5s;
-        transition:all linear .5s;
-        overflow:hidden;
-        }
-    .preview.ng-hide
-        {
-        bottom:-50%;
-        }
-    .preview.ng-show
-    {
-        bottom:10px;
-    }
-</style>
+
 <ion-view title="1° floor"  class="mappa">
     <ion-content>
         <ion-list>
@@ -30,7 +9,7 @@
                         <i class="N ion-ios-navigate-outline"></i>
                     </div>
                     <div class="map" style="height:100%; transform:scale({{1+(scale/100)}}) rotate(41deg);">
-                        <img src="../img/museo/museumMap.png">
+                        <img src="img/museumMap.png">
                         <div ng-click="preview(marker)" ng-repeat="marker in item.markers" style="position:absolute; top:{{marker.latitudine}}%; left:{{marker.longitudine}}%"><i class="point ion-ios-circle-filled"></i></div>
                     </div>
                 </ion-content>

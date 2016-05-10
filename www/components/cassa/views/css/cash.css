@@ -1,0 +1,70 @@
+/*
+====================================================
+          CSS   home MyCASh
+====================================================
+*/
+
+#home p, #codStore p, #myStore p
+{
+    padding:10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+#home
+{
+    background-image: url("../img/bk2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#home >ion-content
+{
+    top: 30%;
+    text-align:  center;
+}
+#home h1
+{
+    color: #ffffff;
+}
+#codStore ion-content
+{
+    padding:10%;
+}
+/*
+#catalogo
+  {
+  background-image: url("../img/catalogo.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  }
+  */
+
+/*
+==========================
+     CSS   CARRELLO
+==========================
+*/
+#carrello
+{
+    /*background-image: url("../img/carrello.jpg");*/
+    background-color: #f8f8f8;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#carrello .qntPriceCarrello
+{
+    text-align:right;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    float: right;
+}
+#carrello .qntTotCarrello
+{
+    text-align:right;
+    background-color: #00d70a;
+    border-radius: 20px;
+    float: right;
+    color: #ffffff;
+    font-size: 1.4em;
+    padding: 4px;
+}
