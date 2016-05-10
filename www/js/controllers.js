@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [routes])
+angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -8,7 +8,6 @@ angular.module('starter.controllers', [routes])
   // listen for the $ionicView.enter event:
   //$scope.$on('$ionicView.enter', function(e) {
   //});
-
     $scope.dataOra=new Date();
     $scope.user={
       name:"Luigi",
@@ -73,6 +72,7 @@ angular.module('starter.controllers', [routes])
       });
   })
   .controller('ricettaController',function($scope,$http,$state){
+
     $http.get("http://localhost:8100/data/ricette.json").then(function(obj) {
       var list = obj.data;
 

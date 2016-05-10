@@ -3,7 +3,7 @@
     "id":1,
     "name":"Acciughe in verde",
     "categoria":"antipasti",
-    "img":"/img/catalogo/antipasti/acciughe.png",
+    "img":"components/ricette/views/img/catalogo/antipasti/acciughe.png",
     "allergeni":[
       {"nome":"","img":"http://okceliachia.it/wp-content/uploads/2016/02/glutine.png"},
       {"nome":"uova"},
@@ -155,7 +155,7 @@
     "id":4,
     "name":"Bonet piemontese",
     "categoria":"dessert",
-    "img":"../img/catalogo/dessert/bunet.jpg",
+    "img":"components/ricette/views/img/catalogo/dessert/bunet.jpg",
     "allergeni":[
       {"nome":"lattosio"},
       {"nome":"nocciole"},
